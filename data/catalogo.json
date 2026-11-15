@@ -1,0 +1,1604 @@
+[
+  {
+    "id": "voltagem_t1",
+    "title": "Voltagem — Temporada 1: A História dos Sintetizadores",
+    "subtitle": "Do Teremim aos Modulares + Especial Brasil (9 Episódios)",
+    "lang": "PT-BR & EN",
+    "legal_mode": "mixcloud_youtube",
+    "badge": "Áudio-Série Documental & Musical",
+    "description": "Uma viagem sonora por 100 anos de síntese eletrônica: Léon Theremin, BBC Radiophonic, Robert Moog, Wendy Carlos, Kraftwerk, Prophet-5, Yamaha DX7, House/Techno e o episódio extra de 1 hora dedicado à história dos sintetizadores no Brasil.",
+    "episodes": [
+      {
+        "code": "EP01",
+        "title": "Episódio 1 — Antes do sintetizador (1920–1967)",
+        "cover": "",
+        "items": []
+      },
+      {
+        "code": "EP02",
+        "title": "Episódio 2 — O Moog chega às paradas (1968–1973)",
+        "cover": "",
+        "items": []
+      },
+      {
+        "code": "EP03",
+        "title": "Episódio 3 — Alemanha e o som das máquinas (1974–1978)",
+        "cover": "",
+        "items": []
+      },
+      {
+        "code": "EP04",
+        "title": "Episódio 4 — Polifonia e synth-pop (1978–1984)",
+        "cover": "",
+        "items": []
+      },
+      {
+        "code": "EP05",
+        "title": "Episódio 5 — A revolução digital (1979–1992)",
+        "cover": "",
+        "items": []
+      },
+      {
+        "code": "EP06",
+        "title": "Episódio 6 — Caixas de ritmo, house e techno (1980–1989)",
+        "cover": "",
+        "items": []
+      },
+      {
+        "code": "EP07",
+        "title": "Episódio 7 — Brasil sintetizado (1975–1985)",
+        "cover": "",
+        "items": []
+      },
+      {
+        "code": "EP08",
+        "title": "Episódio 8 — Dos anos 90 até hoje (1995–2019)",
+        "cover": "",
+        "items": []
+      },
+      {
+        "code": "EP09_EXTRA_Brasil",
+        "title": "Episódio 09 EXTRA — A História Completa dos Sintetizadores na Música Brasileira",
+        "cover": "assets/covers/voltagem_t1_EP09_EXTRA_Brasil_01_Azymuth_Linha_do_Horizonte.jpg",
+        "items": [
+          {
+            "title": "Azymuth Linha do Horizonte",
+            "cover": "assets/covers/voltagem_t1_EP09_EXTRA_Brasil_01_Azymuth_Linha_do_Horizonte.jpg"
+          },
+          {
+            "title": "Marcos Valle Mentira",
+            "cover": "assets/covers/voltagem_t1_EP09_EXTRA_Brasil_02_Marcos_Valle_Mentira.jpg"
+          },
+          {
+            "title": "Rita Lee Ovelha Negra",
+            "cover": "assets/covers/voltagem_t1_EP09_EXTRA_Brasil_03_Rita_Lee_Ovelha_Negra.jpg"
+          },
+          {
+            "title": "Tim Maia Sossego",
+            "cover": "assets/covers/voltagem_t1_EP09_EXTRA_Brasil_04_Tim_Maia_Sossego.jpg"
+          },
+          {
+            "title": "Robson Jorge Lincoln Olivetti Aleluia",
+            "cover": "assets/covers/voltagem_t1_EP09_EXTRA_Brasil_05_Robson_Jorge_Lincoln_Olivetti_Aleluia.jpg"
+          },
+          {
+            "title": "Guilherme Arantes Cheia de Charme",
+            "cover": "assets/covers/voltagem_t1_EP09_EXTRA_Brasil_06_Guilherme_Arantes_Cheia_de_Charme.jpg"
+          },
+          {
+            "title": "Ritchie Menina Veneno",
+            "cover": "assets/covers/voltagem_t1_EP09_EXTRA_Brasil_07_Ritchie_Menina_Veneno.jpg"
+          },
+          {
+            "title": "Lulu Santos Tempos Modernos",
+            "cover": "assets/covers/voltagem_t1_EP09_EXTRA_Brasil_08_Lulu_Santos_Tempos_Modernos.jpg"
+          },
+          {
+            "title": "RPM Olhar 43",
+            "cover": "assets/covers/voltagem_t1_EP09_EXTRA_Brasil_09_RPM_Olhar_43.jpg"
+          },
+          {
+            "title": "Metro Beat Acelerado",
+            "cover": "assets/covers/voltagem_t1_EP09_EXTRA_Brasil_10_Metro_Beat_Acelerado.jpg"
+          },
+          {
+            "title": "DJ Marlboro Melo da Mulher Feia",
+            "cover": "assets/covers/voltagem_t1_EP09_EXTRA_Brasil_11_DJ_Marlboro_Melo_da_Mulher_Feia.jpg"
+          },
+          {
+            "title": "Fernanda Abreu Rio 40 Graus",
+            "cover": "assets/covers/voltagem_t1_EP09_EXTRA_Brasil_12_Fernanda_Abreu_Rio_40_Graus.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "voltagem_t2",
+    "title": "Voltagem — Temporada 2: Gravadoras & Indústria Musical",
+    "subtitle": "Da Tin Pan Alley ao Algoritmo do Streaming (5 Episódios)",
+    "lang": "PT-BR & EN",
+    "legal_mode": "mixcloud_youtube",
+    "badge": "Áudio-Série Documental & Musical",
+    "description": "Os bastidores do show business: como as grandes gravadoras nasceram, dominaram o vinil, a era da MTV e do CD, sofreram com o Napster/MP3 e se reinventaram na economia de TikTok e streaming.",
+    "episodes": [
+      {
+        "code": "EP01",
+        "title": "Episódio 1 — Da Partitura à Corporação (1890–1949)",
+        "cover": "assets/covers/voltagem_t2_EP01_01_Scott_Joplin_Maple_Leaf_Rag.jpg",
+        "items": [
+          {
+            "title": "Scott Joplin Maple Leaf Rag",
+            "cover": "assets/covers/voltagem_t2_EP01_01_Scott_Joplin_Maple_Leaf_Rag.jpg"
+          },
+          {
+            "title": "Enrico Caruso Vesti la giubba",
+            "cover": "assets/covers/voltagem_t2_EP01_02_Enrico_Caruso_Vesti_la_giubba.jpg"
+          },
+          {
+            "title": "Mamie Smith Crazy Blues",
+            "cover": "assets/covers/voltagem_t2_EP01_03_Mamie_Smith_Crazy_Blues.jpg"
+          },
+          {
+            "title": "Bessie Smith Downhearted Blues",
+            "cover": "assets/covers/voltagem_t2_EP01_04_Bessie_Smith_Downhearted_Blues.jpg"
+          },
+          {
+            "title": "Louis Armstrong West End Blues",
+            "cover": "assets/covers/voltagem_t2_EP01_05_Louis_Armstrong_West_End_Blues.jpg"
+          },
+          {
+            "title": "Duke Ellington Mood Indigo",
+            "cover": "assets/covers/voltagem_t2_EP01_06_Duke_Ellington_Mood_Indigo.jpg"
+          },
+          {
+            "title": "Bing Crosby White Christmas",
+            "cover": ""
+          },
+          {
+            "title": "Benny Goodman Sing Sing Sing",
+            "cover": "assets/covers/voltagem_t2_EP01_08_Benny_Goodman_Sing_Sing_Sing.jpg"
+          },
+          {
+            "title": "Glenn Miller In The Mood",
+            "cover": "assets/covers/voltagem_t2_EP01_09_Glenn_Miller_In_The_Mood.jpg"
+          },
+          {
+            "title": "Frank Sinatra All or Nothing at All",
+            "cover": "assets/covers/voltagem_t2_EP01_10_Frank_Sinatra_All_or_Nothing_at_All.jpg"
+          },
+          {
+            "title": "Billie Holiday Strange Fruit",
+            "cover": "assets/covers/voltagem_t2_EP01_11_Billie_Holiday_Strange_Fruit.jpg"
+          },
+          {
+            "title": "Nat King Cole Route 66",
+            "cover": "assets/covers/voltagem_t2_EP01_12_Nat_King_Cole_Route_66.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP02",
+        "title": "Episódio 2 — A Fábrica de Ídolos e o Reinado do Vinil (1950–1977)",
+        "cover": "assets/covers/voltagem_t2_EP02_01_Elvis_Presley_Heartbreak_Hotel.jpg",
+        "items": [
+          {
+            "title": "Elvis Presley Heartbreak Hotel",
+            "cover": "assets/covers/voltagem_t2_EP02_01_Elvis_Presley_Heartbreak_Hotel.jpg"
+          },
+          {
+            "title": "Chuck Berry Johnny B Goode",
+            "cover": "assets/covers/voltagem_t2_EP02_02_Chuck_Berry_Johnny_B_Goode.jpg"
+          },
+          {
+            "title": "The Supremes Baby Love",
+            "cover": "assets/covers/voltagem_t2_EP02_03_The_Supremes_Baby_Love.jpg"
+          },
+          {
+            "title": "The Temptations My Girl",
+            "cover": "assets/covers/voltagem_t2_EP02_04_The_Temptations_My_Girl.jpg"
+          },
+          {
+            "title": "Marvin Gaye I Heard It Through the Grapevine",
+            "cover": "assets/covers/voltagem_t2_EP02_05_Marvin_Gaye_I_Heard_It_Through_the_Grapevine.jpg"
+          },
+          {
+            "title": "The Beatles I Want To Hold Your Hand",
+            "cover": "assets/covers/voltagem_t2_EP02_06_The_Beatles_I_Want_To_Hold_Your_Hand.jpg"
+          },
+          {
+            "title": "The Rolling Stones Satisfaction",
+            "cover": "assets/covers/voltagem_t2_EP02_07_The_Rolling_Stones_Satisfaction.jpg"
+          },
+          {
+            "title": "Led Zeppelin Whole Lotta Love",
+            "cover": "assets/covers/voltagem_t2_EP02_08_Led_Zeppelin_Whole_Lotta_Love.jpg"
+          },
+          {
+            "title": "Stevie Wonder Superstition",
+            "cover": "assets/covers/voltagem_t2_EP02_09_Stevie_Wonder_Superstition.jpg"
+          },
+          {
+            "title": "Pink Floyd Money",
+            "cover": "assets/covers/voltagem_t2_EP02_10_Pink_Floyd_Money.jpg"
+          },
+          {
+            "title": "Eagles Hotel California",
+            "cover": "assets/covers/voltagem_t2_EP02_11_Eagles_Hotel_California.jpg"
+          },
+          {
+            "title": "Fleetwood Mac Go Your Own Way",
+            "cover": "assets/covers/voltagem_t2_EP02_12_Fleetwood_Mac_Go_Your_Own_Way.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP03",
+        "title": "Episódio 3 — A Era do CD, MTV e os Megablockbusters (1978–1998)",
+        "cover": "assets/covers/voltagem_t2_EP03_01_The_Buggles_Video_Killed_The_Radio_Star.jpg",
+        "items": [
+          {
+            "title": "The Buggles Video Killed The Radio Star",
+            "cover": "assets/covers/voltagem_t2_EP03_01_The_Buggles_Video_Killed_The_Radio_Star.jpg"
+          },
+          {
+            "title": "Duran Duran Hungry Like The Wolf",
+            "cover": "assets/covers/voltagem_t2_EP03_02_Duran_Duran_Hungry_Like_The_Wolf.jpg"
+          },
+          {
+            "title": "Michael Jackson Billie Jean",
+            "cover": "assets/covers/voltagem_t2_EP03_03_Michael_Jackson_Billie_Jean.jpg"
+          },
+          {
+            "title": "Michael Jackson Thriller",
+            "cover": "assets/covers/voltagem_t2_EP03_04_Michael_Jackson_Thriller.jpg"
+          },
+          {
+            "title": "Dire Straits Money For Nothing",
+            "cover": "assets/covers/voltagem_t2_EP03_05_Dire_Straits_Money_For_Nothing.jpg"
+          },
+          {
+            "title": "Peter Gabriel Sledgehammer",
+            "cover": "assets/covers/voltagem_t2_EP03_06_Peter_Gabriel_Sledgehammer.jpg"
+          },
+          {
+            "title": "Madonna Like A Prayer",
+            "cover": "assets/covers/voltagem_t2_EP03_07_Madonna_Like_A_Prayer.jpg"
+          },
+          {
+            "title": "Guns N Roses November Rain",
+            "cover": "assets/covers/voltagem_t2_EP03_08_Guns_N_Roses_November_Rain.jpg"
+          },
+          {
+            "title": "Nirvana Smells Like Teen Spirit",
+            "cover": "assets/covers/voltagem_t2_EP03_09_Nirvana_Smells_Like_Teen_Spirit.jpg"
+          },
+          {
+            "title": "Whitney Houston I Will Always Love You",
+            "cover": "assets/covers/voltagem_t2_EP03_10_Whitney_Houston_I_Will_Always_Love_You.jpg"
+          },
+          {
+            "title": "Alanis Morissette You Oughta Know",
+            "cover": "assets/covers/voltagem_t2_EP03_11_Alanis_Morissette_You_Oughta_Know.jpg"
+          },
+          {
+            "title": "Celine Dion My Heart Will Go On",
+            "cover": "assets/covers/voltagem_t2_EP03_12_Celine_Dion_My_Heart_Will_Go_On.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP04",
+        "title": "Episódio 4 — O Choque Digital e os Contratos 360° (1999–2014)",
+        "cover": "assets/covers/voltagem_t2_EP04_01_Metallica_I_Disappear.jpg",
+        "items": [
+          {
+            "title": "Metallica I Disappear",
+            "cover": "assets/covers/voltagem_t2_EP04_01_Metallica_I_Disappear.jpg"
+          },
+          {
+            "title": "The Offspring Original Prankster",
+            "cover": "assets/covers/voltagem_t2_EP04_02_The_Offspring_Original_Prankster.jpg"
+          },
+          {
+            "title": "OutKast Hey Ya",
+            "cover": "assets/covers/voltagem_t2_EP04_03_OutKast_Hey_Ya.jpg"
+          },
+          {
+            "title": "Gnarls Barkley Crazy",
+            "cover": "assets/covers/voltagem_t2_EP04_04_Gnarls_Barkley_Crazy.jpg"
+          },
+          {
+            "title": "Robbie Williams Feel",
+            "cover": "assets/covers/voltagem_t2_EP04_05_Robbie_Williams_Feel.jpg"
+          },
+          {
+            "title": "Jay Z Empire State Of Mind",
+            "cover": "assets/covers/voltagem_t2_EP04_06_Jay_Z_Empire_State_Of_Mind.jpg"
+          },
+          {
+            "title": "Arctic Monkeys I Bet You Look Good On The Dancefloor",
+            "cover": "assets/covers/voltagem_t2_EP04_07_Arctic_Monkeys_I_Bet_You_Look_Good_On_The_Dancefloor.jpg"
+          },
+          {
+            "title": "Radiohead 15 Step",
+            "cover": "assets/covers/voltagem_t2_EP04_08_Radiohead_15_Step.jpg"
+          },
+          {
+            "title": "The Black Eyed Peas I Gotta Feeling",
+            "cover": "assets/covers/voltagem_t2_EP04_09_The_Black_Eyed_Peas_I_Gotta_Feeling.jpg"
+          },
+          {
+            "title": "Katy Perry Teenage Dream",
+            "cover": "assets/covers/voltagem_t2_EP04_10_Katy_Perry_Teenage_Dream.jpg"
+          },
+          {
+            "title": "Lady Gaga Bad Romance",
+            "cover": "assets/covers/voltagem_t2_EP04_11_Lady_Gaga_Bad_Romance.jpg"
+          },
+          {
+            "title": "Adele Rolling In The Deep",
+            "cover": "assets/covers/voltagem_t2_EP04_12_Adele_Rolling_In_The_Deep.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP05",
+        "title": "Episódio 5 — Algoritmos, Streaming e o Novo Artista Autônomo (2015–Hoje)",
+        "cover": "assets/covers/voltagem_t2_EP05_01_Drake_Gods_Plan.jpg",
+        "items": [
+          {
+            "title": "Drake Gods Plan",
+            "cover": "assets/covers/voltagem_t2_EP05_01_Drake_Gods_Plan.jpg"
+          },
+          {
+            "title": "The Weeknd Blinding Lights",
+            "cover": ""
+          },
+          {
+            "title": "Billie Eilish bad guy",
+            "cover": "assets/covers/voltagem_t2_EP05_03_Billie_Eilish_bad_guy.jpg"
+          },
+          {
+            "title": "Lil Nas X Old Town Road",
+            "cover": "assets/covers/voltagem_t2_EP05_04_Lil_Nas_X_Old_Town_Road.jpg"
+          },
+          {
+            "title": "Olivia Rodrigo drivers license",
+            "cover": "assets/covers/voltagem_t2_EP05_05_Olivia_Rodrigo_drivers_license.jpg"
+          },
+          {
+            "title": "Dua Lipa Levitating",
+            "cover": "assets/covers/voltagem_t2_EP05_06_Dua_Lipa_Levitating.jpg"
+          },
+          {
+            "title": "Fleetwood Mac Dreams",
+            "cover": "assets/covers/voltagem_t2_EP05_07_Fleetwood_Mac_Dreams.jpg"
+          },
+          {
+            "title": "Kate Bush Running Up That Hill",
+            "cover": "assets/covers/voltagem_t2_EP05_08_Kate_Bush_Running_Up_That_Hill.jpg"
+          },
+          {
+            "title": "Bruce Springsteen Born to Run",
+            "cover": "assets/covers/voltagem_t2_EP05_09_Bruce_Springsteen_Born_to_Run.jpg"
+          },
+          {
+            "title": "Taylor Swift Anti Hero",
+            "cover": "assets/covers/voltagem_t2_EP05_10_Taylor_Swift_Anti_Hero.jpg"
+          },
+          {
+            "title": "Bad Bunny Titi Me Pregunto",
+            "cover": "assets/covers/voltagem_t2_EP05_11_Bad_Bunny_Titi_Me_Pregunto.jpg"
+          },
+          {
+            "title": "Harry Styles As It Was",
+            "cover": "assets/covers/voltagem_t2_EP05_12_Harry_Styles_As_It_Was.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "radio_br",
+    "title": "História do Rádio Musical — Brasil",
+    "subtitle": "Da Era de Ouro ao Jabá, Guerra do FM e Streaming (8 Episódios)",
+    "lang": "PT-BR",
+    "legal_mode": "mixcloud_youtube",
+    "badge": "Série Especial Brasil",
+    "description": "Bastidores das rádios brasileiras: Era de Ouro no Rio, guerra de audiência dos anos 80/90 em SP e RJ, locução acelerada, brasileiros em Portugal, redes nacionais, rádios de políticos e histórias reais de jabá e recordes de execução.",
+    "episodes": [
+      {
+        "code": "EP01",
+        "title": "Episódio 1 — A Voz no Ar e o Nascimento do Rádio Comercial (1906–1939)",
+        "cover": "assets/covers/radio_br_EP01_01_Francisco_Alves_A_Voz_do_Violao.jpg",
+        "items": [
+          {
+            "title": "Francisco Alves A Voz do Violao",
+            "cover": "assets/covers/radio_br_EP01_01_Francisco_Alves_A_Voz_do_Violao.jpg"
+          },
+          {
+            "title": "Bing Crosby Where the Blue of the Night",
+            "cover": "assets/covers/radio_br_EP01_02_Bing_Crosby_Where_the_Blue_of_the_Night.jpg"
+          },
+          {
+            "title": "Noel Rosa Conversa de Botequim",
+            "cover": "assets/covers/radio_br_EP01_03_Noel_Rosa_Conversa_de_Botequim.jpg"
+          },
+          {
+            "title": "Carmen Miranda Ta hi",
+            "cover": ""
+          },
+          {
+            "title": "Benny Goodman Sing Sing Sing",
+            "cover": "assets/covers/radio_br_EP01_05_Benny_Goodman_Sing_Sing_Sing.jpg"
+          },
+          {
+            "title": "Orlando Silva Carinhoso",
+            "cover": "assets/covers/radio_br_EP01_06_Orlando_Silva_Carinhoso.jpg"
+          },
+          {
+            "title": "Billie Holiday Summertime",
+            "cover": "assets/covers/radio_br_EP01_07_Billie_Holiday_Summertime.jpg"
+          },
+          {
+            "title": "Glenn Miller In The Mood",
+            "cover": "assets/covers/radio_br_EP01_08_Glenn_Miller_In_The_Mood.jpg"
+          },
+          {
+            "title": "Francisco Alves Aquarela do Brasil",
+            "cover": "assets/covers/radio_br_EP01_09_Francisco_Alves_Aquarela_do_Brasil.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP02",
+        "title": "Ondas & Bastidores: A História do Rádio Musical",
+        "cover": "assets/covers/radio_br_EP02_01_Orlando_Silva_Aos_Pes_da_Cruz.jpg",
+        "items": [
+          {
+            "title": "Orlando Silva Aos Pes da Cruz",
+            "cover": "assets/covers/radio_br_EP02_01_Orlando_Silva_Aos_Pes_da_Cruz.jpg"
+          },
+          {
+            "title": "Dalva de Oliveira Tudo Acabado",
+            "cover": "assets/covers/radio_br_EP02_02_Dalva_de_Oliveira_Tudo_Acabado.jpg"
+          },
+          {
+            "title": "Emilinha Borba Chiquita Bacana",
+            "cover": "assets/covers/radio_br_EP02_03_Emilinha_Borba_Chiquita_Bacana.jpg"
+          },
+          {
+            "title": "Bill Haley Rock Around the Clock",
+            "cover": "assets/covers/radio_br_EP02_04_Bill_Haley_Rock_Around_the_Clock.jpg"
+          },
+          {
+            "title": "Chuck Berry Maybellene",
+            "cover": "assets/covers/radio_br_EP02_05_Chuck_Berry_Maybellene.jpg"
+          },
+          {
+            "title": "Elvis Presley Heartbreak Hotel",
+            "cover": "assets/covers/radio_br_EP02_06_Elvis_Presley_Heartbreak_Hotel.jpg"
+          },
+          {
+            "title": "Little Richard Tutti Frutti",
+            "cover": "assets/covers/radio_br_EP02_07_Little_Richard_Tutti_Frutti.jpg"
+          },
+          {
+            "title": "Cauby Peixoto Conceicao",
+            "cover": "assets/covers/radio_br_EP02_08_Cauby_Peixoto_Conceicao.jpg"
+          },
+          {
+            "title": "Joao Gilberto Chega de Saudade",
+            "cover": "assets/covers/radio_br_EP02_09_Joao_Gilberto_Chega_de_Saudade.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP03",
+        "title": "Episódio 3 — O Rock no Dial, Rádios Piratas e a Chegada da FM (1960–1977)",
+        "cover": "assets/covers/radio_br_EP03_01_The_Beatles_She_Loves_You.jpg",
+        "items": [
+          {
+            "title": "The Beatles She Loves You",
+            "cover": "assets/covers/radio_br_EP03_01_The_Beatles_She_Loves_You.jpg"
+          },
+          {
+            "title": "The Rolling Stones Satisfaction",
+            "cover": "assets/covers/radio_br_EP03_02_The_Rolling_Stones_Satisfaction.jpg"
+          },
+          {
+            "title": "Roberto Carlos Quero Que Va Tudo Pro Inferno",
+            "cover": "assets/covers/radio_br_EP03_03_Roberto_Carlos_Quero_Que_Va_Tudo_Pro_Inferno.jpg"
+          },
+          {
+            "title": "The Who My Generation",
+            "cover": "assets/covers/radio_br_EP03_04_The_Who_My_Generation.jpg"
+          },
+          {
+            "title": "Os Mutantes A Minha Menina",
+            "cover": "assets/covers/radio_br_EP03_05_Os_Mutantes_A_Minha_Menina.jpg"
+          },
+          {
+            "title": "Tim Maia Nao Quero Dinheiro",
+            "cover": "assets/covers/radio_br_EP03_06_Tim_Maia_Nao_Quero_Dinheiro.jpg"
+          },
+          {
+            "title": "Queen Bohemian Rhapsody",
+            "cover": "assets/covers/radio_br_EP03_07_Queen_Bohemian_Rhapsody.jpg"
+          },
+          {
+            "title": "Rita Lee Agora So Falta Voce",
+            "cover": "assets/covers/radio_br_EP03_08_Rita_Lee_Agora_So_Falta_Voce.jpg"
+          },
+          {
+            "title": "Donna Summer I Feel Love",
+            "cover": "assets/covers/radio_br_EP03_09_Donna_Summer_I_Feel_Love.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP04",
+        "title": "Episódio 4 — A Guerra das FMs de SP e Rio: Bastidores, Sabotagem e Jabá (1978–1989)",
+        "cover": "assets/covers/radio_br_EP04_01_The_Police_Every_Breath_You_Take.jpg",
+        "items": [
+          {
+            "title": "The Police Every Breath You Take",
+            "cover": "assets/covers/radio_br_EP04_01_The_Police_Every_Breath_You_Take.jpg"
+          },
+          {
+            "title": "Blitz Voce Nao Soube Me Amar",
+            "cover": "assets/covers/radio_br_EP04_02_Blitz_Voce_Nao_Soube_Me_Amar.jpg"
+          },
+          {
+            "title": "Michael Jackson Billie Jean",
+            "cover": "assets/covers/radio_br_EP04_03_Michael_Jackson_Billie_Jean.jpg"
+          },
+          {
+            "title": "Legiao Urbana Sera",
+            "cover": "assets/covers/radio_br_EP04_04_Legiao_Urbana_Sera.jpg"
+          },
+          {
+            "title": "A-ha Take On Me",
+            "cover": "assets/covers/radio_br_EP04_05_A-ha_Take_On_Me.jpg"
+          },
+          {
+            "title": "Titas Policia",
+            "cover": "assets/covers/radio_br_EP04_06_Titas_Policia.jpg"
+          },
+          {
+            "title": "Madonna Like a Virgin",
+            "cover": "assets/covers/radio_br_EP04_07_Madonna_Like_a_Virgin.jpg"
+          },
+          {
+            "title": "Os Paralamas do Sucesso Meu Erro",
+            "cover": "assets/covers/radio_br_EP04_08_Os_Paralamas_do_Sucesso_Meu_Erro.jpg"
+          },
+          {
+            "title": "Tears for Fears Everybody Wants to Rule the World",
+            "cover": "assets/covers/radio_br_EP04_09_Tears_for_Fears_Everybody_Wants_to_Rule_the_World.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP05",
+        "title": "Ondas & Bastidores: A História do Rádio Musical",
+        "cover": "assets/covers/radio_br_EP05_01_Zeze_Di_Camargo_e_Luciano_E_O_Amor.jpg",
+        "items": [
+          {
+            "title": "Zeze Di Camargo e Luciano E O Amor",
+            "cover": "assets/covers/radio_br_EP05_01_Zeze_Di_Camargo_e_Luciano_E_O_Amor.jpg"
+          },
+          {
+            "title": "Daniela Mercury O Canto Da Cidade",
+            "cover": "assets/covers/radio_br_EP05_02_Daniela_Mercury_O_Canto_Da_Cidade.jpg"
+          },
+          {
+            "title": "Raca Negra Cheia De Manias",
+            "cover": "assets/covers/radio_br_EP05_03_Raca_Negra_Cheia_De_Manias.jpg"
+          },
+          {
+            "title": "Mamonas Assassinas Pelados Em Santos",
+            "cover": "assets/covers/radio_br_EP05_04_Mamonas_Assassinas_Pelados_Em_Santos.jpg"
+          },
+          {
+            "title": "Shakira Estoy Aqui",
+            "cover": "assets/covers/radio_br_EP05_05_Shakira_Estoy_Aqui.jpg"
+          },
+          {
+            "title": "Skank Garota Nacional",
+            "cover": "assets/covers/radio_br_EP05_06_Skank_Garota_Nacional.jpg"
+          },
+          {
+            "title": "Alanis Morissette Ironic",
+            "cover": "assets/covers/radio_br_EP05_07_Alanis_Morissette_Ironic.jpg"
+          },
+          {
+            "title": "So Pra Contrariar Depois Do Prazer",
+            "cover": "assets/covers/radio_br_EP05_08_So_Pra_Contrariar_Depois_Do_Prazer.jpg"
+          },
+          {
+            "title": "Backstreet Boys I Want It That Way",
+            "cover": "assets/covers/radio_br_EP05_09_Backstreet_Boys_I_Want_It_That_Way.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP06",
+        "title": "Roteiro Completo de Produção — Episódio 06",
+        "cover": "assets/covers/radio_br_EP06_01_Linkin_Park_In_The_End.jpg",
+        "items": [
+          {
+            "title": "Linkin Park In The End",
+            "cover": "assets/covers/radio_br_EP06_01_Linkin_Park_In_The_End.jpg"
+          },
+          {
+            "title": "Charlie Brown Jr Papo Reto",
+            "cover": "assets/covers/radio_br_EP06_02_Charlie_Brown_Jr_Papo_Reto.jpg"
+          },
+          {
+            "title": "Audioslave Like A Stone",
+            "cover": "assets/covers/radio_br_EP06_03_Audioslave_Like_A_Stone.jpg"
+          },
+          {
+            "title": "Pitty Equalize",
+            "cover": "assets/covers/radio_br_EP06_04_Pitty_Equalize.jpg"
+          },
+          {
+            "title": "Green Day Boulevard Of Broken Dreams",
+            "cover": "assets/covers/radio_br_EP06_05_Green_Day_Boulevard_Of_Broken_Dreams.jpg"
+          },
+          {
+            "title": "Cesar Menotti e Fabiano Leilao",
+            "cover": "assets/covers/radio_br_EP06_06_Cesar_Menotti_e_Fabiano_Leilao.jpg"
+          },
+          {
+            "title": "Coldplay Viva La Vida",
+            "cover": "assets/covers/radio_br_EP06_07_Coldplay_Viva_La_Vida.jpg"
+          },
+          {
+            "title": "Luan Santana Meteoro",
+            "cover": "assets/covers/radio_br_EP06_08_Luan_Santana_Meteoro.jpg"
+          },
+          {
+            "title": "Michel Telo Ai Se Eu Te Pego",
+            "cover": "assets/covers/radio_br_EP06_09_Michel_Telo_Ai_Se_Eu_Te_Pego.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP07",
+        "title": "Episódio 7 — Streaming, Rádio Visual e o Novo Jabá Digital (2013–2020)",
+        "cover": "assets/covers/radio_br_EP07_01_Daft_Punk_Pharrell_Williams_Get_Lucky.jpg",
+        "items": [
+          {
+            "title": "Daft Punk Pharrell Williams Get Lucky",
+            "cover": "assets/covers/radio_br_EP07_01_Daft_Punk_Pharrell_Williams_Get_Lucky.jpg"
+          },
+          {
+            "title": "Anitta Show Das Poderosas",
+            "cover": "assets/covers/radio_br_EP07_02_Anitta_Show_Das_Poderosas.jpg"
+          },
+          {
+            "title": "Henrique e Juliano Cuida Bem Dela",
+            "cover": "assets/covers/radio_br_EP07_03_Henrique_e_Juliano_Cuida_Bem_Dela.jpg"
+          },
+          {
+            "title": "Mark Ronson Bruno Mars Uptown Funk",
+            "cover": "assets/covers/radio_br_EP07_04_Mark_Ronson_Bruno_Mars_Uptown_Funk.jpg"
+          },
+          {
+            "title": "Marilia Mendonca Infiel",
+            "cover": "assets/covers/radio_br_EP07_05_Marilia_Mendonca_Infiel.jpg"
+          },
+          {
+            "title": "Ed Sheeran Shape Of You",
+            "cover": "assets/covers/radio_br_EP07_06_Ed_Sheeran_Shape_Of_You.jpg"
+          },
+          {
+            "title": "Jorge e Mateus Propaganda",
+            "cover": "assets/covers/radio_br_EP07_07_Jorge_e_Mateus_Propaganda.jpg"
+          },
+          {
+            "title": "Billie Eilish Bad Guy",
+            "cover": ""
+          },
+          {
+            "title": "Gusttavo Lima A Gente Fez Amor",
+            "cover": "assets/covers/radio_br_EP07_09_Gusttavo_Lima_A_Gente_Fez_Amor.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP08",
+        "title": "Episódio 8 — Do Dial ao Algoritmo: O Rádio Musical Hoje (2021–Hoje)",
+        "cover": "assets/covers/radio_br_EP08_01_Dua_Lipa_Levitating.jpg",
+        "items": [
+          {
+            "title": "Dua Lipa Levitating",
+            "cover": "assets/covers/radio_br_EP08_01_Dua_Lipa_Levitating.jpg"
+          },
+          {
+            "title": "Marilia Mendonca Leao",
+            "cover": ""
+          },
+          {
+            "title": "Harry Styles As It Was",
+            "cover": "assets/covers/radio_br_EP08_03_Harry_Styles_As_It_Was.jpg"
+          },
+          {
+            "title": "Ana Castela Nosso Quadro",
+            "cover": "assets/covers/radio_br_EP08_04_Ana_Castela_Nosso_Quadro.jpg"
+          },
+          {
+            "title": "Miley Cyrus Flowers",
+            "cover": "assets/covers/radio_br_EP08_05_Miley_Cyrus_Flowers.jpg"
+          },
+          {
+            "title": "Ludmilla Maldivas",
+            "cover": "assets/covers/radio_br_EP08_06_Ludmilla_Maldivas.jpg"
+          },
+          {
+            "title": "Taylor Swift Cruel Summer",
+            "cover": "assets/covers/radio_br_EP08_07_Taylor_Swift_Cruel_Summer.jpg"
+          },
+          {
+            "title": "Billie Eilish Birds of a Feather",
+            "cover": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "radio_eua",
+    "title": "História do Rádio Musical — Estados Unidos",
+    "subtitle": "De Fessenden e Top 40 ao Payola, Clear Channel e TikTok (8 Episódios)",
+    "lang": "PT-BR & EN",
+    "legal_mode": "mixcloud_youtube",
+    "badge": "Série Internacional",
+    "description": "A espinha dorsal da indústria americana: redes NBC/CBS, a invenção do Top 40 por Todd Storz, a CPI do Payola, FM Freeform, MTV, Telecom Act de 1996, SiriusXM e a era iHeartMedia.",
+    "episodes": [
+      {
+        "code": "EP01",
+        "title": "Episódio 1 — Fessenden, KDKA e as Redes NBC & CBS: 1906–1939",
+        "cover": "assets/covers/radio_eua_EP01_01_Paul_Whiteman_Whispering.jpg",
+        "items": [
+          {
+            "title": "Paul Whiteman Whispering",
+            "cover": "assets/covers/radio_eua_EP01_01_Paul_Whiteman_Whispering.jpg"
+          },
+          {
+            "title": "Louis Armstrong West End Blues",
+            "cover": "assets/covers/radio_eua_EP01_02_Louis_Armstrong_West_End_Blues.jpg"
+          },
+          {
+            "title": "Duke Ellington It Dont Mean a Thing",
+            "cover": "assets/covers/radio_eua_EP01_03_Duke_Ellington_It_Dont_Mean_a_Thing.jpg"
+          },
+          {
+            "title": "Bing Crosby Brother Can You Spare a Dime",
+            "cover": "assets/covers/radio_eua_EP01_04_Bing_Crosby_Brother_Can_You_Spare_a_Dime.jpg"
+          },
+          {
+            "title": "Benny Goodman Sing Sing Sing",
+            "cover": "assets/covers/radio_eua_EP01_05_Benny_Goodman_Sing_Sing_Sing.jpg"
+          },
+          {
+            "title": "Count Basie One OClock Jump",
+            "cover": "assets/covers/radio_eua_EP01_06_Count_Basie_One_OClock_Jump.jpg"
+          },
+          {
+            "title": "Ella Fitzgerald Chick Webb A Tisket A Tasket",
+            "cover": "assets/covers/radio_eua_EP01_07_Ella_Fitzgerald_Chick_Webb_A_Tisket_A_Tasket.jpg"
+          },
+          {
+            "title": "Billie Holiday Strange Fruit",
+            "cover": "assets/covers/radio_eua_EP01_08_Billie_Holiday_Strange_Fruit.jpg"
+          },
+          {
+            "title": "Glenn Miller In the Mood",
+            "cover": "assets/covers/radio_eua_EP01_09_Glenn_Miller_In_the_Mood.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP02",
+        "title": "História do Rádio Musical: Estados Unidos",
+        "cover": "assets/covers/radio_eua_EP02_01_Frank_Sinatra_Saturday_Night.jpg",
+        "items": [
+          {
+            "title": "Frank Sinatra Saturday Night",
+            "cover": "assets/covers/radio_eua_EP02_01_Frank_Sinatra_Saturday_Night.jpg"
+          },
+          {
+            "title": "Jackie Brenston Rocket 88",
+            "cover": "assets/covers/radio_eua_EP02_02_Jackie_Brenston_Rocket_88.jpg"
+          },
+          {
+            "title": "Bill Haley Rock Around the Clock",
+            "cover": "assets/covers/radio_eua_EP02_03_Bill_Haley_Rock_Around_the_Clock.jpg"
+          },
+          {
+            "title": "Chuck Berry Maybellene",
+            "cover": "assets/covers/radio_eua_EP02_04_Chuck_Berry_Maybellene.jpg"
+          },
+          {
+            "title": "Little Richard Tutti Frutti",
+            "cover": "assets/covers/radio_eua_EP02_05_Little_Richard_Tutti_Frutti.jpg"
+          },
+          {
+            "title": "Elvis Presley Heartbreak Hotel",
+            "cover": "assets/covers/radio_eua_EP02_06_Elvis_Presley_Heartbreak_Hotel.jpg"
+          },
+          {
+            "title": "Buddy Holly Thatll Be the Day",
+            "cover": "assets/covers/radio_eua_EP02_07_Buddy_Holly_Thatll_Be_the_Day.jpg"
+          },
+          {
+            "title": "Ray Charles Whatd I Say",
+            "cover": "assets/covers/radio_eua_EP02_08_Ray_Charles_Whatd_I_Say.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP03",
+        "title": "História do Rádio Musical: Estados Unidos",
+        "cover": "assets/covers/radio_eua_EP03_01_The_Doors_Light_My_Fire.jpg",
+        "items": [
+          {
+            "title": "The Doors Light My Fire",
+            "cover": "assets/covers/radio_eua_EP03_01_The_Doors_Light_My_Fire.jpg"
+          },
+          {
+            "title": "Jefferson Airplane White Rabbit",
+            "cover": "assets/covers/radio_eua_EP03_02_Jefferson_Airplane_White_Rabbit.jpg"
+          },
+          {
+            "title": "Jimi Hendrix All Along the Watchtower",
+            "cover": "assets/covers/radio_eua_EP03_03_Jimi_Hendrix_All_Along_the_Watchtower.jpg"
+          },
+          {
+            "title": "Cream Sunshine of Your Love",
+            "cover": "assets/covers/radio_eua_EP03_04_Cream_Sunshine_of_Your_Love.jpg"
+          },
+          {
+            "title": "Grateful Dead Truckin",
+            "cover": "assets/covers/radio_eua_EP03_05_Grateful_Dead_Truckin.jpg"
+          },
+          {
+            "title": "The Who Baba ORiley",
+            "cover": "assets/covers/radio_eua_EP03_06_The_Who_Baba_ORiley.jpg"
+          },
+          {
+            "title": "Led Zeppelin Stairway to Heaven",
+            "cover": "assets/covers/radio_eua_EP03_07_Led_Zeppelin_Stairway_to_Heaven.jpg"
+          },
+          {
+            "title": "Pink Floyd Money",
+            "cover": "assets/covers/radio_eua_EP03_08_Pink_Floyd_Money.jpg"
+          },
+          {
+            "title": "Bruce Springsteen Born to Run",
+            "cover": "assets/covers/radio_eua_EP03_09_Bruce_Springsteen_Born_to_Run.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP04",
+        "title": "Episódio 4 — AOR, Urban, Casey Kasem e o Choque da MTV: 1976–1989",
+        "cover": "assets/covers/radio_eua_EP04_01_The_Buggles_Video_Killed_the_Radio_Star.jpg",
+        "items": [
+          {
+            "title": "The Buggles Video Killed the Radio Star",
+            "cover": "assets/covers/radio_eua_EP04_01_The_Buggles_Video_Killed_the_Radio_Star.jpg"
+          },
+          {
+            "title": "Boston More Than a Feeling",
+            "cover": "assets/covers/radio_eua_EP04_02_Boston_More_Than_a_Feeling.jpg"
+          },
+          {
+            "title": "Donna Summer I Feel Love",
+            "cover": "assets/covers/radio_eua_EP04_03_Donna_Summer_I_Feel_Love.jpg"
+          },
+          {
+            "title": "The Clash Rock the Casbah",
+            "cover": "assets/covers/radio_eua_EP04_04_The_Clash_Rock_the_Casbah.jpg"
+          },
+          {
+            "title": "Michael Jackson Billie Jean",
+            "cover": "assets/covers/radio_eua_EP04_05_Michael_Jackson_Billie_Jean.jpg"
+          },
+          {
+            "title": "Prince When Doves Cry",
+            "cover": "assets/covers/radio_eua_EP04_06_Prince_When_Doves_Cry.jpg"
+          },
+          {
+            "title": "Cyndi Lauper Girls Just Want to Have Fun",
+            "cover": "assets/covers/radio_eua_EP04_07_Cyndi_Lauper_Girls_Just_Want_to_Have_Fun.jpg"
+          },
+          {
+            "title": "Run DMC Aerosmith Walk This Way",
+            "cover": "assets/covers/radio_eua_EP04_08_Run_DMC_Aerosmith_Walk_This_Way.jpg"
+          },
+          {
+            "title": "Guns N Roses Sweet Child o Mine",
+            "cover": "assets/covers/radio_eua_EP04_09_Guns_N_Roses_Sweet_Child_o_Mine.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP05",
+        "title": "História do Rádio Musical: Estados Unidos",
+        "cover": "assets/covers/radio_eua_EP05_01_Nirvana_Smells_Like_Teen_Spirit.jpg",
+        "items": [
+          {
+            "title": "Nirvana Smells Like Teen Spirit",
+            "cover": "assets/covers/radio_eua_EP05_01_Nirvana_Smells_Like_Teen_Spirit.jpg"
+          },
+          {
+            "title": "Garth Brooks Friends In Low Places",
+            "cover": "assets/covers/radio_eua_EP05_02_Garth_Brooks_Friends_In_Low_Places.jpg"
+          },
+          {
+            "title": "TLC Waterfalls",
+            "cover": "assets/covers/radio_eua_EP05_03_TLC_Waterfalls.jpg"
+          },
+          {
+            "title": "Alanis Morissette Ironic",
+            "cover": "assets/covers/radio_eua_EP05_04_Alanis_Morissette_Ironic.jpg"
+          },
+          {
+            "title": "Third Eye Blind Semi Charmed Life",
+            "cover": "assets/covers/radio_eua_EP05_05_Third_Eye_Blind_Semi_Charmed_Life.jpg"
+          },
+          {
+            "title": "Goo Goo Dolls Iris",
+            "cover": "assets/covers/radio_eua_EP05_06_Goo_Goo_Dolls_Iris.jpg"
+          },
+          {
+            "title": "Britney Spears Baby One More Time",
+            "cover": "assets/covers/radio_eua_EP05_07_Britney_Spears_Baby_One_More_Time.jpg"
+          },
+          {
+            "title": "Santana Rob Thomas Smooth",
+            "cover": "assets/covers/radio_eua_EP05_08_Santana_Rob_Thomas_Smooth.jpg"
+          },
+          {
+            "title": "Red Hot Chili Peppers Scar Tissue",
+            "cover": "assets/covers/radio_eua_EP05_09_Red_Hot_Chili_Peppers_Scar_Tissue.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP06",
+        "title": "Episódio 6 — SiriusXM, iPod e o Caso Eliot Spitzer (2000–2010)",
+        "cover": "assets/covers/radio_eua_EP06_01_Linkin_Park_In_the_End.jpg",
+        "items": [
+          {
+            "title": "Linkin Park In the End",
+            "cover": "assets/covers/radio_eua_EP06_01_Linkin_Park_In_the_End.jpg"
+          },
+          {
+            "title": "OutKast Hey Ya",
+            "cover": "assets/covers/radio_eua_EP06_02_OutKast_Hey_Ya.jpg"
+          },
+          {
+            "title": "Audioslave Like a Stone",
+            "cover": "assets/covers/radio_eua_EP06_03_Audioslave_Like_a_Stone.jpg"
+          },
+          {
+            "title": "Maroon 5 This Love",
+            "cover": "assets/covers/radio_eua_EP06_04_Maroon_5_This_Love.jpg"
+          },
+          {
+            "title": "Green Day Boulevard of Broken Dreams",
+            "cover": "assets/covers/radio_eua_EP06_05_Green_Day_Boulevard_of_Broken_Dreams.jpg"
+          },
+          {
+            "title": "Franz Ferdinand Take Me Out",
+            "cover": "assets/covers/radio_eua_EP06_06_Franz_Ferdinand_Take_Me_Out.jpg"
+          },
+          {
+            "title": "Gnarls Barkley Crazy",
+            "cover": "assets/covers/radio_eua_EP06_07_Gnarls_Barkley_Crazy.jpg"
+          },
+          {
+            "title": "Coldplay Viva la Vida",
+            "cover": "assets/covers/radio_eua_EP06_08_Coldplay_Viva_la_Vida.jpg"
+          },
+          {
+            "title": "The Black Eyed Peas I Gotta Feeling",
+            "cover": "assets/covers/radio_eua_EP06_09_The_Black_Eyed_Peas_I_Gotta_Feeling.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP07",
+        "title": "Roteiro Completo de Produção — Episódio 07",
+        "cover": "assets/covers/radio_eua_EP07_01_Adele_Rolling_in_the_Deep.jpg",
+        "items": [
+          {
+            "title": "Adele Rolling in the Deep",
+            "cover": "assets/covers/radio_eua_EP07_01_Adele_Rolling_in_the_Deep.jpg"
+          },
+          {
+            "title": "Gotye Somebody That I Used to Know",
+            "cover": "assets/covers/radio_eua_EP07_02_Gotye_Somebody_That_I_Used_to_Know.jpg"
+          },
+          {
+            "title": "Lorde Royals",
+            "cover": "assets/covers/radio_eua_EP07_03_Lorde_Royals.jpg"
+          },
+          {
+            "title": "Taylor Swift Blank Space",
+            "cover": "assets/covers/radio_eua_EP07_04_Taylor_Swift_Blank_Space.jpg"
+          },
+          {
+            "title": "The Weeknd Cant Feel My Face",
+            "cover": "assets/covers/radio_eua_EP07_05_The_Weeknd_Cant_Feel_My_Face.jpg"
+          },
+          {
+            "title": "The Chainsmokers Closer",
+            "cover": "assets/covers/radio_eua_EP07_06_The_Chainsmokers_Closer.jpg"
+          },
+          {
+            "title": "Luis Fonsi Despacito Remix",
+            "cover": "assets/covers/radio_eua_EP07_07_Luis_Fonsi_Despacito_Remix.jpg"
+          },
+          {
+            "title": "Drake Gods Plan",
+            "cover": "assets/covers/radio_eua_EP07_08_Drake_Gods_Plan.jpg"
+          },
+          {
+            "title": "Lil Nas X Old Town Road",
+            "cover": "assets/covers/radio_eua_EP07_09_Lil_Nas_X_Old_Town_Road.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP08",
+        "title": "Episódio 8 — Do Dial ao Algoritmo nos EUA: Carros Conectados, TikTok e o Novo Payola (2020–Hoje)",
+        "cover": "assets/covers/radio_eua_EP08_02_Olivia_Rodrigo_drivers_license.jpg",
+        "items": [
+          {
+            "title": "The Weeknd Blinding Lights",
+            "cover": ""
+          },
+          {
+            "title": "Olivia Rodrigo drivers license",
+            "cover": "assets/covers/radio_eua_EP08_02_Olivia_Rodrigo_drivers_license.jpg"
+          },
+          {
+            "title": "Dua Lipa Levitating",
+            "cover": "assets/covers/radio_eua_EP08_03_Dua_Lipa_Levitating.jpg"
+          },
+          {
+            "title": "Harry Styles As It Was",
+            "cover": "assets/covers/radio_eua_EP08_04_Harry_Styles_As_It_Was.jpg"
+          },
+          {
+            "title": "Morgan Wallen Last Night",
+            "cover": "assets/covers/radio_eua_EP08_05_Morgan_Wallen_Last_Night.jpg"
+          },
+          {
+            "title": "Miley Cyrus Flowers",
+            "cover": "assets/covers/radio_eua_EP08_06_Miley_Cyrus_Flowers.jpg"
+          },
+          {
+            "title": "Taylor Swift Cruel Summer",
+            "cover": "assets/covers/radio_eua_EP08_07_Taylor_Swift_Cruel_Summer.jpg"
+          },
+          {
+            "title": "Shaboozey A Bar Song Tipsy",
+            "cover": "assets/covers/radio_eua_EP08_08_Shaboozey_A_Bar_Song_Tipsy.jpg"
+          },
+          {
+            "title": "Billie Eilish Birds of a Feather",
+            "cover": "assets/covers/radio_eua_EP08_09_Billie_Eilish_Birds_of_a_Feather.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "radio_uk",
+    "title": "História do Rádio Musical — Inglaterra & Reino Unido",
+    "subtitle": "BBC, Navios Piratas, John Peel, Rinse FM e DAB (8 Episódios)",
+    "lang": "PT-BR & EN",
+    "legal_mode": "mixcloud_youtube",
+    "badge": "Série Internacional",
+    "description": "Do monopólio da BBC aos navios piratas no Mar do Norte (Radio Caroline e Big L), as lendárias Peel Sessions, rádios piratas nos conjuntos habitacionais, Acid House, Jungle, Grime e BBC 6 Music.",
+    "episodes": [
+      {
+        "code": "EP01",
+        "title": "História do Rádio Musical: Inglaterra & Reino Unido",
+        "cover": "assets/covers/radio_uk_EP01_01_Henry_Hall_The_Teddy_Bears_Picnic.jpg",
+        "items": [
+          {
+            "title": "Henry Hall The Teddy Bears Picnic",
+            "cover": "assets/covers/radio_uk_EP01_01_Henry_Hall_The_Teddy_Bears_Picnic.jpg"
+          },
+          {
+            "title": "The Ovaltineys We Are The Ovaltineys",
+            "cover": ""
+          },
+          {
+            "title": "Vera Lynn We ll Meet Again",
+            "cover": "assets/covers/radio_uk_EP01_03_Vera_Lynn_We_ll_Meet_Again.jpg"
+          },
+          {
+            "title": "Ted Heath Listen To My Music",
+            "cover": "assets/covers/radio_uk_EP01_04_Ted_Heath_Listen_To_My_Music.jpg"
+          },
+          {
+            "title": "Bill Haley Rock Around The Clock",
+            "cover": "assets/covers/radio_uk_EP01_05_Bill_Haley_Rock_Around_The_Clock.jpg"
+          },
+          {
+            "title": "Lonnie Donegan Rock Island Line",
+            "cover": "assets/covers/radio_uk_EP01_06_Lonnie_Donegan_Rock_Island_Line.jpg"
+          },
+          {
+            "title": "Elvis Presley Heartbreak Hotel",
+            "cover": "assets/covers/radio_uk_EP01_07_Elvis_Presley_Heartbreak_Hotel.jpg"
+          },
+          {
+            "title": "Cliff Richard Move It",
+            "cover": "assets/covers/radio_uk_EP01_08_Cliff_Richard_Move_It.jpg"
+          },
+          {
+            "title": "Buddy Holly That ll Be The Day",
+            "cover": "assets/covers/radio_uk_EP01_09_Buddy_Holly_That_ll_Be_The_Day.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP02",
+        "title": "História do Rádio Musical: Inglaterra & Reino Unido",
+        "cover": "assets/covers/radio_uk_EP02_01_The_Rolling_Stones_Not_Fade_Away.jpg",
+        "items": [
+          {
+            "title": "The Rolling Stones Not Fade Away",
+            "cover": "assets/covers/radio_uk_EP02_01_The_Rolling_Stones_Not_Fade_Away.jpg"
+          },
+          {
+            "title": "Georgie Fame Yeh Yeh",
+            "cover": "assets/covers/radio_uk_EP02_02_Georgie_Fame_Yeh_Yeh.jpg"
+          },
+          {
+            "title": "The Kinks You Really Got Me",
+            "cover": "assets/covers/radio_uk_EP02_03_The_Kinks_You_Really_Got_Me.jpg"
+          },
+          {
+            "title": "The Fortunes Caroline",
+            "cover": "assets/covers/radio_uk_EP02_04_The_Fortunes_Caroline.jpg"
+          },
+          {
+            "title": "The Who My Generation",
+            "cover": "assets/covers/radio_uk_EP02_05_The_Who_My_Generation.jpg"
+          },
+          {
+            "title": "The Spencer Davis Group Keep On Running",
+            "cover": "assets/covers/radio_uk_EP02_06_The_Spencer_Davis_Group_Keep_On_Running.jpg"
+          },
+          {
+            "title": "Small Faces All or Nothing",
+            "cover": "assets/covers/radio_uk_EP02_07_Small_Faces_All_or_Nothing.jpg"
+          },
+          {
+            "title": "Procol Harum A Whiter Shade of Pale",
+            "cover": "assets/covers/radio_uk_EP02_08_Procol_Harum_A_Whiter_Shade_of_Pale.jpg"
+          },
+          {
+            "title": "The Beatles A Day in the Life",
+            "cover": "assets/covers/radio_uk_EP02_09_The_Beatles_A_Day_in_the_Life.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP03",
+        "title": "História do Rádio Musical: Inglaterra & Reino Unido",
+        "cover": "assets/covers/radio_uk_EP03_01_The_Move_Flowers_in_the_Rain.jpg",
+        "items": [
+          {
+            "title": "The Move Flowers in the Rain",
+            "cover": "assets/covers/radio_uk_EP03_01_The_Move_Flowers_in_the_Rain.jpg"
+          },
+          {
+            "title": "Pink Floyd See Emily Play",
+            "cover": "assets/covers/radio_uk_EP03_02_Pink_Floyd_See_Emily_Play.jpg"
+          },
+          {
+            "title": "Led Zeppelin Communication Breakdown",
+            "cover": "assets/covers/radio_uk_EP03_03_Led_Zeppelin_Communication_Breakdown.jpg"
+          },
+          {
+            "title": "T Rex Ride a White Swan",
+            "cover": "assets/covers/radio_uk_EP03_04_T_Rex_Ride_a_White_Swan.jpg"
+          },
+          {
+            "title": "David Bowie Starman",
+            "cover": "assets/covers/radio_uk_EP03_05_David_Bowie_Starman.jpg"
+          },
+          {
+            "title": "Roxy Music Virginia Plain",
+            "cover": "assets/covers/radio_uk_EP03_06_Roxy_Music_Virginia_Plain.jpg"
+          },
+          {
+            "title": "Bob Marley and The Wailers Get Up Stand Up",
+            "cover": "assets/covers/radio_uk_EP03_07_Bob_Marley_and_The_Wailers_Get_Up_Stand_Up.jpg"
+          },
+          {
+            "title": "Queen Killer Queen",
+            "cover": "assets/covers/radio_uk_EP03_08_Queen_Killer_Queen.jpg"
+          },
+          {
+            "title": "The Damned New Rose",
+            "cover": "assets/covers/radio_uk_EP03_09_The_Damned_New_Rose.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP04",
+        "title": "Episódio 4 — Punk, Independent Local Radio e Piratas nos Prédios: 1977–1988",
+        "cover": "assets/covers/radio_uk_EP04_01_Sex_Pistols_God_Save_the_Queen.jpg",
+        "items": [
+          {
+            "title": "Sex Pistols God Save the Queen",
+            "cover": "assets/covers/radio_uk_EP04_01_Sex_Pistols_God_Save_the_Queen.jpg"
+          },
+          {
+            "title": "The Clash London Calling",
+            "cover": "assets/covers/radio_uk_EP04_02_The_Clash_London_Calling.jpg"
+          },
+          {
+            "title": "Joy Division Love Will Tear Us Apart",
+            "cover": "assets/covers/radio_uk_EP04_03_Joy_Division_Love_Will_Tear_Us_Apart.jpg"
+          },
+          {
+            "title": "The Specials Ghost Town",
+            "cover": "assets/covers/radio_uk_EP04_04_The_Specials_Ghost_Town.jpg"
+          },
+          {
+            "title": "Steel Pulse Ku Klux Klan",
+            "cover": "assets/covers/radio_uk_EP04_05_Steel_Pulse_Ku_Klux_Klan.jpg"
+          },
+          {
+            "title": "New Order Blue Monday",
+            "cover": "assets/covers/radio_uk_EP04_06_New_Order_Blue_Monday.jpg"
+          },
+          {
+            "title": "Loose Ends Hangin on a String",
+            "cover": "assets/covers/radio_uk_EP04_07_Loose_Ends_Hangin_on_a_String.jpg"
+          },
+          {
+            "title": "The Smiths This Charming Man",
+            "cover": "assets/covers/radio_uk_EP04_08_The_Smiths_This_Charming_Man.jpg"
+          },
+          {
+            "title": "MARRS Pump Up the Volume",
+            "cover": "assets/covers/radio_uk_EP04_09_MARRS_Pump_Up_the_Volume.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP05",
+        "title": "História do Rádio Musical: Inglaterra & Reino Unido",
+        "cover": "assets/covers/radio_uk_EP05_01_A_Guy_Called_Gerald_Voodoo_Ray.jpg",
+        "items": [
+          {
+            "title": "A Guy Called Gerald Voodoo Ray",
+            "cover": "assets/covers/radio_uk_EP05_01_A_Guy_Called_Gerald_Voodoo_Ray.jpg"
+          },
+          {
+            "title": "808 State Pacific State",
+            "cover": "assets/covers/radio_uk_EP05_02_808_State_Pacific_State.jpg"
+          },
+          {
+            "title": "The Prodigy Charly",
+            "cover": "assets/covers/radio_uk_EP05_03_The_Prodigy_Charly.jpg"
+          },
+          {
+            "title": "SL2 On A Ragga Tip",
+            "cover": "assets/covers/radio_uk_EP05_04_SL2_On_A_Ragga_Tip.jpg"
+          },
+          {
+            "title": "Omni Trio Renegade Snares Foul Play Remix",
+            "cover": "assets/covers/radio_uk_EP05_05_Omni_Trio_Renegade_Snares_Foul_Play_Remix.jpg"
+          },
+          {
+            "title": "Shy FX UK Apachi Original Nuttah",
+            "cover": "assets/covers/radio_uk_EP05_06_Shy_FX_UK_Apachi_Original_Nuttah.jpg"
+          },
+          {
+            "title": "Goldie Inner City Life",
+            "cover": "assets/covers/radio_uk_EP05_07_Goldie_Inner_City_Life.jpg"
+          },
+          {
+            "title": "Roni Size Reprazent Brown Paper Bag",
+            "cover": "assets/covers/radio_uk_EP05_08_Roni_Size_Reprazent_Brown_Paper_Bag.jpg"
+          },
+          {
+            "title": "Adam F Circles",
+            "cover": "assets/covers/radio_uk_EP05_09_Adam_F_Circles.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP06",
+        "title": "Roteiro Completo de Produção — Episódio 06",
+        "cover": "assets/covers/radio_uk_EP06_01_So_Solid_Crew_21_Seconds.jpg",
+        "items": [
+          {
+            "title": "So Solid Crew 21 Seconds",
+            "cover": "assets/covers/radio_uk_EP06_01_So_Solid_Crew_21_Seconds.jpg"
+          },
+          {
+            "title": "Dizzee Rascal I Luv U",
+            "cover": "assets/covers/radio_uk_EP06_02_Dizzee_Rascal_I_Luv_U.jpg"
+          },
+          {
+            "title": "Wiley Wot Do U Call It",
+            "cover": "assets/covers/radio_uk_EP06_03_Wiley_Wot_Do_U_Call_It.jpg"
+          },
+          {
+            "title": "Lethal Bizzle Pow Forward",
+            "cover": "assets/covers/radio_uk_EP06_04_Lethal_Bizzle_Pow_Forward.jpg"
+          },
+          {
+            "title": "Skream Midnight Request Line",
+            "cover": "assets/covers/radio_uk_EP06_05_Skream_Midnight_Request_Line.jpg"
+          },
+          {
+            "title": "Skepta Duppy",
+            "cover": "assets/covers/radio_uk_EP06_06_Skepta_Duppy.jpg"
+          },
+          {
+            "title": "Burial Archangel",
+            "cover": "assets/covers/radio_uk_EP06_07_Burial_Archangel.jpg"
+          },
+          {
+            "title": "Benga and Coki Night",
+            "cover": "assets/covers/radio_uk_EP06_08_Benga_and_Coki_Night.jpg"
+          },
+          {
+            "title": "Katy B Katy On A Mission",
+            "cover": "assets/covers/radio_uk_EP06_09_Katy_B_Katy_On_A_Mission.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP07",
+        "title": "História do Rádio Musical: Inglaterra & Reino Unido",
+        "cover": "assets/covers/radio_uk_EP07_01_Elbow_Lippy_Kids.jpg",
+        "items": [
+          {
+            "title": "Elbow Lippy Kids",
+            "cover": "assets/covers/radio_uk_EP07_01_Elbow_Lippy_Kids.jpg"
+          },
+          {
+            "title": "James Blake Limit To Your Love",
+            "cover": "assets/covers/radio_uk_EP07_02_James_Blake_Limit_To_Your_Love.jpg"
+          },
+          {
+            "title": "Disclosure Sam Smith Latch",
+            "cover": "assets/covers/radio_uk_EP07_03_Disclosure_Sam_Smith_Latch.jpg"
+          },
+          {
+            "title": "David Bowie Where Are We Now",
+            "cover": "assets/covers/radio_uk_EP07_04_David_Bowie_Where_Are_We_Now.jpg"
+          },
+          {
+            "title": "Jamie xx Gosh",
+            "cover": "assets/covers/radio_uk_EP07_05_Jamie_xx_Gosh.jpg"
+          },
+          {
+            "title": "Skepta Shutdown",
+            "cover": "assets/covers/radio_uk_EP07_06_Skepta_Shutdown.jpg"
+          },
+          {
+            "title": "Bicep Glue",
+            "cover": "assets/covers/radio_uk_EP07_07_Bicep_Glue.jpg"
+          },
+          {
+            "title": "Jorja Smith Blue Lights",
+            "cover": "assets/covers/radio_uk_EP07_08_Jorja_Smith_Blue_Lights.jpg"
+          },
+          {
+            "title": "IDLES Danny Nedelko",
+            "cover": "assets/covers/radio_uk_EP07_09_IDLES_Danny_Nedelko.jpg"
+          }
+        ]
+      },
+      {
+        "code": "EP08",
+        "title": "Episódio 8 — O Legado Britânico no Mundo: 2020–Hoje",
+        "cover": "assets/covers/radio_uk_EP08_01_Dua_Lipa_Physical.jpg",
+        "items": [
+          {
+            "title": "Dua Lipa Physical",
+            "cover": "assets/covers/radio_uk_EP08_01_Dua_Lipa_Physical.jpg"
+          },
+          {
+            "title": "SAULT Wildfires",
+            "cover": "assets/covers/radio_uk_EP08_02_SAULT_Wildfires.jpg"
+          },
+          {
+            "title": "Wet Leg Chaise Longue",
+            "cover": "assets/covers/radio_uk_EP08_03_Wet_Leg_Chaise_Longue.jpg"
+          },
+          {
+            "title": "Fred again Marea weve lost dancing",
+            "cover": "assets/covers/radio_uk_EP08_04_Fred_again_Marea_weve_lost_dancing.jpg"
+          },
+          {
+            "title": "Dave Central Cee Sprinter",
+            "cover": "assets/covers/radio_uk_EP08_05_Dave_Central_Cee_Sprinter.jpg"
+          },
+          {
+            "title": "Raye 070 Shake Escapism",
+            "cover": "assets/covers/radio_uk_EP08_06_Raye_070_Shake_Escapism.jpg"
+          },
+          {
+            "title": "The Last Dinner Party Nothing Matters",
+            "cover": "assets/covers/radio_uk_EP08_07_The_Last_Dinner_Party_Nothing_Matters.jpg"
+          },
+          {
+            "title": "Charli xcx 360",
+            "cover": "assets/covers/radio_uk_EP08_08_Charli_xcx_360.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lendas_br",
+    "title": "Arquivos Ocultos do Brasil",
+    "subtitle": "Lendas Urbanas, Imprensa Sensacionalista & Casos Inexplicados (6 Episódios)",
+    "lang": "PT-BR",
+    "legal_mode": "rss_direct",
+    "badge": "100% Narrado • RSS Livre",
+    "description": "Documentário 100% brasileiro e narrado com áudios de arquivo: Máscaras de Chumbo, Pico dos Marins, Castelinho da Rua Apa & Crime do Poço, Caso Carlinhos & Priscila Belfort, Serra do Roncador & Pedra do Ingá e a Fábrica do Medo (Loira do Banheiro, Notícias Populares e Bandido da Luz Vermelha).",
+    "episodes": [
+      {
+        "code": "EP01",
+        "title": "ARQUIVOS OCULTOS DO BRASIL: CASOS INEXPLICADOS E MISTÉRIOS NACIONAIS",
+        "cover": "",
+        "items": [
+          {
+            "title": "Abertura e reconstituição histórica dramatizada do programa Linha Direta (TV Globo) cobrindo a subida de Miguel e Manoel ao Morro do Vintém em 1966.",
+            "cover": ""
+          },
+          {
+            "title": "Depoimentos e relatos documentais detalhando as investigações do detetive Saulo Soares de Souza sobre a cena dos corpos, os ternos e o bilhete cifrado.",
+            "cover": ""
+          },
+          {
+            "title": "Registro documental sobre o depoimento de Dona Gracinda Barbosa Coutinho descrevendo o objeto circular luminoso e raios coloridos sobre o Morro do Vintém na noite do evento.",
+            "cover": ""
+          },
+          {
+            "title": "Trecho documental com análises periciais, o laudo necroscópico inconclusivo e a expedição investigativa do astrofísico Jacques Vallée ao Morro do Vintém.",
+            "cover": ""
+          }
+        ]
+      },
+      {
+        "code": "EP02",
+        "title": "ARQUIVOS OCULTOS DO BRASIL",
+        "cover": "",
+        "items": [
+          {
+            "title": "Entrevista emocionante com o jornalista Ivo Simon, pai do escoteiro Marco Aurélio, relembrando os dias de angústia na base do Pico dos Marins e a incansável busca pelo filho.",
+            "cover": ""
+          },
+          {
+            "title": "Reportagem televisiva de arquivo com relatos das equipes de resgate, bombeiros e voluntários sobre a misteriosa operação de busca na Serra da Mantiqueira em 1985.",
+            "cover": ""
+          },
+          {
+            "title": "Declarações do delegado de polícia Dr. Fábio Caboclo sobre a reabertura oficial do inquérito policial e as novas linhas de investigação com escavações em Piquete.",
+            "cover": ""
+          },
+          {
+            "title": "Depoimentos de socorristas, policiais militares e guias locais que participaram das varreduras na montanha e relatam fenômenos sonoros inexplicáveis nas noites de buscas.",
+            "cover": ""
+          }
+        ]
+      },
+      {
+        "code": "EP03",
+        "title": "Arquivos Ocultos do Brasil — Episódio 03",
+        "cover": "",
+        "items": [
+          {
+            "title": "Documentário histórico e reconstituição investigativa sobre o triplo homicídio no Castelinho da Rua Apa em 1937, analisando as contradições da perícia técnica na morte de Maria Cândida, Álvaro e Armando.",
+            "cover": ""
+          },
+          {
+            "title": "Reportagem investigativa e resgate de arquivos de época sobre o Crime do Poço de 1948, a escavação dos corpos da família Camargo na Rua Santo Antônio e o suicídio do professor da USP.",
+            "cover": ""
+          },
+          {
+            "title": "Gravações históricas de arquivo e reportagens sobre a tragédia do Edifício Joelma em 1º de fevereiro de 1974, destacando a ação desesperada dos bombeiros e o pânico no centro de São Paulo.",
+            "cover": ""
+          },
+          {
+            "title": "Documentário e relatos testemunhais abordando o enigma das Treze Almas carbonizadas no elevador do Edifício Joelma, o sepultamento conjunto no Cemitério São Pedro e a peregrinação de devoção popular.",
+            "cover": ""
+          }
+        ]
+      },
+      {
+        "code": "EP04",
+        "title": "Arquivos Ocultos do Brasil — Episódio 04",
+        "cover": "",
+        "items": [
+          {
+            "title": "Reportagem documental e reconstituição histórica sobre o sequestro de Carlinhos na Rua Alice em Laranjeiras no ano de 1973, com relatos do bilhete de resgate e o cerco policial na Zona Sul do Rio.",
+            "cover": ""
+          },
+          {
+            "title": "Análise investigativa e depoimentos de autoridades policiais sobre as pistas falsas, as cartas anônimas, os exames de DNA e o drama de Dona Maria da Conceição.",
+            "cover": ""
+          },
+          {
+            "title": "Registro histórico da exibição do programa Linha Direta da TV Globo (junho de 2007) reconstituindo o desaparecimento de Priscila no Centro do Rio e os apelos dramáticos por informações.",
+            "cover": ""
+          },
+          {
+            "title": "Depoimento comovente de Dona Jovita Belfort sobre a angústia da ausência da filha, as falsas confissões do caso e a mobilização nacional pelas famílias de desaparecidos.",
+            "cover": ""
+          }
+        ]
+      },
+      {
+        "code": "EP05",
+        "title": "Arquivos Ocultos do Brasil — Episódio 05",
+        "cover": "",
+        "items": [
+          {
+            "title": "Reportagem e documentário sobre o desaparecimento do Coronel britânico Percy Fawcett no Mato Grosso em 1925 em busca da Cidade Perdida 'Z', suas teorias místicas e as expedições de resgate.",
+            "cover": ""
+          },
+          {
+            "title": "Registro jornalístico e documental com relatos de moradores, pesquisadores e exploradores sobre os estrondos acústicos, anomalias magnéticas e cavernas inexploradas da Serra do Roncador (MT).",
+            "cover": ""
+          },
+          {
+            "title": "Documentário arqueológico sobre o Itacoatiara da Pedra do Ingá na Paraíba, destacando os monumentais petróglifos entalhados em baixo-relevo na rocha e as hipóteses astronômicas e xamânicas.",
+            "cover": ""
+          },
+          {
+            "title": "Depoimentos e relatos históricos sobre as investigações do paradeiro de Percy Fawcett junto aos povos indígenas Kalapalo e Kuikuro na região do Alto Xingu e Rio das Mortes.",
+            "cover": ""
+          }
+        ]
+      },
+      {
+        "code": "EP06",
+        "title": "ARQUIVOS OCULTOS DO BRASIL",
+        "cover": "",
+        "items": [
+          {
+            "title": "Reportagem histórica sobre a verdadeira origem da lenda da Loira do Banheiro: a vida, fuga para a Europa e morte trágica de Maria Augusta de Oliveira Borges em Guaratinguetá.",
+            "cover": ""
+          },
+          {
+            "title": "Registro documental com depoimentos de jornalistas da época relembrando a criação da famosa série sobre o Bebê Diabo no jornal Notícias Populares em 1975.",
+            "cover": ""
+          },
+          {
+            "title": "Documentário histórico e relatos sobre a Perna Cabeluda no Recife nos anos 70, revelando como o rádio e as redações criaram o mito para driblar a censura da ditadura.",
+            "cover": ""
+          },
+          {
+            "title": "Reportagem documental de arquivo sobre João Acácio Pereira da Costa, o Bandido da Luz Vermelha, mostrando como a cobertura policial sensacionalista transformou um assaltante em mito urbano.",
+            "cover": ""
+          }
+        ]
+      }
+    ]
+  }
+]
