@@ -11,14 +11,20 @@
   <header class="hero" id="top">
     <div class="hero-topbar">
       <nav class="hero-nav">
-        <a href="#work">Work</a>
-        <a href="#verticais">Vertical 9:16</a>
-        <a href="#lab">Lab</a>
-        <a href="#audioseries">Áudio-Séries</a>
-        <a href="#contato">Contato</a>
+        <a href="#work" data-i18n="nav_work">Work</a>
+        <a href="#verticais" data-i18n="nav_vertical">Vertical 9:16</a>
+        <a href="#lab" data-i18n="nav_lab">Lab</a>
+        <a href="#audioseries" data-i18n="nav_audio">Áudio-Séries</a>
+        <a href="#contato" data-i18n="nav_contact">Contato</a>
       </nav>
       <div class="hero-right-hud">
-        <span>PT / EN</span>
+        <div class="lang-switcher" role="group" aria-label="Language selector">
+          <button type="button" class="lang-btn active" data-lang="pt">PT</button>
+          <span class="lang-sep">/</span>
+          <button type="button" class="lang-btn" data-lang="en">EN</button>
+          <span class="lang-sep">/</span>
+          <button type="button" class="lang-btn" data-lang="es">ES</button>
+        </div>
         <span class="rec-badge">REC <i></i></span>
       </div>
     </div>
@@ -27,8 +33,8 @@
       <div class="vf-corners">
         <div class="vf-inner">
           <div class="vf-grid">
-            <div class="vf-side">
-              IDEAS<br>PEOPLE<br>PLACES<br>STORIES<br>&gt;&gt;
+            <div class="vf-side" data-i18n-html="vf_left">
+              IDEIAS<br>PESSOAS<br>LUGARES<br>HISTÓRIAS<br>&gt;&gt;
             </div>
             <div class="brand-hero">
               <div class="brand-lockup">
@@ -40,7 +46,7 @@
                 <i></i>
               </div>
             </div>
-            <div class="vf-side right">
+            <div class="vf-side right" data-i18n-html="vf_right">
               FILMES<br>MÚSICA<br>PESSOAS<br>IDEIAS<br>EM<br>MOVIMENTO
             </div>
           </div>
@@ -48,10 +54,10 @@
           <div class="vf-bottom">
             <div class="tc-text">00:00:05:26</div>
             <div class="hero-tagline">
-              <strong>MÚSICA, IMAGEM E HISTÓRIAS EM MOVIMENTO.</strong>
-              <span>DIREÇÃO / CONTEÚDO CUSTOMIZADO / DOCUMENTÁRIO / PUBLICIDADE / SÉRIES</span>
+              <strong data-i18n="hero_tagline">MÚSICA, IMAGEM E HISTÓRIAS EM MOVIMENTO.</strong>
+              <span data-i18n="hero_sub">DIREÇÃO / CONTEÚDO CUSTOMIZADO / DOCUMENTÁRIO / PUBLICIDADE / SÉRIES</span>
             </div>
-            <div class="vf-side right">
+            <div class="vf-side right" data-i18n-html="vf_bottom_right">
               CAPTURAR<br>CRIAR<br>CONECTAR<br>TRANSFORMAR<br>&gt;&gt;
             </div>
           </div>
@@ -61,24 +67,24 @@
 
     <div class="cat-strip">
       <a class="cat-tile" data-cat="publicidade" href="#work">
-        <img src="https://i.ytimg.com/vi/_sOtOC1IOZw/hqdefault.jpg" alt="Publicidade" />
-        <span>PUBLICIDADE</span><span>&gt;&gt;</span>
+        <img src="https://i.ytimg.com/vi/_sOtOC1IOZw/hqdefault.jpg" alt="Publicidade" data-i18n-alt="cat_pub" />
+        <span data-i18n="cat_pub">PUBLICIDADE</span><span>&gt;&gt;</span>
       </a>
       <a class="cat-tile" data-cat="documentario" href="#work">
-        <img src="https://i.ytimg.com/vi/7wOhthRJRkI/hqdefault.jpg" alt="Documentário" />
-        <span>DOCUMENTÁRIO</span><span>&gt;&gt;</span>
+        <img src="https://i.ytimg.com/vi/7wOhthRJRkI/hqdefault.jpg" alt="Documentário" data-i18n-alt="cat_doc" />
+        <span data-i18n="cat_doc">DOCUMENTÁRIO</span><span>&gt;&gt;</span>
       </a>
       <a class="cat-tile" data-cat="musica" href="#work">
-        <img src="https://i.ytimg.com/vi/DtLi-rz_s7s/hqdefault.jpg" alt="Música" />
-        <span>MÚSICA</span><span>&gt;&gt;</span>
+        <img src="https://i.ytimg.com/vi/DtLi-rz_s7s/hqdefault.jpg" alt="Música" data-i18n-alt="cat_mus" />
+        <span data-i18n="cat_mus">MÚSICA</span><span>&gt;&gt;</span>
       </a>
       <a class="cat-tile" data-cat="conteudo" href="#work">
-        <img src="https://i.ytimg.com/vi/MU_pSA7fd24/hqdefault.jpg" alt="Conteúdo Customizado" />
-        <span>CONTEÚDO</span><span>&gt;&gt;</span>
+        <img src="https://i.ytimg.com/vi/MU_pSA7fd24/hqdefault.jpg" alt="Conteúdo Customizado" data-i18n-alt="cat_cont" />
+        <span data-i18n="cat_cont">CONTEÚDO</span><span>&gt;&gt;</span>
       </a>
       <a class="cat-tile" data-cat="series" href="#work">
-        <img src="https://i.ytimg.com/vi/MU-wvdVBrzg/hqdefault.jpg" alt="Séries" />
-        <span>SÉRIES</span><span>&gt;&gt;</span>
+        <img src="https://i.ytimg.com/vi/MU-wvdVBrzg/hqdefault.jpg" alt="Séries" data-i18n-alt="cat_ser" />
+        <span data-i18n="cat_ser">SÉRIES</span><span>&gt;&gt;</span>
       </a>
     </div>
   </header>
@@ -88,9 +94,9 @@
       <div class="section-top">
         <div class="section-title-block">
           <span class="sec-num">01</span>
-          <h2 class="sec-heading">WORK</h2>
-          <div class="sec-sub">PROJETOS QUE COLOCAM IDEIAS EM MOVIMENTO.</div>
-          <div class="sec-desc">Da publicidade ao documentário. Da música ao conteúdo customizado. Histórias reais e ficção. Sempre com propósito.</div>
+          <h2 class="sec-heading" data-i18n="work_heading">WORK</h2>
+          <div class="sec-sub" data-i18n="work_sub">PROJETOS QUE COLOCAM IDEIAS EM MOVIMENTO.</div>
+          <div class="sec-desc" data-i18n="work_desc">Da publicidade ao documentário. Da música ao conteúdo customizado. Histórias reais e ficção. Sempre com propósito.</div>
         </div>
         <div id="work-filters" class="work-filters"></div>
       </div>
@@ -105,9 +111,9 @@
       <div class="section-top">
         <div class="section-title-block">
           <span class="sec-num">02</span>
-          <h2 class="sec-heading">VERTICAL 9:16</h2>
-          <div class="sec-sub">NARRATIVA NATIVA PARA TELA DE CELULAR.</div>
-          <div class="sec-desc">Formatos verticais pensados para TikTok, Reels e Shorts com direção e ritmo próprios.</div>
+          <h2 class="sec-heading" data-i18n="vert_heading">VERTICAL 9:16</h2>
+          <div class="sec-sub" data-i18n="vert_sub">NARRATIVA NATIVA PARA TELA DE CELULAR.</div>
+          <div class="sec-desc" data-i18n="vert_desc">Formatos verticais pensados para TikTok, Reels e Shorts com direção e ritmo próprios.</div>
         </div>
       </div>
       <div class="phone-grid">
@@ -117,8 +123,8 @@
             <iframe src="https://www.tiktok.com/player/v1/7678216585844165909?music_info=1&amp;description=1" title="Barata Piseira — Vídeo 01" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="phone-caption">
-            <strong>@baratapiseira • Vídeo 01</strong>
-            <a href="https://www.tiktok.com/@baratapiseira/video/7678216585844165909" target="_blank" rel="noopener">Abrir no TikTok ↗</a>
+            <strong data-i18n="vert_cap1">@baratapiseira • Vídeo 01</strong>
+            <a href="https://www.tiktok.com/@baratapiseira/video/7678216585844165909" target="_blank" rel="noopener" data-i18n="vert_open">Abrir no TikTok ↗</a>
           </div>
         </div>
         <div class="phone-frame">
@@ -127,8 +133,8 @@
             <iframe src="https://www.tiktok.com/player/v1/7678517652633029908?music_info=1&amp;description=1" title="Barata Piseira — Vídeo 02" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="phone-caption">
-            <strong>@baratapiseira • Vídeo 02</strong>
-            <a href="https://www.tiktok.com/@baratapiseira/video/7678517652633029908" target="_blank" rel="noopener">Abrir no TikTok ↗</a>
+            <strong data-i18n="vert_cap2">@baratapiseira • Vídeo 02</strong>
+            <a href="https://www.tiktok.com/@baratapiseira/video/7678517652633029908" target="_blank" rel="noopener" data-i18n="vert_open">Abrir no TikTok ↗</a>
           </div>
         </div>
       </div>
@@ -138,15 +144,15 @@
   <section id="lab" class="split-banner">
     <div class="split-pane beats">
       <h3>BEATS</h3>
-      <p>SOM<br>CULTURA<br>PISTAS<br>PESSOAS<br>&gt;&gt;</p>
+      <p data-i18n-html="split_beats">SOM<br>CULTURA<br>PISTAS<br>PESSOAS<br>&gt;&gt;</p>
       <span class="split-plus">+</span>
     </div>
     <div class="split-pane frames">
       <h3>FRAMES</h3>
-      <p>IMAGEM<br>CINEMA<br>HISTÓRIAS<br>REALIDADE<br>&gt;&gt;</p>
+      <p data-i18n-html="split_frames">IMAGEM<br>CINEMA<br>HISTÓRIAS<br>REALIDADE<br>&gt;&gt;</p>
     </div>
     <div class="split-end">
-      HISTÓRIAS<br>EM MOVIMENTO<br>SEMPRE.
+      <span data-i18n-html="split_end">HISTÓRIAS<br>EM MOVIMENTO<br>SEMPRE.</span>
       <i></i>
     </div>
   </section>
@@ -156,9 +162,9 @@
       <div class="section-top">
         <div class="section-title-block">
           <span class="sec-num">03</span>
-          <h2 class="sec-heading">ÁUDIO-SÉRIES</h2>
-          <div class="sec-sub">44 EPISÓDIOS EM 6 SÉRIES ORIGINAIS.</div>
-          <div class="sec-desc">Pesquisa histórica, roteiro, trilha e locução por Kiko Costato.</div>
+          <h2 class="sec-heading" data-i18n="audio_heading">ÁUDIO-SÉRIES</h2>
+          <div class="sec-sub" data-i18n="audio_sub">44 EPISÓDIOS EM 6 SÉRIES ORIGINAIS.</div>
+          <div class="sec-desc" data-i18n="audio_desc">Pesquisa histórica, roteiro, trilha e locução por Kiko Costato.</div>
         </div>
       </div>
       <div id="series-tabs" class="work-filters" style="margin-bottom: 22px;"></div>
@@ -169,28 +175,28 @@
   <section id="contato" class="contact-section">
     <div class="container contact-grid">
       <div>
-        <h2>TEM UMA HISTÓRIA?<br>VAMOS CONVERSAR.</h2>
-        <p>Conteúdo customizado, direção de filmes, séries documentais, sound design e áudio-séries originais com Kiko Costato.</p>
+        <h2 data-i18n-html="contact_heading">TEM UMA HISTÓRIA?<br>VAMOS CONVERSAR.</h2>
+        <p data-i18n="contact_desc">Conteúdo customizado, direção de filmes, séries documentais, sound design e áudio-séries originais com Kiko Costato.</p>
         <div class="email-links">
           <a href="mailto:contato@beatsandframes.com.br" class="btn-outline">contato@beatsandframes.com.br</a>
           <a href="mailto:kiko@beatsandframes.com.br" class="btn-outline">kiko@beatsandframes.com.br</a>
         </div>
       </div>
       <form class="contact-form" action="https://formsubmit.co/contato@beatsandframes.com.br" method="POST">
-        <input type="hidden" name="_subject" value="Novo contato via Beats and Frames Lab" />
+        <input type="hidden" name="_subject" id="form-subject" value="Novo contato via Beats and Frames Lab" />
         <input type="hidden" name="_captcha" value="false" />
-        <input type="text" name="name" placeholder="Seu nome" required />
-        <input type="email" name="email" placeholder="Seu e-mail" required />
-        <textarea name="message" rows="4" placeholder="Conte sobre seu projeto ou mande uma mensagem..." required></textarea>
-        <button type="submit">Mande uma mensagem &gt;&gt;</button>
+        <input type="text" name="name" placeholder="Seu nome" data-i18n-placeholder="form_name" required />
+        <input type="email" name="email" placeholder="Seu e-mail" data-i18n-placeholder="form_email" required />
+        <textarea name="message" rows="4" placeholder="Conte sobre seu projeto ou mande uma mensagem..." data-i18n-placeholder="form_msg" required></textarea>
+        <button type="submit" data-i18n-html="form_btn">Mande uma mensagem &gt;&gt;</button>
       </form>
     </div>
   </section>
 
   <footer class="footer-bar">
     <span>BEATS AND FRAMES LAB © 2026</span>
-    <span>SÃO PAULO / BRASIL / MUNDO</span>
-    <a href="#contato">TEM UMA HISTÓRIA? VAMOS CONVERSAR. &gt;&gt;</a>
+    <span data-i18n="footer_loc">SÃO PAULO / BRASIL / MUNDO</span>
+    <a href="#contato" data-i18n-html="footer_cta">TEM UMA HISTÓRIA? VAMOS CONVERSAR. &gt;&gt;</a>
   </footer>
 
   <script src="app.js"></script>

@@ -1,49 +1,499 @@
+const I18N = {
+  pt: {
+    html_lang: 'pt-BR',
+    meta_title: 'BEATS AND FRAMES LAB — Kiko Costato • Diretor, Criador & DJ',
+    meta_desc: 'Beats and Frames Lab (beatsandframes.com.br): Música, imagem e histórias em movimento. Direção, conteúdo customizado, documentário, publicidade e séries.',
+    nav_work: 'Work',
+    nav_vertical: 'Vertical 9:16',
+    nav_lab: 'Lab',
+    nav_audio: 'Áudio-Séries',
+    nav_contact: 'Contato',
+    vf_left: 'IDEIAS<br>PESSOAS<br>LUGARES<br>HISTÓRIAS<br>&gt;&gt;',
+    vf_right: 'FILMES<br>MÚSICA<br>PESSOAS<br>IDEIAS<br>EM<br>MOVIMENTO',
+    vf_bottom_right: 'CAPTURAR<br>CRIAR<br>CONECTAR<br>TRANSFORMAR<br>&gt;&gt;',
+    hero_tagline: 'MÚSICA, IMAGEM E HISTÓRIAS EM MOVIMENTO.',
+    hero_sub: 'DIREÇÃO / CONTEÚDO CUSTOMIZADO / DOCUMENTÁRIO / PUBLICIDADE / SÉRIES',
+    cat_pub: 'PUBLICIDADE',
+    cat_doc: 'DOCUMENTÁRIO',
+    cat_mus: 'MÚSICA',
+    cat_cont: 'CONTEÚDO',
+    cat_ser: 'SÉRIES',
+    work_heading: 'WORK',
+    work_sub: 'PROJETOS QUE COLOCAM IDEIAS EM MOVIMENTO.',
+    work_desc: 'Da publicidade ao documentário. Da música ao conteúdo customizado. Histórias reais e ficção. Sempre com propósito.',
+    play_film: 'PLAY FILM &gt;&gt;',
+    prev_label: 'Anterior',
+    next_label: 'Próximo',
+    vert_heading: 'VERTICAL 9:16',
+    vert_sub: 'NARRATIVA NATIVA PARA TELA DE CELULAR.',
+    vert_desc: 'Formatos verticais pensados para TikTok, Reels e Shorts com direção e ritmo próprios.',
+    vert_cap1: '@baratapiseira • Vídeo 01',
+    vert_cap2: '@baratapiseira • Vídeo 02',
+    vert_open: 'Abrir no TikTok ↗',
+    split_beats: 'SOM<br>CULTURA<br>PISTAS<br>PESSOAS<br>&gt;&gt;',
+    split_frames: 'IMAGEM<br>CINEMA<br>HISTÓRIAS<br>REALIDADE<br>&gt;&gt;',
+    split_end: 'HISTÓRIAS<br>EM MOVIMENTO<br>SEMPRE.',
+    audio_heading: 'ÁUDIO-SÉRIES',
+    audio_sub: '44 EPISÓDIOS EM 6 SÉRIES ORIGINAIS.',
+    audio_desc: 'Pesquisa histórica, roteiro, trilha e locução por Kiko Costato.',
+    mode_rss: 'Player HTML5 Direto / Feed RSS Aberto',
+    mode_embed: 'Embed Mixcloud / YouTube (Royalties Licenciados)',
+    contact_heading: 'TEM UMA HISTÓRIA?<br>VAMOS CONVERSAR.',
+    contact_desc: 'Conteúdo customizado, direção de filmes, séries documentais, sound design e áudio-séries originais com Kiko Costato.',
+    form_subject: 'Novo contato via Beats and Frames Lab',
+    form_name: 'Seu nome',
+    form_email: 'Seu e-mail',
+    form_msg: 'Conte sobre seu projeto ou mande uma mensagem...',
+    form_btn: 'Mande uma mensagem &gt;&gt;',
+    footer_loc: 'SÃO PAULO / BRASIL / MUNDO',
+    footer_cta: 'TEM UMA HISTÓRIA? VAMOS CONVERSAR. &gt;&gt;'
+  },
+  en: {
+    html_lang: 'en',
+    meta_title: 'BEATS AND FRAMES LAB — Kiko Costato • Director, Creator & DJ',
+    meta_desc: 'Beats and Frames Lab (beatsandframes.com.br): Music, image and stories in motion. Directing, branded content, documentary, advertising and series.',
+    nav_work: 'Work',
+    nav_vertical: 'Vertical 9:16',
+    nav_lab: 'Lab',
+    nav_audio: 'Audio-Series',
+    nav_contact: 'Contact',
+    vf_left: 'IDEAS<br>PEOPLE<br>PLACES<br>STORIES<br>&gt;&gt;',
+    vf_right: 'FILMS<br>MUSIC<br>PEOPLE<br>IDEAS<br>IN<br>MOTION',
+    vf_bottom_right: 'CAPTURE<br>CREATE<br>CONNECT<br>TRANSFORM<br>&gt;&gt;',
+    hero_tagline: 'MUSIC, IMAGE AND STORIES IN MOTION.',
+    hero_sub: 'DIRECTING / BRANDED CONTENT / DOCUMENTARY / ADVERTISING / SERIES',
+    cat_pub: 'ADVERTISING',
+    cat_doc: 'DOCUMENTARY',
+    cat_mus: 'MUSIC',
+    cat_cont: 'CONTENT',
+    cat_ser: 'SERIES',
+    work_heading: 'WORK',
+    work_sub: 'PROJECTS THAT PUT IDEAS IN MOTION.',
+    work_desc: 'From advertising to documentary. From music to branded content. True stories and fiction. Always with purpose.',
+    play_film: 'PLAY FILM &gt;&gt;',
+    prev_label: 'Previous',
+    next_label: 'Next',
+    vert_heading: 'VERTICAL 9:16',
+    vert_sub: 'NATIVE STORYTELLING FOR MOBILE SCREENS.',
+    vert_desc: 'Vertical formats crafted for TikTok, Reels and Shorts with signature pacing and direction.',
+    vert_cap1: '@baratapiseira • Video 01',
+    vert_cap2: '@baratapiseira • Video 02',
+    vert_open: 'Open on TikTok ↗',
+    split_beats: 'SOUND<br>CULTURE<br>DANCEFLOORS<br>PEOPLE<br>&gt;&gt;',
+    split_frames: 'IMAGE<br>CINEMA<br>STORIES<br>REALITY<br>&gt;&gt;',
+    split_end: 'STORIES<br>IN MOTION<br>ALWAYS.',
+    audio_heading: 'AUDIO-SERIES',
+    audio_sub: '44 EPISODES ACROSS 6 ORIGINAL SERIES.',
+    audio_desc: 'Historical research, scriptwriting, score and narration by Kiko Costato.',
+    mode_rss: 'Direct HTML5 Player / Open RSS Feed',
+    mode_embed: 'Mixcloud / YouTube Embed (Licensed Royalties)',
+    contact_heading: 'HAVE A STORY?<br>LET’S TALK.',
+    contact_desc: 'Branded content, film directing, documentary series, sound design and original audio-series with Kiko Costato.',
+    form_subject: 'New inquiry via Beats and Frames Lab',
+    form_name: 'Your name',
+    form_email: 'Your email',
+    form_msg: 'Tell us about your project or send a message...',
+    form_btn: 'Send a message &gt;&gt;',
+    footer_loc: 'SÃO PAULO / BRAZIL / WORLD',
+    footer_cta: 'HAVE A STORY? LET’S TALK. &gt;&gt;'
+  },
+  es: {
+    html_lang: 'es',
+    meta_title: 'BEATS AND FRAMES LAB — Kiko Costato • Director, Creador & DJ',
+    meta_desc: 'Beats and Frames Lab (beatsandframes.com.br): Música, imagen e historias en movimiento. Dirección, contenido de marca, documental, publicidad y series.',
+    nav_work: 'Work',
+    nav_vertical: 'Vertical 9:16',
+    nav_lab: 'Lab',
+    nav_audio: 'Audio-Series',
+    nav_contact: 'Contacto',
+    vf_left: 'IDEAS<br>PERSONAS<br>LUGARES<br>HISTORIAS<br>&gt;&gt;',
+    vf_right: 'CINE<br>MÚSICA<br>PERSONAS<br>IDEAS<br>EN<br>MOVIMIENTO',
+    vf_bottom_right: 'CAPTURAR<br>CREAR<br>CONECTAR<br>TRANSFORMAR<br>&gt;&gt;',
+    hero_tagline: 'MÚSICA, IMAGEN E HISTORIAS EN MOVIMIENTO.',
+    hero_sub: 'DIRECCIÓN / CONTENIDO DE MARCA / DOCUMENTAL / PUBLICIDAD / SERIES',
+    cat_pub: 'PUBLICIDAD',
+    cat_doc: 'DOCUMENTAL',
+    cat_mus: 'MÚSICA',
+    cat_cont: 'CONTENIDO',
+    cat_ser: 'SERIES',
+    work_heading: 'WORK',
+    work_sub: 'PROYECTOS QUE PONEN IDEAS EN MOVIMIENTO.',
+    work_desc: 'De la publicidad al documental. De la música al contenido de marca. Historias reales y ficción. Siempre con propósito.',
+    play_film: 'VER FILM &gt;&gt;',
+    prev_label: 'Anterior',
+    next_label: 'Siguiente',
+    vert_heading: 'VERTICAL 9:16',
+    vert_sub: 'NARRATIVA NATIVA PARA PANTALLA MÓVIL.',
+    vert_desc: 'Formatos verticales diseñados para TikTok, Reels y Shorts con dirección y ritmo propios.',
+    vert_cap1: '@baratapiseira • Video 01',
+    vert_cap2: '@baratapiseira • Video 02',
+    vert_open: 'Abrir en TikTok ↗',
+    split_beats: 'SONIDO<br>CULTURA<br>PISTAS<br>PERSONAS<br>&gt;&gt;',
+    split_frames: 'IMAGEN<br>CINE<br>HISTORIAS<br>REALIDAD<br>&gt;&gt;',
+    split_end: 'HISTORIAS<br>EN MOVIMIENTO<br>SIEMPRE.',
+    audio_heading: 'AUDIO-SERIES',
+    audio_sub: '44 EPISODIOS EN 6 SERIES ORIGINALES.',
+    audio_desc: 'Investigación histórica, guion, música original y locución por Kiko Costato.',
+    mode_rss: 'Reproductor HTML5 Directo / Feed RSS Abierto',
+    mode_embed: 'Embed Mixcloud / YouTube (Derechos Licenciados)',
+    contact_heading: '¿TIENES UNA HISTORIA?<br>HABLEMOS.',
+    contact_desc: 'Contenido de marca, dirección de cine, series documentales, diseño sonoro y audio-series originales con Kiko Costato.',
+    form_subject: 'Nuevo contacto vía Beats and Frames Lab',
+    form_name: 'Tu nombre',
+    form_email: 'Tu correo',
+    form_msg: 'Cuéntanos sobre tu proyecto o envía un mensaje...',
+    form_btn: 'Enviar mensaje &gt;&gt;',
+    footer_loc: 'SÃO PAULO / BRASIL / MUNDO',
+    footer_cta: '¿TIENES UNA HISTORIA? HABLEMOS. &gt;&gt;'
+  }
+};
+
+const FILTERS = {
+  pt: [
+    { id: 'all', label: 'TODOS' },
+    { id: 'publicidade', label: 'PUBLICIDADE' },
+    { id: 'documentario', label: 'DOCUMENTÁRIO' },
+    { id: 'musica', label: 'MÚSICA' },
+    { id: 'conteudo', label: 'CONTEÚDO' },
+    { id: 'series', label: 'SÉRIES' }
+  ],
+  en: [
+    { id: 'all', label: 'ALL' },
+    { id: 'publicidade', label: 'ADVERTISING' },
+    { id: 'documentario', label: 'DOCUMENTARY' },
+    { id: 'musica', label: 'MUSIC' },
+    { id: 'conteudo', label: 'CONTENT' },
+    { id: 'series', label: 'SERIES' }
+  ],
+  es: [
+    { id: 'all', label: 'TODOS' },
+    { id: 'publicidade', label: 'PUBLICIDAD' },
+    { id: 'documentario', label: 'DOCUMENTAL' },
+    { id: 'musica', label: 'MÚSICA' },
+    { id: 'conteudo', label: 'CONTENIDO' },
+    { id: 'series', label: 'SERIES' }
+  ]
+};
+
 const WORKS = [
-  { id: 'iRX4hQe8Kf8', cat: 'series', label: 'SÉRIES', title: 'MASTERCHEF BRASIL', client: 'BAND / ENDEMOL SHINE', specs: ['DIREÇÃO', 'ABERTURAS', '2023–2024', 'TV / STREAMING'] },
-  { id: 'MU_pSA7fd24', cat: 'conteudo', label: 'CONTEÚDO', title: 'MAKING OF MASTERCHEF 2024', client: 'BAND / ENDEMOL SHINE', specs: ['DIREÇÃO', 'MAKING OF', '2024', 'BASTIDORES'] },
-  { id: 'SORH6YecwmY', cat: 'conteudo', label: 'CONTEÚDO', title: 'ABERTURA MASTERCHEF — MK OF', client: 'BAND / ENDEMOL SHINE', specs: ['DIREÇÃO', 'MAKING OF', 'TV', 'BASTIDORES'] },
-  { id: '_sOtOC1IOZw', cat: 'publicidade', label: 'PUBLICIDADE', title: 'BEST COMMERCIAL WORK', client: 'PORTFÓLIO COMERCIAL', specs: ['DIREÇÃO', 'MONTAGEM', 'REEL', 'PUBLICIDADE'] },
-  { id: 'OvWO7CfaYr8', cat: 'publicidade', label: 'PUBLICIDADE', title: "MCDONALD'S — DIA DAS MULHERES", client: "MCDONALD'S BRASIL", specs: ['DIREÇÃO', 'CAMPANHA', 'PUBLICIDADE', 'DIGITAL'] },
-  { id: 'NBzyq-o-FxE', cat: 'publicidade', label: 'PUBLICIDADE', title: 'INSTITUCIONAL LOGGI', client: 'LOGGI', specs: ['DIREÇÃO', 'INSTITUCIONAL', 'FILME', 'MARCA'] },
-  { id: '7wOhthRJRkI', cat: 'documentario', label: 'DOCUMENTÁRIO', title: 'QUEBRADEIRAS DO BABAÇU', client: 'THE BODY SHOP BRASIL', specs: ['DIREÇÃO', 'DOCUMENTÁRIO', 'MARANHÃO', 'IMPACTO'] },
-  { id: '7nPCvczbfdk', cat: 'publicidade', label: 'PUBLICIDADE', title: "LASAGA AD — DIRECTOR'S CUT", client: 'LASAGA', specs: ['DIREÇÃO', "DIRECTOR'S CUT", 'CAMPANHA', 'FILME'] },
-  { id: 'DtLi-rz_s7s', cat: 'musica', label: 'MÚSICA', title: 'LA MENTIRA — MANO CHAO', client: 'VÍDEO: KIKO COSTATO', specs: ['DIREÇÃO', 'VIDEOCLIPE', 'MÚSICA', 'AUTORAL'] },
-  { id: 'lUcKHVAhNgA', cat: 'conteudo', label: 'CONTEÚDO', title: 'VEMPROCENTRO', client: 'ATLETA / CENTRO SP', specs: ['DIREÇÃO', 'CONTEÚDO', 'CIDADE', 'CULTURA'] },
-  { id: '7p7JCRoGMxU', cat: 'documentario', label: 'DOCUMENTÁRIO', title: 'GORJEIOS', client: 'DIREÇÃO KIKO COSTATO', specs: ['DIREÇÃO', 'AUTORAL', 'CURTA', 'CINEMA'] },
-  { id: 'UQ6MxIi0E-A', cat: 'publicidade', label: 'PUBLICIDADE', title: 'VINHETA ASSOCIADOS RETOQUE', client: 'ASSOCIADOS RETOQUE', specs: ['MOTION', 'VINHETA', 'IDENTIDADE', 'DESIGN'] },
+  {
+    id: 'iRX4hQe8Kf8', cat: 'series',
+    pt: { label: 'SÉRIES', title: 'MASTERCHEF BRASIL', client: 'BAND / ENDEMOL SHINE', specs: ['DIREÇÃO', 'ABERTURAS', '2023–2024', 'TV / STREAMING'] },
+    en: { label: 'SERIES', title: 'MASTERCHEF BRAZIL', client: 'BAND / ENDEMOL SHINE', specs: ['DIRECTION', 'OPENING TITLES', '2023–2024', 'TV / STREAMING'] },
+    es: { label: 'SERIES', title: 'MASTERCHEF BRASIL', client: 'BAND / ENDEMOL SHINE', specs: ['DIRECCIÓN', 'CABECERAS', '2023–2024', 'TV / STREAMING'] }
+  },
+  {
+    id: 'MU_pSA7fd24', cat: 'conteudo',
+    pt: { label: 'CONTEÚDO', title: 'MAKING OF MASTERCHEF 2024', client: 'BAND / ENDEMOL SHINE', specs: ['DIREÇÃO', 'MAKING OF', '2024', 'BASTIDORES'] },
+    en: { label: 'CONTENT', title: 'MAKING OF MASTERCHEF 2024', client: 'BAND / ENDEMOL SHINE', specs: ['DIRECTION', 'MAKING OF', '2024', 'BEHIND THE SCENES'] },
+    es: { label: 'CONTENIDO', title: 'MAKING OF MASTERCHEF 2024', client: 'BAND / ENDEMOL SHINE', specs: ['DIRECCIÓN', 'MAKING OF', '2024', 'DETRÁS DE CÁMARAS'] }
+  },
+  {
+    id: 'SORH6YecwmY', cat: 'conteudo',
+    pt: { label: 'CONTEÚDO', title: 'ABERTURA MASTERCHEF — MK OF', client: 'BAND / ENDEMOL SHINE', specs: ['DIREÇÃO', 'MAKING OF', 'TV', 'BASTIDORES'] },
+    en: { label: 'CONTENT', title: 'MASTERCHEF OPENING — MK OF', client: 'BAND / ENDEMOL SHINE', specs: ['DIRECTION', 'MAKING OF', 'TV', 'BEHIND THE SCENES'] },
+    es: { label: 'CONTENIDO', title: 'CABECERA MASTERCHEF — MK OF', client: 'BAND / ENDEMOL SHINE', specs: ['DIRECCIÓN', 'MAKING OF', 'TV', 'DETRÁS DE CÁMARAS'] }
+  },
+  {
+    id: '_sOtOC1IOZw', cat: 'publicidade',
+    pt: { label: 'PUBLICIDADE', title: 'BEST COMMERCIAL WORK', client: 'PORTFÓLIO COMERCIAL', specs: ['DIREÇÃO', 'MONTAGEM', 'REEL', 'PUBLICIDADE'] },
+    en: { label: 'ADVERTISING', title: 'BEST COMMERCIAL WORK', client: 'COMMERCIAL REEL', specs: ['DIRECTION', 'EDITING', 'REEL', 'ADVERTISING'] },
+    es: { label: 'PUBLICIDAD', title: 'BEST COMMERCIAL WORK', client: 'PORTAFOLIO COMERCIAL', specs: ['DIRECCIÓN', 'MONTAJE', 'REEL', 'PUBLICIDAD'] }
+  },
+  {
+    id: 'OvWO7CfaYr8', cat: 'publicidade',
+    pt: { label: 'PUBLICIDADE', title: "MCDONALD'S — DIA DAS MULHERES", client: "MCDONALD'S BRASIL", specs: ['DIREÇÃO', 'CAMPANHA', 'PUBLICIDADE', 'DIGITAL'] },
+    en: { label: 'ADVERTISING', title: "MCDONALD'S — WOMEN'S DAY", client: "MCDONALD'S BRAZIL", specs: ['DIRECTION', 'CAMPAIGN', 'ADVERTISING', 'DIGITAL'] },
+    es: { label: 'PUBLICIDAD', title: "MCDONALD'S — DÍA DE LA MUJER", client: "MCDONALD'S BRASIL", specs: ['DIRECCIÓN', 'CAMPAÑA', 'PUBLICIDAD', 'DIGITAL'] }
+  },
+  {
+    id: 'NBzyq-o-FxE', cat: 'publicidade',
+    pt: { label: 'PUBLICIDADE', title: 'INSTITUCIONAL LOGGI', client: 'LOGGI', specs: ['DIREÇÃO', 'INSTITUCIONAL', 'FILME', 'MARCA'] },
+    en: { label: 'ADVERTISING', title: 'LOGGI BRAND FILM', client: 'LOGGI', specs: ['DIRECTION', 'BRAND FILM', 'COMMERCIAL', 'CORPORATE'] },
+    es: { label: 'PUBLICIDAD', title: 'INSTITUCIONAL LOGGI', client: 'LOGGI', specs: ['DIRECCIÓN', 'INSTITUCIONAL', 'FILM', 'MARCA'] }
+  },
+  {
+    id: '7wOhthRJRkI', cat: 'documentario',
+    pt: { label: 'DOCUMENTÁRIO', title: 'QUEBRADEIRAS DO BABAÇU', client: 'THE BODY SHOP BRASIL', specs: ['DIREÇÃO', 'DOCUMENTÁRIO', 'MARANHÃO', 'IMPACTO'] },
+    en: { label: 'DOCUMENTARY', title: 'BABASSU NUT BREAKERS', client: 'THE BODY SHOP BRAZIL', specs: ['DIRECTION', 'DOCUMENTARY', 'MARANHÃO', 'SOCIAL IMPACT'] },
+    es: { label: 'DOCUMENTAL', title: 'QUEBRADORAS DE BABASÚ', client: 'THE BODY SHOP BRASIL', specs: ['DIRECCIÓN', 'DOCUMENTAL', 'MARANHÃO', 'IMPACTO SOCIAL'] }
+  },
+  {
+    id: '7nPCvczbfdk', cat: 'publicidade',
+    pt: { label: 'PUBLICIDADE', title: "LASAGA AD — DIRECTOR'S CUT", client: 'LASAGA', specs: ['DIREÇÃO', "DIRECTOR'S CUT", 'CAMPANHA', 'FILME'] },
+    en: { label: 'ADVERTISING', title: "LASAGA AD — DIRECTOR'S CUT", client: 'LASAGA', specs: ['DIRECTION', "DIRECTOR'S CUT", 'CAMPAIGN', 'FILM'] },
+    es: { label: 'PUBLICIDAD', title: "LASAGA AD — DIRECTOR'S CUT", client: 'LASAGA', specs: ['DIRECCIÓN', "DIRECTOR'S CUT", 'CAMPAÑA', 'FILM'] }
+  },
+  {
+    id: 'DtLi-rz_s7s', cat: 'musica',
+    pt: { label: 'MÚSICA', title: 'LA MENTIRA — MANO CHAO', client: 'VÍDEO: KIKO COSTATO', specs: ['DIREÇÃO', 'VIDEOCLIPE', 'MÚSICA', 'AUTORAL'] },
+    en: { label: 'MUSIC', title: 'LA MENTIRA — MANO CHAO', client: 'VIDEO: KIKO COSTATO', specs: ['DIRECTION', 'MUSIC VIDEO', 'MUSIC', 'AUTHORIAL'] },
+    es: { label: 'MÚSICA', title: 'LA MENTIRA — MANO CHAO', client: 'VIDEO: KIKO COSTATO', specs: ['DIRECCIÓN', 'VIDEOCLIP', 'MÚSICA', 'DE AUTOR'] }
+  },
+  {
+    id: 'lUcKHVAhNgA', cat: 'conteudo',
+    pt: { label: 'CONTEÚDO', title: 'VEMPROCENTRO', client: 'ATLETA / CENTRO SP', specs: ['DIREÇÃO', 'CONTEÚDO', 'CIDADE', 'CULTURA'] },
+    en: { label: 'CONTENT', title: 'VEMPROCENTRO', client: 'ATHLETE / DOWNTOWN SP', specs: ['DIRECTION', 'CONTENT', 'CITY', 'CULTURE'] },
+    es: { label: 'CONTENIDO', title: 'VEMPROCENTRO', client: 'ATLETA / CENTRO SP', specs: ['DIRECCIÓN', 'CONTENIDO', 'CIUDAD', 'CULTURA'] }
+  },
+  {
+    id: '7p7JCRoGMxU', cat: 'documentario',
+    pt: { label: 'DOCUMENTÁRIO', title: 'GORJEIOS', client: 'DIREÇÃO KIKO COSTATO', specs: ['DIREÇÃO', 'AUTORAL', 'CURTA', 'CINEMA'] },
+    en: { label: 'DOCUMENTARY', title: 'GORJEIOS (WARBLES)', client: 'DIRECTED BY KIKO COSTATO', specs: ['DIRECTION', 'AUTHORIAL', 'SHORT FILM', 'CINEMA'] },
+    es: { label: 'DOCUMENTAL', title: 'GORJEIOS (GORJEOS)', client: 'DIRECCIÓN KIKO COSTATO', specs: ['DIRECCIÓN', 'DE AUTOR', 'CORTOMETRAJE', 'CINE'] }
+  },
+  {
+    id: 'UQ6MxIi0E-A', cat: 'publicidade',
+    pt: { label: 'PUBLICIDADE', title: 'VINHETA ASSOCIADOS RETOQUE', client: 'ASSOCIADOS RETOQUE', specs: ['MOTION', 'VINHETA', 'IDENTIDADE', 'DESIGN'] },
+    en: { label: 'ADVERTISING', title: 'ASSOCIADOS RETOQUE ID', client: 'ASSOCIADOS RETOQUE', specs: ['MOTION', 'BUMPER', 'IDENTITY', 'DESIGN'] },
+    es: { label: 'PUBLICIDAD', title: 'CORTINILLA ASSOCIADOS RETOQUE', client: 'ASSOCIADOS RETOQUE', specs: ['MOTION', 'CORTINILLA', 'IDENTIDAD', 'DISEÑO'] }
+  },
 
   // Anjos da Estrada — Discovery Channel
-  { id: 'MU-wvdVBrzg', cat: 'series', label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 01 & 02', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', '47 MIN', 'DOCUMENTAL'] },
-  { id: 'zCQHplxeXws', cat: 'series', label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 03 & 04', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', '47 MIN', 'DOCUMENTAL'] },
-  { id: 'eFR70UzO2vY', cat: 'series', label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 05 & 06', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', '47 MIN', 'DOCUMENTAL'] },
-  { id: 'Wd1J-Qb63NI', cat: 'series', label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 07 & 08', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', '47 MIN', 'DOCUMENTAL'] },
-  { id: 'fDutoer3SBc', cat: 'series', label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 09 & 10', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', '47 MIN', 'DOCUMENTAL'] },
-  { id: 'Opc4eL0M1MY', cat: 'series', label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 11 & 12', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', '47 MIN', 'DOCUMENTAL'] },
-  { id: '3zkcjmGO_c4', cat: 'series', label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 13 (FINAL)', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', 'EP. FINAL', 'DOCUMENTAL'] },
+  {
+    id: 'MU-wvdVBrzg', cat: 'series',
+    pt: { label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 01 & 02', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', '47 MIN', 'DOCUMENTAL'] },
+    en: { label: 'SERIES', title: 'HIGHWAY ANGELS — EP. 01 & 02', client: 'DISCOVERY CHANNEL', specs: ['DIRECTION', 'TV SERIES', '47 MIN', 'DOCUMENTARY'] },
+    es: { label: 'SERIES', title: 'ÁNGELES DEL CAMINO — EP. 01 & 02', client: 'DISCOVERY CHANNEL', specs: ['DIRECCIÓN', 'SERIE TV', '47 MIN', 'DOCUMENTAL'] }
+  },
+  {
+    id: 'zCQHplxeXws', cat: 'series',
+    pt: { label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 03 & 04', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', '47 MIN', 'DOCUMENTAL'] },
+    en: { label: 'SERIES', title: 'HIGHWAY ANGELS — EP. 03 & 04', client: 'DISCOVERY CHANNEL', specs: ['DIRECTION', 'TV SERIES', '47 MIN', 'DOCUMENTARY'] },
+    es: { label: 'SERIES', title: 'ÁNGELES DEL CAMINO — EP. 03 & 04', client: 'DISCOVERY CHANNEL', specs: ['DIRECCIÓN', 'SERIE TV', '47 MIN', 'DOCUMENTAL'] }
+  },
+  {
+    id: 'eFR70UzO2vY', cat: 'series',
+    pt: { label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 05 & 06', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', '47 MIN', 'DOCUMENTAL'] },
+    en: { label: 'SERIES', title: 'HIGHWAY ANGELS — EP. 05 & 06', client: 'DISCOVERY CHANNEL', specs: ['DIRECTION', 'TV SERIES', '47 MIN', 'DOCUMENTARY'] },
+    es: { label: 'SERIES', title: 'ÁNGELES DEL CAMINO — EP. 05 & 06', client: 'DISCOVERY CHANNEL', specs: ['DIRECCIÓN', 'SERIE TV', '47 MIN', 'DOCUMENTAL'] }
+  },
+  {
+    id: 'Wd1J-Qb63NI', cat: 'series',
+    pt: { label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 07 & 08', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', '47 MIN', 'DOCUMENTAL'] },
+    en: { label: 'SERIES', title: 'HIGHWAY ANGELS — EP. 07 & 08', client: 'DISCOVERY CHANNEL', specs: ['DIRECTION', 'TV SERIES', '47 MIN', 'DOCUMENTARY'] },
+    es: { label: 'SERIES', title: 'ÁNGELES DEL CAMINO — EP. 07 & 08', client: 'DISCOVERY CHANNEL', specs: ['DIRECCIÓN', 'SERIE TV', '47 MIN', 'DOCUMENTAL'] }
+  },
+  {
+    id: 'fDutoer3SBc', cat: 'series',
+    pt: { label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 09 & 10', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', '47 MIN', 'DOCUMENTAL'] },
+    en: { label: 'SERIES', title: 'HIGHWAY ANGELS — EP. 09 & 10', client: 'DISCOVERY CHANNEL', specs: ['DIRECTION', 'TV SERIES', '47 MIN', 'DOCUMENTARY'] },
+    es: { label: 'SERIES', title: 'ÁNGELES DEL CAMINO — EP. 09 & 10', client: 'DISCOVERY CHANNEL', specs: ['DIRECCIÓN', 'SERIE TV', '47 MIN', 'DOCUMENTAL'] }
+  },
+  {
+    id: 'Opc4eL0M1MY', cat: 'series',
+    pt: { label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 11 & 12', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', '47 MIN', 'DOCUMENTAL'] },
+    en: { label: 'SERIES', title: 'HIGHWAY ANGELS — EP. 11 & 12', client: 'DISCOVERY CHANNEL', specs: ['DIRECTION', 'TV SERIES', '47 MIN', 'DOCUMENTARY'] },
+    es: { label: 'SERIES', title: 'ÁNGELES DEL CAMINO — EP. 11 & 12', client: 'DISCOVERY CHANNEL', specs: ['DIRECCIÓN', 'SERIE TV', '47 MIN', 'DOCUMENTAL'] }
+  },
+  {
+    id: '3zkcjmGO_c4', cat: 'series',
+    pt: { label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 13 (FINAL)', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', 'EP. FINAL', 'DOCUMENTAL'] },
+    en: { label: 'SERIES', title: 'HIGHWAY ANGELS — EP. 13 (FINALE)', client: 'DISCOVERY CHANNEL', specs: ['DIRECTION', 'TV SERIES', 'FINALE', 'DOCUMENTARY'] },
+    es: { label: 'SERIES', title: 'ÁNGELES DEL CAMINO — EP. 13 (FINAL)', client: 'DISCOVERY CHANNEL', specs: ['DIRECCIÓN', 'SERIE TV', 'EP. FINAL', 'DOCUMENTAL'] }
+  },
 
   // O Laboratório da Luta (Apenas 1ª Temporada)
-  { id: 'dE5iHyM_VVo', cat: 'series', label: 'SÉRIES', title: 'LABORATÓRIO DA LUTA — EP. 02', client: 'MIXER FILMS / COMBATE', specs: ['DIREÇÃO', 'BETHE CORREIA', '28 MIN', '1ª TEMPORADA'] },
-  { id: 'FYiRyBCUoJs', cat: 'conteudo', label: 'CONTEÚDO', title: 'LABORATÓRIO DA LUTA — PROMO 1ª TEMP.', client: 'MIXER FILMS / COMBATE', specs: ['DIREÇÃO', '1ª TEMPORADA', 'PROMO', 'COMBATE'] },
-  { id: 'mq5YQXZsitE', cat: 'documentario', label: 'DOCUMENTÁRIO', title: 'CIÊNCIA NAS ARTES MARCIAIS', client: 'SENSEI SPORTV', specs: ['DIREÇÃO', 'SPORTV', 'ESPECIAL', 'MATÉRIA'] },
+  {
+    id: 'dE5iHyM_VVo', cat: 'series',
+    pt: { label: 'SÉRIES', title: 'LABORATÓRIO DA LUTA — EP. 02', client: 'MIXER FILMS / COMBATE', specs: ['DIREÇÃO', 'BETHE CORREIA', '28 MIN', '1ª TEMPORADA'] },
+    en: { label: 'SERIES', title: 'FIGHT LAB — EP. 02', client: 'MIXER FILMS / COMBATE', specs: ['DIRECTION', 'BETHE CORREIA', '28 MIN', 'SEASON 1'] },
+    es: { label: 'SERIES', title: 'LABORATORIO DE LA LUCHA — EP. 02', client: 'MIXER FILMS / COMBATE', specs: ['DIRECCIÓN', 'BETHE CORREIA', '28 MIN', 'TEMPORADA 1'] }
+  },
+  {
+    id: 'FYiRyBCUoJs', cat: 'conteudo',
+    pt: { label: 'CONTEÚDO', title: 'LABORATÓRIO DA LUTA — PROMO 1ª TEMP.', client: 'MIXER FILMS / COMBATE', specs: ['DIREÇÃO', '1ª TEMPORADA', 'PROMO', 'COMBATE'] },
+    en: { label: 'CONTENT', title: 'FIGHT LAB — SEASON 1 PROMO', client: 'MIXER FILMS / COMBATE', specs: ['DIRECTION', 'SEASON 1', 'PROMO', 'COMBATE'] },
+    es: { label: 'CONTENIDO', title: 'LABORATORIO DE LA LUCHA — PROMO 1ª TEMP.', client: 'MIXER FILMS / COMBATE', specs: ['DIRECCIÓN', 'TEMPORADA 1', 'PROMO', 'COMBATE'] }
+  },
+  {
+    id: 'mq5YQXZsitE', cat: 'documentario',
+    pt: { label: 'DOCUMENTÁRIO', title: 'CIÊNCIA NAS ARTES MARCIAIS', client: 'SENSEI SPORTV', specs: ['DIREÇÃO', 'SPORTV', 'ESPECIAL', 'MATÉRIA'] },
+    en: { label: 'DOCUMENTARY', title: 'SCIENCE IN MARTIAL ARTS', client: 'SENSEI SPORTV', specs: ['DIRECTION', 'SPORTV', 'SPECIAL', 'FEATURE'] },
+    es: { label: 'DOCUMENTAL', title: 'CIENCIA EN LAS ARTES MARCIALES', client: 'SENSEI SPORTV', specs: ['DIRECCIÓN', 'SPORTV', 'ESPECIAL', 'REPORTAJE'] }
+  },
 
   // Turistinha Espacial
-  { id: 'wm2gcUkSnUg', cat: 'musica', label: 'MÚSICA', title: 'TURISTINHA ESPACIAL — TEMA', client: 'SÉRIE ORIGINAL • PT-BR', specs: ['CRIAÇÃO', 'MÚSICA TEMA', 'ANIMAÇÃO', 'FAMÍLIA'] },
-  { id: 'D7MNCJAGOeY', cat: 'series', label: 'SÉRIES', title: 'TURISTINHA — NATAL DOS ANIMAIS', client: 'SÉRIE ORIGINAL', specs: ['CRIAÇÃO', 'ESPECIAL', 'ANIMAÇÃO', 'FAMÍLIA'] },
-  { id: 'jA6L6iOw7II', cat: 'series', label: 'SÉRIES', title: "IT'S VACATION TIME!", client: 'LITTLE SPACE TOURIST', specs: ['CRIAÇÃO', 'ENGLISH', 'EPISÓDIO', 'ANIMAÇÃO'] },
-  { id: 'ZZLHNONNT08', cat: 'musica', label: 'MÚSICA', title: 'NATAL DOS ANIMAIS — LYRIC', client: 'TURISTINHA ESPACIAL', specs: ['MÚSICA', 'LYRIC VIDEO', 'ANIMAÇÃO', 'INFANTIL'] },
-  { id: 'Q_jktf2-_qs', cat: 'musica', label: 'MÚSICA', title: 'CANTE COM O TURISTINHA!', client: 'TURISTINHA ESPACIAL', specs: ['MÚSICA', 'PT-BR', 'EXPLORAR', 'INFANTIL'] },
-  { id: 'NK0IVCqo0Js', cat: 'series', label: 'SÉRIES', title: 'TURISTITA ESPACIAL — ESPAÑOL', client: 'SÉRIE ORIGINAL', specs: ['CRIAÇÃO', 'ESPAÑOL', 'EPISÓDIO', 'ANIMAÇÃO'] },
-  { id: 'ROpB3awHKL0', cat: 'musica', label: 'MÚSICA', title: 'LITTLE SPACE TOURIST — THEME', client: 'ENGLISH VERSION', specs: ['CRIAÇÃO', 'MÚSICA TEMA', 'ENGLISH', 'ANIMAÇÃO'] }
+  {
+    id: 'wm2gcUkSnUg', cat: 'musica',
+    pt: { label: 'MÚSICA', title: 'TURISTINHA ESPACIAL — TEMA', client: 'SÉRIE ORIGINAL • PT-BR', specs: ['CRIAÇÃO', 'MÚSICA TEMA', 'ANIMAÇÃO', 'FAMÍLIA'] },
+    en: { label: 'MUSIC', title: 'LITTLE SPACE TOURIST — THEME', client: 'ORIGINAL SERIES • PT-BR', specs: ['CREATION', 'THEME SONG', 'ANIMATION', 'FAMILY'] },
+    es: { label: 'MÚSICA', title: 'TURISTITA ESPACIAL — TEMA', client: 'SERIE ORIGINAL • PT-BR', specs: ['CREACIÓN', 'CANCIÓN TEMA', 'ANIMACIÓN', 'FAMILIA'] }
+  },
+  {
+    id: 'D7MNCJAGOeY', cat: 'series',
+    pt: { label: 'SÉRIES', title: 'TURISTINHA — NATAL DOS ANIMAIS', client: 'SÉRIE ORIGINAL', specs: ['CRIAÇÃO', 'ESPECIAL', 'ANIMAÇÃO', 'FAMÍLIA'] },
+    en: { label: 'SERIES', title: 'SPACE TOURIST — ANIMALS CHRISTMAS', client: 'ORIGINAL SERIES', specs: ['CREATION', 'SPECIAL', 'ANIMATION', 'FAMILY'] },
+    es: { label: 'SERIES', title: 'TURISTITA — NAVIDAD DE LOS ANIMALES', client: 'SERIE ORIGINAL', specs: ['CREACIÓN', 'ESPECIAL', 'ANIMACIÓN', 'FAMILIA'] }
+  },
+  {
+    id: 'jA6L6iOw7II', cat: 'series',
+    pt: { label: 'SÉRIES', title: "IT'S VACATION TIME!", client: 'LITTLE SPACE TOURIST', specs: ['CRIAÇÃO', 'ENGLISH', 'EPISÓDIO', 'ANIMAÇÃO'] },
+    en: { label: 'SERIES', title: "IT'S VACATION TIME!", client: 'LITTLE SPACE TOURIST', specs: ['CREATION', 'ENGLISH', 'EPISODE', 'ANIMATION'] },
+    es: { label: 'SERIES', title: "IT'S VACATION TIME!", client: 'LITTLE SPACE TOURIST', specs: ['CREACIÓN', 'INGLÉS', 'EPISODIO', 'ANIMACIÓN'] }
+  },
+  {
+    id: 'ZZLHNONNT08', cat: 'musica',
+    pt: { label: 'MÚSICA', title: 'NATAL DOS ANIMAIS — LYRIC', client: 'TURISTINHA ESPACIAL', specs: ['MÚSICA', 'LYRIC VIDEO', 'ANIMAÇÃO', 'INFANTIL'] },
+    en: { label: 'MUSIC', title: 'ANIMALS CHRISTMAS — LYRIC', client: 'LITTLE SPACE TOURIST', specs: ['MUSIC', 'LYRIC VIDEO', 'ANIMATION', 'KIDS'] },
+    es: { label: 'MÚSICA', title: 'NAVIDAD DE LOS ANIMALES — LYRIC', client: 'TURISTITA ESPACIAL', specs: ['MÚSICA', 'LYRIC VIDEO', 'ANIMACIÓN', 'INFANTIL'] }
+  },
+  {
+    id: 'Q_jktf2-_qs', cat: 'musica',
+    pt: { label: 'MÚSICA', title: 'CANTE COM O TURISTINHA!', client: 'TURISTINHA ESPACIAL', specs: ['MÚSICA', 'PT-BR', 'EXPLORAR', 'INFANTIL'] },
+    en: { label: 'MUSIC', title: 'SING ALONG WITH TURISTINHA!', client: 'LITTLE SPACE TOURIST', specs: ['MUSIC', 'PT-BR', 'SING ALONG', 'KIDS'] },
+    es: { label: 'MÚSICA', title: '¡CANTA CON TURISTITA!', client: 'TURISTITA ESPACIAL', specs: ['MÚSICA', 'PT-BR', 'EXPLORAR', 'INFANTIL'] }
+  },
+  {
+    id: 'NK0IVCqo0Js', cat: 'series',
+    pt: { label: 'SÉRIES', title: 'TURISTITA ESPACIAL — ESPAÑOL', client: 'SÉRIE ORIGINAL', specs: ['CRIAÇÃO', 'ESPAÑOL', 'EPISÓDIO', 'ANIMAÇÃO'] },
+    en: { label: 'SERIES', title: 'TURISTITA ESPACIAL — SPANISH', client: 'ORIGINAL SERIES', specs: ['CREATION', 'SPANISH', 'EPISODE', 'ANIMATION'] },
+    es: { label: 'SERIES', title: 'TURISTITA ESPACIAL — ESPAÑOL', client: 'SERIE ORIGINAL', specs: ['CREACIÓN', 'ESPAÑOL', 'EPISODIO', 'ANIMACIÓN'] }
+  },
+  {
+    id: 'ROpB3awHKL0', cat: 'musica',
+    pt: { label: 'MÚSICA', title: 'LITTLE SPACE TOURIST — THEME', client: 'ENGLISH VERSION', specs: ['CRIAÇÃO', 'MÚSICA TEMA', 'ENGLISH', 'ANIMAÇÃO'] },
+    en: { label: 'MUSIC', title: 'LITTLE SPACE TOURIST — THEME', client: 'ENGLISH VERSION', specs: ['CREATION', 'THEME SONG', 'ENGLISH', 'ANIMATION'] },
+    es: { label: 'MÚSICA', title: 'LITTLE SPACE TOURIST — THEME', client: 'VERSIÓN INGLÉS', specs: ['CREACIÓN', 'CANCIÓN TEMA', 'INGLÉS', 'ANIMACIÓN'] }
+  }
 ];
 
-const FILTERS = [
-  { id: 'all', label: 'TODOS' },
-  { id: 'publicidade', label: 'PUBLICIDADE' },
-  { id: 'documentario', label: 'DOCUMENTÁRIO' },
-  { id: 'musica', label: 'MÚSICA' },
-  { id: 'conteudo', label: 'CONTEÚDO' },
-  { id: 'series', label: 'SÉRIES' }
-];
+const CATALOG_I18N = {
+  voltagem_t1: {
+    en: {
+      tab: 'Voltagem — Season 1',
+      badge: 'Documentary & Music Audio-Series',
+      title: 'Voltagem — Season 1: The History of Synthesizers',
+      subtitle: 'From Theremin to Modulars + Brazil Special (9 Episodes)',
+      description: 'How electricity became sound: from the Theremin, Moog and Roland TR-808 to digital synthesizers and Brazilian electronic pioneers.'
+    },
+    es: {
+      tab: 'Voltagem — Temporada 1',
+      badge: 'Audio-Serie Documental & Musical',
+      title: 'Voltagem — Temporada 1: La Historia de los Sintetizadores',
+      subtitle: 'Del Theremin a los Modulares + Especial Brasil (9 Episodios)',
+      description: 'Cómo la electricidad se convirtió en sonido: del Theremin, Moog y Roland TR-808 a los sintetizadores digitales y pioneros brasileños.'
+    }
+  },
+  voltagem_t2: {
+    en: {
+      tab: 'Voltagem — Season 2',
+      badge: 'Documentary & Music Audio-Series',
+      title: 'Voltagem — Season 2: Record Labels & the Music Industry',
+      subtitle: 'From Tin Pan Alley to the Streaming Algorithm (5 Episodes)',
+      description: 'The behind-the-scenes history of how music was packaged, sold and transformed from sheet music and vinyl to global streaming platforms.'
+    },
+    es: {
+      tab: 'Voltagem — Temporada 2',
+      badge: 'Audio-Serie Documental & Musical',
+      title: 'Voltagem — Temporada 2: Discográficas e Industria Musical',
+      subtitle: 'De Tin Pan Alley al Algoritmo del Streaming (5 Episodios)',
+      description: 'La historia detrás de cómo la música fue empaquetada, vendida y transformada desde las partituras y el vinilo hasta el streaming global.'
+    }
+  },
+  radio_br: {
+    en: {
+      tab: 'Radio Brazil',
+      badge: 'Brazil Special Series',
+      title: 'History of Music Radio — Brazil',
+      subtitle: 'From the Golden Era to Payola, FM Wars and Streaming (8 Episodes)',
+      description: 'A deep dive into Brazilian music radio: Rádio Nacional, FM revolution, censorship, payola and the transition to digital.'
+    },
+    es: {
+      tab: 'Radio Brasil',
+      badge: 'Serie Especial Brasil',
+      title: 'Historia de la Radio Musical — Brasil',
+      subtitle: 'De la Era de Oro al Jabá, la Guerra del FM y el Streaming (8 Episodios)',
+      description: 'Un recorrido por la radio musical brasileña: Rádio Nacional, la revolución FM, la censura y la transición al mundo digital.'
+    }
+  },
+  radio_eua: {
+    en: {
+      tab: 'Radio USA',
+      badge: 'International Series',
+      title: 'History of Music Radio — United States',
+      subtitle: 'From Fessenden and Top 40 to Payola, Clear Channel and TikTok (8 Episodes)',
+      description: 'How American radio invented pop formats, Top 40 rotation, DJ culture and consolidated into today’s algorithm-driven landscape.'
+    },
+    es: {
+      tab: 'Radio EE. UU.',
+      badge: 'Serie Internacional',
+      title: 'Historia de la Radio Musical — Estados Unidos',
+      subtitle: 'De Fessenden y el Top 40 a Payola, Clear Channel y TikTok (8 Episodios)',
+      description: 'Cómo la radio estadounidense inventó los formatos pop, el Top 40, la cultura DJ y su transformación hacia la era de los algoritmos.'
+    }
+  },
+  radio_uk: {
+    en: {
+      tab: 'Radio UK',
+      badge: 'International Series',
+      title: 'History of Music Radio — England & United Kingdom',
+      subtitle: 'BBC, Pirate Ships, John Peel, Rinse FM and DAB (8 Episodes)',
+      description: 'From the BBC monopoly and offshore pirate radio ships to John Peel’s sessions, London pirate FM culture and underground bass.'
+    },
+    es: {
+      tab: 'Radio Reino Unido',
+      badge: 'Serie Internacional',
+      title: 'Historia de la Radio Musical — Inglaterra & Reino Unido',
+      subtitle: 'BBC, Barcos Piratas, John Peel, Rinse FM y DAB (8 Episodios)',
+      description: 'Del monopolio de la BBC y los barcos piratas en alta mar a las sesiones de John Peel, la cultura FM clandestina y la música urbana.'
+    }
+  },
+  lendas_br: {
+    en: {
+      tab: 'Hidden Archives',
+      badge: '100% Narrated • Open RSS',
+      title: 'Hidden Archives of Brazil',
+      subtitle: 'Urban Legends, Tabloid Press & Unexplained Cases (6 Episodes)',
+      description: 'Atmospheric narrated storytelling exploring Brazil’s classic urban legends, mysterious press clippings and unexplained folklore.'
+    },
+    es: {
+      tab: 'Archivos Ocultos',
+      badge: '100% Narrado • RSS Libre',
+      title: 'Archivos Ocultos de Brasil',
+      subtitle: 'Leyendas Urbanas, Prensa Sensacionalista & Casos Inexplicados (6 Episodios)',
+      description: 'Narración atmosférica que explora las leyendas urbanas clásicas de Brasil, recortes de prensa misteriosos y casos sin explicación.'
+    }
+  }
+};
+
+let currentLang = localStorage.getItem('bf_lang') || 'pt';
+if (!I18N[currentLang]) currentLang = 'pt';
+
+let workApi = null;
+let catalogApi = null;
+
+function applyStaticTranslations() {
+  const t = I18N[currentLang];
+  document.documentElement.lang = t.html_lang;
+  document.title = t.meta_title;
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) metaDesc.setAttribute('content', t.meta_desc);
+
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (t[key] !== undefined) el.textContent = t[key];
+  });
+  document.querySelectorAll('[data-i18n-html]').forEach(el => {
+    const key = el.getAttribute('data-i18n-html');
+    if (t[key] !== undefined) el.innerHTML = t[key];
+  });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+    const key = el.getAttribute('data-i18n-placeholder');
+    if (t[key] !== undefined) el.setAttribute('placeholder', t[key]);
+  });
+  document.querySelectorAll('[data-i18n-alt]').forEach(el => {
+    const key = el.getAttribute('data-i18n-alt');
+    if (t[key] !== undefined) el.setAttribute('alt', t[key]);
+  });
+
+  const subj = document.getElementById('form-subject');
+  if (subj) subj.value = t.form_subject;
+
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === currentLang);
+  });
+}
 
 function initWork() {
   const filtersEl = document.getElementById('work-filters');
@@ -53,34 +503,50 @@ function initWork() {
   let currentCat = 'all';
   let currentList = WORKS;
   let currentIndex = 0;
+  let isPlaying = false;
+
+  function renderFilters() {
+    filtersEl.innerHTML = '';
+    FILTERS[currentLang].forEach(f => {
+      const btn = document.createElement('button');
+      btn.className = 'filter-btn' + (f.id === currentCat ? ' active' : '');
+      btn.dataset.cat = f.id;
+      btn.textContent = f.label;
+      btn.onclick = () => setFilter(f.id);
+      filtersEl.appendChild(btn);
+    });
+  }
 
   function renderStage(playing = false) {
+    isPlaying = playing;
     const item = currentList[currentIndex] || currentList[0];
+    const loc = item[currentLang] || item.pt;
+    const t = I18N[currentLang];
     const num = String(currentIndex + 1).padStart(2, '0');
     const total = String(currentList.length).padStart(2, '0');
 
     stageEl.innerHTML = `
       <div class="featured-info">
         <div>
-          <div class="featured-cat">${item.label}</div>
-          <h3 class="featured-title">${item.title}</h3>
-          <div class="featured-client">${item.client}</div>
-          <div class="featured-specs">${item.specs.map(s => `| ${s}`).join('<br>')}</div>
+          <div class="featured-cat">${loc.label}</div>
+          <h3 class="featured-title">${loc.title}</h3>
+          <div class="featured-client">${loc.client}</div>
+          <div class="featured-specs">${loc.specs.map(s => `| ${s}`).join('<br>')}</div>
         </div>
         <button class="play-pill" id="stage-play-btn" type="button">
           <span class="play-circle">▶</span>
-          <span>PLAY FILM &gt;&gt;</span>
+          <span>${t.play_film}</span>
         </button>
       </div>
       <div class="featured-media" id="stage-media">
         ${playing
-          ? `<iframe src="https://www.youtube.com/embed/${item.id}?autoplay=1" title="${item.title}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
-          : `<img src="https://i.ytimg.com/vi/${item.id}/hqdefault.jpg" alt="${item.title}" />`
+          ? `<iframe src="https://www.youtube.com/embed/${item.id}?autoplay=1" title="${loc.title}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+          : `<img src="https://i.ytimg.com/vi/${item.id}/hqdefault.jpg" alt="${loc.title}" />`
         }
         <div class="stage-controls">
           <span>${num}<br>/<br>${total}</span>
-          <button id="prev-work" type="button" aria-label="Anterior">‹</button>
-          <button id="next-work" type="button" aria-label="Próximo">›</button>
+          <button id="prev-work" type="button" aria-label="${t.prev_label}">‹</button>
+          <button id="next-work" type="button" aria-label="${t.next_label}">›</button>
         </div>
       </div>
     `;
@@ -99,15 +565,18 @@ function initWork() {
   }
 
   function renderThumbs() {
-    stripEl.innerHTML = currentList.map((w, idx) => `
-      <article class="thumb-card ${idx === currentIndex ? 'active' : ''}" data-idx="${idx}">
-        <div class="thumb-img-wrap">
-          <img src="https://i.ytimg.com/vi/${w.id}/hqdefault.jpg" alt="${w.title}" loading="lazy" />
-        </div>
-        <div class="thumb-client">${w.client}</div>
-        <div class="thumb-sub">${w.title}</div>
-      </article>
-    `).join('');
+    stripEl.innerHTML = currentList.map((w, idx) => {
+      const loc = w[currentLang] || w.pt;
+      return `
+        <article class="thumb-card ${idx === currentIndex ? 'active' : ''}" data-idx="${idx}">
+          <div class="thumb-img-wrap">
+            <img src="https://i.ytimg.com/vi/${w.id}/hqdefault.jpg" alt="${loc.title}" loading="lazy" />
+          </div>
+          <div class="thumb-client">${loc.client}</div>
+          <div class="thumb-sub">${loc.title}</div>
+        </article>
+      `;
+    }).join('');
 
     stripEl.querySelectorAll('.thumb-card').forEach(card => {
       card.onclick = () => {
@@ -130,21 +599,21 @@ function initWork() {
     renderThumbs();
   }
 
-  FILTERS.forEach(f => {
-    const btn = document.createElement('button');
-    btn.className = 'filter-btn' + (f.id === 'all' ? ' active' : '');
-    btn.dataset.cat = f.id;
-    btn.textContent = f.label;
-    btn.onclick = () => setFilter(f.id);
-    filtersEl.appendChild(btn);
-  });
-
   document.querySelectorAll('.cat-tile').forEach(tile => {
     tile.addEventListener('click', () => setFilter(tile.dataset.cat));
   });
 
+  renderFilters();
   renderStage(false);
   renderThumbs();
+
+  return {
+    refreshLang() {
+      renderFilters();
+      renderStage(isPlaying);
+      renderThumbs();
+    }
+  };
 }
 
 async function initCatalog() {
@@ -152,11 +621,28 @@ async function initCatalog() {
   const catalog = await res.json();
   const tabsEl = document.getElementById('series-tabs');
   const detailEl = document.getElementById('series-detail');
+  let activeSeriesIdx = 0;
 
-  function renderSeries(s) {
-    const modeLabel = s.legal_mode === 'rss_direct'
-      ? 'Player HTML5 Direto / Feed RSS Aberto'
-      : 'Embed Mixcloud / YouTube (Royalties Licenciados)';
+  function getSeriesText(s) {
+    if (currentLang !== 'pt' && CATALOG_I18N[s.id] && CATALOG_I18N[s.id][currentLang]) {
+      return CATALOG_I18N[s.id][currentLang];
+    }
+    return {
+      tab: s.title.split(':')[0].replace('História do Rádio Musical — ', 'Rádio '),
+      badge: s.badge,
+      title: s.title,
+      subtitle: s.subtitle,
+      description: s.description
+    };
+  }
+
+  function renderSeries(idx) {
+    activeSeriesIdx = idx;
+    const s = catalog[idx];
+    if (!s) return;
+    const st = getSeriesText(s);
+    const t = I18N[currentLang];
+    const modeLabel = s.legal_mode === 'rss_direct' ? t.mode_rss : t.mode_embed;
 
     const epsHtml = s.episodes.map(ep => {
       const img = ep.cover ? `<img class="ep-cover" src="${ep.cover}" alt="${ep.title}" loading="lazy" />` : '';
@@ -176,29 +662,58 @@ async function initCatalog() {
 
     detailEl.innerHTML = `
       <div class="series-banner">
-        <span class="badge">${s.badge} • ${s.lang}</span>
-        <h3>${s.title}</h3>
-        <div>${s.subtitle}</div>
-        <p>${s.description}</p>
+        <span class="badge">${st.badge} • ${s.lang}</span>
+        <h3>${st.title}</h3>
+        <div>${st.subtitle}</div>
+        <p>${st.description}</p>
       </div>
       <div class="ep-grid">${epsHtml}</div>
     `;
   }
 
-  catalog.forEach((s, idx) => {
-    const btn = document.createElement('button');
-    btn.className = 'filter-btn' + (idx === 0 ? ' active' : '');
-    btn.textContent = s.title.split(':')[0].replace('História do Rádio Musical — ', 'Rádio ');
-    btn.onclick = () => {
-      tabsEl.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      renderSeries(s);
-    };
-    tabsEl.appendChild(btn);
-  });
+  function renderTabs() {
+    tabsEl.innerHTML = '';
+    catalog.forEach((s, idx) => {
+      const st = getSeriesText(s);
+      const btn = document.createElement('button');
+      btn.className = 'filter-btn' + (idx === activeSeriesIdx ? ' active' : '');
+      btn.textContent = st.tab;
+      btn.onclick = () => {
+        tabsEl.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        renderSeries(idx);
+      };
+      tabsEl.appendChild(btn);
+    });
+  }
 
-  if (catalog.length) renderSeries(catalog[0]);
+  if (catalog.length) {
+    renderTabs();
+    renderSeries(0);
+  }
+
+  return {
+    refreshLang() {
+      if (!catalog.length) return;
+      renderTabs();
+      renderSeries(activeSeriesIdx);
+    }
+  };
 }
 
-initWork();
-initCatalog();
+function setLanguage(lang) {
+  if (!I18N[lang]) return;
+  currentLang = lang;
+  localStorage.setItem('bf_lang', lang);
+  applyStaticTranslations();
+  if (workApi) workApi.refreshLang();
+  if (catalogApi) catalogApi.refreshLang();
+}
+
+document.querySelectorAll('.lang-btn').forEach(btn => {
+  btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
+});
+
+applyStaticTranslations();
+workApi = initWork();
+initCatalog().then(api => { catalogApi = api; });
