@@ -331,12 +331,20 @@
     <div class="container contact-box">
       <div>
         <h2>Vamos tirar seu projeto do papel?</h2>
-        <p>Atendimento direto com o diretor e produtor Kiko para projetos audiovisuais, podcasts corporativos, séries documentais e licenciamento.</p>
+        <p>Mande uma mensagem direto para a produtora — atendimento com Kiko Costato para filmes, direção criativa, trilhas e áudio-séries.</p>
+        <div class="contact-actions">
+          <a href="mailto:contato@beatsandframes.com.br" class="btn-ghost">contato@beatsandframes.com.br</a>
+          <a href="mailto:kiko@beatsandframes.com.br" class="btn-ghost">kiko@beatsandframes.com.br</a>
+        </div>
       </div>
-      <div class="contact-actions">
-        <a href="https://wa.me/5511964099016" target="_blank" rel="noopener" class="btn-primary">WhatsApp: +55 (11) 96409-9016</a>
-        <a href="mailto:contato@beatsandframes.com.br" class="btn-ghost">contato@beatsandframes.com.br</a>
-      </div>
+      <form class="contact-form" action="https://formsubmit.co/contato@beatsandframes.com.br" method="POST">
+        <input type="hidden" name="_subject" value="Novo contato via Beats and Frames Lab" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="text" name="name" placeholder="Seu nome" required />
+        <input type="email" name="email" placeholder="Seu e-mail" required />
+        <textarea name="message" rows="4" placeholder="Conte sobre seu projeto ou mande uma mensagem..." required></textarea>
+        <button type="submit" class="btn-primary">Mande uma mensagem</button>
+      </form>
     </div>
   </section>
 
