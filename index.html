@@ -5,18 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BEATS AND FRAMES LAB — Kiko Costato • Diretor, Criador &amp; DJ</title>
   <meta name="description" content="Beats and Frames Lab (beatsandframes.com.br): Música, imagem e histórias em movimento. Direção, conteúdo customizado, documentário, publicidade e séries." />
-  <link rel="stylesheet" href="styles.css?v=6" />
+  <link rel="stylesheet" href="styles.css?v=8" />
 </head>
 <body>
-  <header class="hero" id="top">
+  <div class="inner-topbar">
+    <a href="#home" class="inner-brand" data-page-link="home">BEATS <span class="pink">AND</span> FRAMES LAB</a>
+    <nav class="hero-nav">
+      <a href="#home" data-page-link="home">Home</a>
+      <a href="#work" data-page-link="work" data-i18n="nav_work">Work</a>
+      <a href="#verticais" data-page-link="verticais" data-i18n="nav_vertical">Vertical 9:16</a>
+      <a href="#produtora" data-page-link="produtora" data-i18n="nav_prod">Produtora</a>
+      <a href="#sobre" data-page-link="sobre" data-i18n="nav_about">Sobre</a>
+      <a href="#audioseries" data-page-link="audioseries" data-i18n="nav_audio">Áudio-Séries</a>
+      <a href="#contato" data-page-link="contato" data-i18n="nav_contact">Contato</a>
+    </nav>
+    <div class="hero-right-hud">
+      <div class="lang-switcher" role="group" aria-label="Language selector">
+        <button type="button" class="lang-btn active" data-lang="pt">PT</button>
+        <span class="lang-sep">/</span>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+        <span class="lang-sep">/</span>
+        <button type="button" class="lang-btn" data-lang="es">ES</button>
+      </div>
+      <span class="rec-badge">REC <i></i></span>
+    </div>
+  </div>
+
+  <header class="hero page-view active" id="home" data-page="home">
     <div class="hero-topbar">
       <nav class="hero-nav">
-        <a href="#work" data-i18n="nav_work">Work</a>
-        <a href="#verticais" data-i18n="nav_vertical">Vertical 9:16</a>
-        <a href="#produtora" data-i18n="nav_prod">Produtora</a>
-        <a href="#sobre" data-i18n="nav_about">Sobre</a>
-        <a href="#audioseries" data-i18n="nav_audio">Áudio-Séries</a>
-        <a href="#contato" data-i18n="nav_contact">Contato</a>
+        <a href="#home" data-page-link="home" class="active-nav">Home</a>
+        <a href="#work" data-page-link="work" data-i18n="nav_work">Work</a>
+        <a href="#verticais" data-page-link="verticais" data-i18n="nav_vertical">Vertical 9:16</a>
+        <a href="#produtora" data-page-link="produtora" data-i18n="nav_prod">Produtora</a>
+        <a href="#sobre" data-page-link="sobre" data-i18n="nav_about">Sobre</a>
+        <a href="#audioseries" data-page-link="audioseries" data-i18n="nav_audio">Áudio-Séries</a>
+        <a href="#contato" data-page-link="contato" data-i18n="nav_contact">Contato</a>
       </nav>
       <div class="hero-right-hud">
         <div class="lang-switcher" role="group" aria-label="Language selector">
@@ -60,30 +84,30 @@
     </div>
 
     <div class="cat-strip">
-      <a class="cat-tile" data-cat="publicidade" href="#work">
+      <a class="cat-tile" data-cat="publicidade" href="#work" data-page-link="work">
         <img src="https://i.ytimg.com/vi/_sOtOC1IOZw/hqdefault.jpg" alt="Publicidade" data-i18n-alt="cat_pub" />
         <span data-i18n="cat_pub">PUBLICIDADE</span><span>&gt;&gt;</span>
       </a>
-      <a class="cat-tile" data-cat="documentario" href="#work">
+      <a class="cat-tile" data-cat="documentario" href="#work" data-page-link="work">
         <img src="https://i.ytimg.com/vi/7wOhthRJRkI/hqdefault.jpg" alt="Documentário" data-i18n-alt="cat_doc" />
         <span data-i18n="cat_doc">DOCUMENTÁRIO</span><span>&gt;&gt;</span>
       </a>
-      <a class="cat-tile" data-cat="musica" href="#work">
+      <a class="cat-tile" data-cat="musica" href="#work" data-page-link="work">
         <img src="https://i.ytimg.com/vi/DtLi-rz_s7s/hqdefault.jpg" alt="Música" data-i18n-alt="cat_mus" />
         <span data-i18n="cat_mus">MÚSICA</span><span>&gt;&gt;</span>
       </a>
-      <a class="cat-tile" data-cat="conteudo" href="#work">
+      <a class="cat-tile" data-cat="conteudo" href="#work" data-page-link="work">
         <img src="https://i.ytimg.com/vi/MU_pSA7fd24/hqdefault.jpg" alt="Conteúdo Customizado" data-i18n-alt="cat_cont" />
         <span data-i18n="cat_cont">CONTEÚDO</span><span>&gt;&gt;</span>
       </a>
-      <a class="cat-tile" data-cat="series" href="#work">
+      <a class="cat-tile" data-cat="series" href="#work" data-page-link="work">
         <img src="https://i.ytimg.com/vi/MU-wvdVBrzg/hqdefault.jpg" alt="Séries" data-i18n-alt="cat_ser" />
         <span data-i18n="cat_ser">SÉRIES</span><span>&gt;&gt;</span>
       </a>
     </div>
   </header>
 
-  <section id="work" class="work-section">
+  <section id="work" class="work-section page-view" data-page="work">
     <div class="container">
       <div class="section-top">
         <div class="section-title-block">
@@ -100,7 +124,7 @@
     </div>
   </section>
 
-  <section id="verticais" class="vertical-section">
+  <section id="verticais" class="vertical-section page-view" data-page="verticais">
     <div class="container">
       <div class="section-top">
         <div class="section-title-block">
@@ -135,38 +159,40 @@
     </div>
   </section>
 
-  <section id="lab" class="split-banner">
-    <div class="split-pane beats">
-      <h3>BEATS</h3>
-      <p data-i18n-html="split_beats">SOM<br>CULTURA<br>PISTAS<br>PESSOAS<br>&gt;&gt;</p>
-      <span class="split-plus">+</span>
-    </div>
-    <div class="split-pane frames">
-      <h3>FRAMES</h3>
-      <p data-i18n-html="split_frames">IMAGEM<br>CINEMA<br>HISTÓRIAS<br>REALIDADE<br>&gt;&gt;</p>
-    </div>
-    <div class="split-end">
-      <span data-i18n-html="split_end">HISTÓRIAS<br>EM MOVIMENTO<br>SEMPRE.</span>
-      <i></i>
-    </div>
-  </section>
+  <div id="produtora" class="page-view" data-page="produtora">
+    <section class="split-banner">
+      <div class="split-pane beats">
+        <h3>BEATS</h3>
+        <p data-i18n-html="split_beats">SOM<br>CULTURA<br>PISTAS<br>PESSOAS<br>&gt;&gt;</p>
+        <span class="split-plus">+</span>
+      </div>
+      <div class="split-pane frames">
+        <h3>FRAMES</h3>
+        <p data-i18n-html="split_frames">IMAGEM<br>CINEMA<br>HISTÓRIAS<br>REALIDADE<br>&gt;&gt;</p>
+      </div>
+      <div class="split-end">
+        <span data-i18n-html="split_end">HISTÓRIAS<br>EM MOVIMENTO<br>SEMPRE.</span>
+        <i></i>
+      </div>
+    </section>
 
-  <section id="produtora" class="sage-section">
-    <div class="container">
-      <div class="sage-grid">
-        <div>
-          <h2 class="sage-title" data-i18n-html="prod_title">PRODUZIR<br>É REALIZAR<br><span class="pink">JUNTO.</span></h2>
-          <p class="sage-copy" data-i18n="prod_copy">A Beats and Frames Lab é uma produtora audiovisual independente. Unimos criação, produção e expertise técnica para desenvolver filmes, séries, conteúdo de marca e projetos especiais.</p>
-          <div class="sage-meta" data-i18n-html="prod_meta">IDEIAS / PESSOAS<br>PROCESSOS / RESULTADOS<br>&gt;&gt;</div>
-        </div>
-        <div class="sage-photo-frame">
-          <img src="assets/brand/frames_cinema.jpg" alt="Beats and Frames Lab — Produção" loading="lazy" />
+    <section class="sage-section">
+      <div class="container">
+        <div class="sage-grid">
+          <div>
+            <h2 class="sage-title" data-i18n-html="prod_title">PRODUZIR<br>É REALIZAR<br><span class="pink">JUNTO.</span></h2>
+            <p class="sage-copy" data-i18n="prod_copy">A Beats and Frames Lab é uma produtora audiovisual independente. Unimos criação, produção e expertise técnica para desenvolver filmes, séries, conteúdo de marca e projetos especiais.</p>
+            <div class="sage-meta" data-i18n-html="prod_meta">IDEIAS / PESSOAS<br>PROCESSOS / RESULTADOS<br>&gt;&gt;</div>
+          </div>
+          <div class="sage-photo-frame">
+            <img src="assets/brand/frames_cinema.jpg" alt="Beats and Frames Lab — Produção" loading="lazy" />
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
-  <section id="sobre" class="sage-section alt">
+  <section id="sobre" class="sage-section alt page-view" data-page="sobre">
     <div class="container">
       <div class="sage-grid">
         <div>
@@ -174,21 +200,20 @@
           <div class="sage-subtitle" data-i18n="about_role">DIRETOR / JORNALISTA / DOCUMENTARISTA</div>
           <p class="sage-copy" data-i18n="about_copy1">Kiko Costato atua no audiovisual há mais de duas décadas, com projetos para TV, cinema, publicidade e conteúdo digital.</p>
           <p class="sage-copy" data-i18n="about_copy2">Sua trajetória combina apuração jornalística, olhar humano e linguagem cinematográfica para contar histórias que conectam.</p>
-          <a href="#work" class="btn-outline" data-i18n="about_cta">CONHEÇA A TRAJETÓRIA →</a>
+          <a href="#work" data-page-link="work" class="btn-outline" data-i18n="about_cta">CONHEÇA A TRAJETÓRIA →</a>
         </div>
         <div class="sage-photo-frame portrait">
           <img src="assets/brand/hero_kiko.jpg?v=3" alt="Kiko Costato" loading="lazy" />
         </div>
       </div>
       <div class="filmstrip-row">
-        <img src="assets/brand/hero_rooftop.jpg" alt="Set 01" loading="lazy" />
-        <img src="assets/brand/beats_dj.jpg" alt="Set 02" loading="lazy" />
-        <img src="assets/brand/frames_cinema.jpg" alt="Set 03" loading="lazy" />
+        <img src="assets/brand/beats_dj.jpg" alt="Beats — DJ" loading="lazy" />
+        <img src="assets/brand/frames_cinema.jpg" alt="Frames — Câmera" loading="lazy" />
       </div>
     </div>
   </section>
 
-  <section id="audioseries" class="audio-section">
+  <section id="audioseries" class="audio-section page-view" data-page="audioseries">
     <div class="container">
       <div class="section-top">
         <div class="section-title-block">
@@ -204,7 +229,7 @@
     </div>
   </section>
 
-  <section id="contato" class="contact-section">
+  <section id="contato" class="contact-section page-view" data-page="contato">
     <div class="container contact-grid">
       <div>
         <h2 data-i18n-html="contact_heading">VAMOS<br><span class="pink">CONVERSAR?</span></h2>
@@ -228,10 +253,10 @@
   <footer class="footer-bar">
     <span>BEATS AND FRAMES LAB © 2026</span>
     <span data-i18n="footer_loc">SÃO PAULO / BRASIL / MUNDO</span>
-    <a href="#contato" data-i18n-html="footer_cta">TEM UMA HISTÓRIA? VAMOS CONVERSAR. &gt;&gt;</a>
+    <a href="#contato" data-page-link="contato" data-i18n-html="footer_cta">TEM UMA HISTÓRIA? VAMOS CONVERSAR. &gt;&gt;</a>
   </footer>
 
-  <script src="environments.js?v=6"></script>
-  <script src="app.js?v=6"></script>
+  <script src="environments.js?v=8"></script>
+  <script src="app.js?v=8"></script>
 </body>
 </html>

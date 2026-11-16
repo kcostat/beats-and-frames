@@ -550,3 +550,92 @@ window.renderSeriesEnvironment = function renderSeriesEnvironment(container, ser
     btn.textContent = txt.stop_btn;
   };
 };
+
+const ENV_TIMELINES = {
+  voltagem_t1: [
+    { year: '1920', pt: ['Theremin', 'Léon Theremin cria o primeiro instrumento eletrônico tocado sem contato físico, usando campos eletromagnéticos.'], en: ['Theremin', 'Léon Theremin invents the first electronic instrument played without physical touch via electromagnetic fields.'], es: ['Theremin', 'Léon Theremin crea el primer instrumento electrónico tocado sin contacto físico mediante campos electromagnéticos.'], freq: 440, patch: 'theremin' },
+    { year: '1964', pt: ['Moog Modular', 'Bob Moog e Wendy Carlos inauguram a síntese subtrativa controlada por tensão e o clássico filtro ladder.'], en: ['Moog Modular', 'Bob Moog and Wendy Carlos pioneer voltage-controlled subtractive synthesis and the iconic ladder filter.'], es: ['Moog Modular', 'Bob Moog y Wendy Carlos inauguran la síntesis sustractiva controlada por voltaje y el filtro ladder.'], freq: 146.83, patch: 'moog' },
+    { year: '1970', pt: ['Minimoog Model D', 'O primeiro sintetizador portátil de palco com painel fixo que levou a síntese ao rock, funk e soul.'], en: ['Minimoog Model D', 'The first portable stage synthesizer with a hardwired panel that brought synthesis to rock, funk and soul.'], es: ['Minimoog Model D', 'El primer sintetizador portátil de escenario que llevó la síntesis al rock, funk y soul.'], freq: 130.81, patch: 'moog' },
+    { year: '1980', pt: ['Roland TR-808', 'Bateria eletrônica analógica cujo sub-grave moldou o hip-hop, electro, Miami bass e funk carioca.'], en: ['Roland TR-808', 'Analog drum machine whose booming sub-bass shaped hip-hop, electro, Miami bass and funk.'], es: ['Roland TR-808', 'Caja de ritmos analógica cuyo subgrave moldeó el hip-hop, el electro y el funk.'], freq: 65.4, patch: 'moog' },
+    { year: '1982', pt: ['TB-303 & MIDI', 'O baixo ácido que gerou o Acid House em Chicago e o protocolo MIDI conectando todas as marcas.'], en: ['TB-303 & MIDI', 'The squelchy bassline that sparked Acid House and the universal MIDI protocol linking all gear.'], es: ['TB-303 & MIDI', 'El bajo ácido que originó el Acid House y el protocolo MIDI conectando todos los equipos.'], freq: 110, patch: 'acid' },
+    { year: '1983', pt: ['Yamaha DX7', 'Síntese FM digital com pianos elétricos cristalinos e sinos metálicos que dominaram os anos 80.'], en: ['Yamaha DX7', 'Digital FM synthesis delivering glassy electric pianos and metallic bells across 1980s pop.'], es: ['Yamaha DX7', 'Síntesis FM digital con pianos eléctricos cristalinos y campanas que definieron los años 80.'], freq: 523.25, patch: 'dx7' },
+    { year: 'BR', pt: ['Brasil Eletrônico', 'De Lincoln Olivetti e César Camargo Mariano a Tom Zé e Egberto Gismonti reinventando a MPB com synths.'], en: ['Electronic Brazil', 'From Lincoln Olivetti and César Camargo Mariano to Tom Zé and Egberto Gismonti reinventing MPB.'], es: ['Brasil Electrónico', 'De Lincoln Olivetti y César Camargo Mariano a Tom Zé reinventando la MPB con sintetizadores.'], freq: 220, patch: 'moog' }
+  ],
+  voltagem_t2: [
+    { year: '1890', pt: ['Tin Pan Alley', 'Editoras de partituras em Nova York criam o primeiro modelo industrial de hits populares.'], en: ['Tin Pan Alley', 'New York sheet-music publishers establish the first industrial hit-making machine.'], es: ['Tin Pan Alley', 'Editoriales de partituras en Nueva York crean el primer modelo industrial de éxitos.'], freq: 261.63, patch: 'theremin' },
+    { year: '1948', pt: ['Vinil LP 33 RPM', 'A Columbia lança o Long Play em microssulco, transformando o álbum em narrativa artística.'], en: ['33 RPM Vinyl LP', 'Columbia introduces the microgroove Long Play, turning the album into an art form.'], es: ['Vinilo LP 33 RPM', 'Columbia lanza el Long Play, transformando el álbum en obra artística completa.'], freq: 196, patch: 'moog' },
+    { year: '1979', pt: ['Walkman & K7', 'A portabilidade pessoal e a cultura das mixtapes gravadas em casa.'], en: ['Walkman & Cassette', 'Personal portable listening and home-recorded mixtape culture.'], es: ['Walkman & Casete', 'La escucha portátil personal y la cultura de las mixtapes caseras.'], freq: 220, patch: 'moog' },
+    { year: '1999', pt: ['Napster & MP3', 'O compartilhamento P2P quebra a distribuição física e força a reinvenção das gravadoras.'], en: ['Napster & MP3', 'P2P file sharing disrupts physical retail and forces major labels to reinvent.'], es: ['Napster & MP3', 'El intercambio P2P rompe la distribución física y obliga a reinventar la industria.'], freq: 329.63, patch: 'dx7' },
+    { year: '2008+', pt: ['Streaming & Algoritmo', 'Da posse à assinatura: playlists editoriais, algoritmos de recomendação e IA generativa.'], en: ['Streaming & Algorithm', 'From ownership to access: editorial playlists, recommendation feeds and AI.'], es: ['Streaming & Algoritmo', 'De la propiedad al acceso: playlists, algoritmos de recomendación e IA.'], freq: 440, patch: 'dx7' }
+  ],
+  radio_br: [
+    { year: '1922', pt: ['Rádio Sociedade', 'Roquette-Pinto realiza as primeiras transmissões educativas e musicais no Rio de Janeiro.'], en: ['Rádio Sociedade', 'Roquette-Pinto launches Brazil’s first educational and musical radio broadcasts.'], es: ['Rádio Sociedade', 'Roquette-Pinto realiza las primeras transmisiones educativas y musicales en Brasil.'] },
+    { year: '1936', pt: ['Rádio Nacional', 'A Era de Ouro: orquestras ao vivo, auditórios lotados, cantoras do rádio e radionovelas.'], en: ['Rádio Nacional', 'The Golden Era: live studio orchestras, packed auditoriums and radio queens.'], es: ['Rádio Nacional', 'La Era de Oro: orquestas en vivo, auditorios llenos y estrellas de la radio.'] },
+    { year: '1960s', pt: ['AM & O Jabá', 'A disputa intensa pelas paradas AM, discotecagem ao vivo e os bastidores do jabá.'], en: ['AM & Payola', 'Fierce battles for AM charts, live DJs and behind-the-scenes payola.'], es: ['AM & Payola', 'La batalla por las listas AM, locutores estrella y la trastienda del jabá.'] },
+    { year: '1970s', pt: ['Guerra do FM', 'Som estéreo de alta fidelidade abre espaço para rock, soul, MPB e novas programações.'], en: ['FM Revolution', 'Stereo hi-fi opens the dial to rock, soul, MPB and curated musical programming.'], es: ['Revolución FM', 'El estéreo de alta fidelidad abre espacio al rock, soul y nueva programación.'] },
+    { year: '1985+', pt: ['89 Rock & Digital', 'Segmentação FM jovem nos anos 80/90 até a migração para web rádios e podcasts.'], en: ['89 Rock & Digital', 'Youth FM segmentation in the 80s/90s evolving into web radio and podcasts.'], es: ['89 Rock & Digital', 'Segmentación FM juvenil hasta la transición a radios web y podcasts.'] }
+  ],
+  radio_eua: [
+    { year: '1906', pt: ['Fessenden', 'Reginald Fessenden transmite voz e violino sem fio pela primeira vez na véspera de Natal.'], en: ['Fessenden', 'Reginald Fessenden broadcasts voice and violin wirelessly on Christmas Eve.'], es: ['Fessenden', 'Reginald Fessenden transmite voz y violín por primera vez en Nochebuena.'] },
+    { year: '1953', pt: ['Todd Storz Top 40', 'Nasce o formato de alta rotação baseado nas músicas mais tocadas nas jukeboxes.'], en: ['Todd Storz Top 40', 'High-rotation format born from watching diners replay the same jukebox hits.'], es: ['Todd Storz Top 40', 'Nace el formato de alta rotación inspirado en las canciones más repetidas en jukeboxes.'] },
+    { year: '1959', pt: ['Escândalo Payola', 'O Congresso investiga pagamentos ocultos a DJs como Alan Freed para tocar discos.'], en: ['Payola Scandal', 'Congressional hearings expose hidden payments to DJs like Alan Freed for airplay.'], es: ['Escándalo Payola', 'El Congreso investiga pagos ocultos a DJs como Alan Freed por rotación en antena.'] },
+    { year: '1996', pt: ['Clear Channel', 'Desregulamentação permite grandes conglomerados unificarem redes de emissoras.'], en: ['Clear Channel', 'Telecom deregulation enables nationwide consolidation and syndicated radio.'], es: ['Clear Channel', 'La desregulación permite grandes cadenas nacionales de emisoras.'] },
+    { year: '2020s', pt: ['TikTok & Airplay', 'Vídeos curtos verticais passam a ditar o que entra nas paradas de rádio tradicionais.'], en: ['TikTok & Airplay', 'Short vertical videos dictate which tracks break into traditional radio charts.'], es: ['TikTok & Airplay', 'Los videos cortos verticales pasan a dictar qué suena en las radios.'] }
+  ],
+  radio_uk: [
+    { year: '1922', pt: ['Monopólio BBC', 'Lord Reith define a missão pública: informar, educar e entreter — com música pop restrita.'], en: ['BBC Monopoly', 'Lord Reith sets the public service remit — leaving youth pop underserved.'], es: ['Monopolio BBC', 'Lord Reith define la misión pública, dejando poco espacio al pop juvenil.'] },
+    { year: '1964', pt: ['Radio Caroline', 'Navios ancorados fora das águas territoriais no Mar do Norte transmitem rock 24h por dia.'], en: ['Radio Caroline', 'Offshore pirate ships in the North Sea broadcast non-stop rock around the clock.'], es: ['Radio Caroline', 'Barcos piratas en el Mar del Norte transmiten rock las 24 horas.'] },
+    { year: '1967', pt: ['BBC Radio 1 & Peel', 'O governo cria a Radio 1 e John Peel transforma suas Sessions no templo da música alternativa.'], en: ['BBC Radio 1 & Peel', 'BBC launches Radio 1 and John Peel turns his Sessions into an indie institution.'], es: ['BBC Radio 1 & Peel', 'Nace Radio 1 y John Peel convierte sus Sessions en templo alternativo.'] },
+    { year: '1994', pt: ['Rinse FM Londres', 'Transmissores piratas em prédios de Londres incubam jungle, UK garage, grime e dubstep.'], en: ['Rinse FM London', 'Rooftop pirate transmitters incubate jungle, UK garage, grime and dubstep.'], es: ['Rinse FM Londres', 'Emisoras piratas en azoteas incuban jungle, UK garage, grime y dubstep.'] },
+    { year: '2010s', pt: ['DAB & Web UK', 'NTS, BBC 6 Music e rádios comunitárias conectam cenas locais ao mundo todo.'], en: ['DAB & Web UK', 'NTS, BBC 6 Music and community stations connect local underground scenes globally.'], es: ['DAB & Web UK', 'NTS y BBC 6 Music conectan las escenas locales con el mundo entero.'] }
+  ],
+  lendas_br: [
+    { year: '1950s', pt: ['Imprensa Popular', 'Jornais sensacionalistas transformam boatos urbanos em manchetes nacionais inesquecíveis.'], en: ['Tabloid Press', 'Sensationalist newspapers turn urban rumors into unforgettable front-page stories.'], es: ['Prensa Popular', 'Periódicos sensacionalistas convierten rumores urbanos en portadas inolvidables.'] },
+    { year: '1970s', pt: ['Lendas Urbanas', 'Relatos de escolas, hospitais e túneis se espalham pelo boca a boca nas grandes cidades.'], en: ['Urban Legends', 'Tales from schools, hospitals and tunnels spread by word of mouth across cities.'], es: ['Leyendas Urbanas', 'Relatos de escuelas, hospitales y túneles se propagan boca a boca.'] },
+    { year: '1977', pt: ['Operação Prato', 'A Força Aérea Brasileira documenta fenômenos luminosos misteriosos em Colares, no Pará.'], en: ['Operação Prato', 'Brazilian Air Force documents unexplained aerial light phenomena in Colares, Pará.'], es: ['Operación Plato', 'La Fuerza Aérea Brasileña documenta fenómenos luminosos en Colares, Pará.'] },
+    { year: '1986', pt: ['Noite dos OVNIs', 'Radares civis e militares registram 21 objetos não identificados nos céus do Sudeste.'], en: ['Official UFO Night', 'Civilian and military radars track 21 unidentified objects over southeastern Brazil.'], es: ['Noche de los OVNIs', 'Radares civiles y militares registran 21 objetos no identificados en el cielo.'] },
+    { year: '1996', pt: ['Caso Varginha', 'O episódio mais famoso e debatido dos arquivos ufológicos e jornalísticos do Brasil.'], en: ['Varginha Incident', 'Brazil’s most famous and debated UFO and investigative journalism mystery.'], es: ['Caso Varginha', 'El episodio más famoso y debatido de los archivos ufológicos de Brasil.'] }
+  ]
+};
+
+(function hookTimelineIntoEnv() {
+  const orig = window.renderSeriesEnvironment;
+  window.renderSeriesEnvironment = function (container, seriesId, lang) {
+    orig(container, seriesId, lang);
+    const list = ENV_TIMELINES[seriesId];
+    const box = container.querySelector('.env-console');
+    if (!list || !box) return;
+
+    const l = lang === 'en' || lang === 'es' ? lang : 'pt';
+    const heading = l === 'en' ? 'INTERACTIVE TIMELINE' : l === 'es' ? 'LÍNEA DE TIEMPO INTERACTIVA' : 'LINHA DO TEMPO INTERATIVA';
+
+    const wrap = document.createElement('div');
+    wrap.className = 'env-timeline';
+    wrap.innerHTML = `
+      <div class="tl-label">${heading}</div>
+      <div class="tl-track">
+        ${list.map((it, i) => `<button type="button" class="tl-node ${i === 0 ? 'active' : ''}" data-tl="${i}"><span>${it.year}</span><small>${it[l][0]}</small></button>`).join('')}
+      </div>
+      <div class="tl-detail" id="tl-detail">
+        <strong>${list[0].year} — ${list[0][l][0]}</strong>
+        <p>${list[0][l][1]}</p>
+      </div>
+    `;
+    box.appendChild(wrap);
+
+    wrap.querySelectorAll('.tl-node').forEach(node => {
+      node.onclick = () => {
+        wrap.querySelectorAll('.tl-node').forEach(n => n.classList.remove('active'));
+        node.classList.add('active');
+        const item = list[Number(node.dataset.tl)];
+        document.getElementById('tl-detail').innerHTML = `<strong>${item.year} — ${item[l][0]}</strong><p>${item[l][1]}</p>`;
+        if (item.freq) {
+          playSynthNote(item.freq, item.patch || 'moog', 1900, 5, 0.25);
+          drawScope('env-scope');
+        } else {
+          playStaticSweep(0.22, 1500);
+        }
+      };
+    });
+  };
+})();

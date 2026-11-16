@@ -207,16 +207,22 @@ const WORKS = [
     es: { label: 'SERIES', title: 'MASTERCHEF BRASIL', client: 'BAND / ENDEMOL SHINE', specs: ['DIRECCIÓN', 'CABECERAS', '2023–2024', 'TV / STREAMING'] }
   },
   {
-    id: 'MU_pSA7fd24', cat: 'conteudo',
-    pt: { label: 'CONTEÚDO', title: 'MAKING OF MASTERCHEF 2024', client: 'BAND / ENDEMOL SHINE', specs: ['DIREÇÃO', 'MAKING OF', '2024', 'BASTIDORES'] },
-    en: { label: 'CONTENT', title: 'MAKING OF MASTERCHEF 2024', client: 'BAND / ENDEMOL SHINE', specs: ['DIRECTION', 'MAKING OF', '2024', 'BEHIND THE SCENES'] },
-    es: { label: 'CONTENIDO', title: 'MAKING OF MASTERCHEF 2024', client: 'BAND / ENDEMOL SHINE', specs: ['DIRECCIÓN', 'MAKING OF', '2024', 'DETRÁS DE CÁMARAS'] }
+    id: 'MU-wvdVBrzg', cat: 'series',
+    pt: { label: 'SÉRIES', title: 'ANJOS DA ESTRADA (DISCOVERY)', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', '13 EPISÓDIOS', '47 MIN', 'SÉRIE DOCUMENTAL'] },
+    en: { label: 'SERIES', title: 'HIGHWAY ANGELS (DISCOVERY)', client: 'DISCOVERY CHANNEL', specs: ['DIRECTION', '13 EPISODES', '47 MIN', 'DOC SERIES'] },
+    es: { label: 'SERIES', title: 'ÁNGELES DEL CAMINO (DISCOVERY)', client: 'DISCOVERY CHANNEL', specs: ['DIRECCIÓN', '13 EPISODIOS', '47 MIN', 'SERIE DOCUMENTAL'] }
   },
   {
-    id: 'SORH6YecwmY', cat: 'conteudo',
-    pt: { label: 'CONTEÚDO', title: 'ABERTURA MASTERCHEF — MK OF', client: 'BAND / ENDEMOL SHINE', specs: ['DIREÇÃO', 'MAKING OF', 'TV', 'BASTIDORES'] },
-    en: { label: 'CONTENT', title: 'MASTERCHEF OPENING — MK OF', client: 'BAND / ENDEMOL SHINE', specs: ['DIRECTION', 'MAKING OF', 'TV', 'BEHIND THE SCENES'] },
-    es: { label: 'CONTENIDO', title: 'CABECERA MASTERCHEF — MK OF', client: 'BAND / ENDEMOL SHINE', specs: ['DIRECCIÓN', 'MAKING OF', 'TV', 'DETRÁS DE CÁMARAS'] }
+    id: 'dE5iHyM_VVo', cat: 'series',
+    pt: { label: 'SÉRIES', title: 'LABORATÓRIO DA LUTA — 1ª TEMP.', client: 'MIXER FILMS / COMBATE', specs: ['DIREÇÃO', 'BETHE CORREIA', '28 MIN', '1ª TEMPORADA'] },
+    en: { label: 'SERIES', title: 'FIGHT LAB — SEASON 1', client: 'MIXER FILMS / COMBATE', specs: ['DIRECTION', 'BETHE CORREIA', '28 MIN', 'SEASON 1'] },
+    es: { label: 'SERIES', title: 'LABORATORIO DE LA LUCHA — T1', client: 'MIXER FILMS / COMBATE', specs: ['DIRECCIÓN', 'BETHE CORREIA', '28 MIN', 'TEMPORADA 1'] }
+  },
+  {
+    id: 'FYiRyBCUoJs', cat: 'conteudo',
+    pt: { label: 'CONTEÚDO', title: 'LABORATÓRIO DA LUTA — PROMO 1ª TEMP.', client: 'MIXER FILMS / COMBATE', specs: ['DIREÇÃO', '1ª TEMPORADA', 'PROMO', 'COMBATE'] },
+    en: { label: 'CONTENT', title: 'FIGHT LAB — SEASON 1 PROMO', client: 'MIXER FILMS / COMBATE', specs: ['DIRECTION', 'SEASON 1', 'PROMO', 'COMBATE'] },
+    es: { label: 'CONTENIDO', title: 'LABORATORIO DE LA LUCHA — PROMO T1', client: 'MIXER FILMS / COMBATE', specs: ['DIRECCIÓN', 'TEMPORADA 1', 'PROMO', 'COMBATE'] }
   },
   {
     id: '_sOtOC1IOZw', cat: 'publicidade',
@@ -237,28 +243,16 @@ const WORKS = [
     es: { label: 'PUBLICIDAD', title: 'INSTITUCIONAL LOGGI', client: 'LOGGI', specs: ['DIRECCIÓN', 'INSTITUCIONAL', 'FILM', 'MARCA'] }
   },
   {
-    id: '7wOhthRJRkI', cat: 'documentario',
-    pt: { label: 'DOCUMENTÁRIO', title: 'QUEBRADEIRAS DO BABAÇU', client: 'THE BODY SHOP BRASIL', specs: ['DIREÇÃO', 'DOCUMENTÁRIO', 'MARANHÃO', 'IMPACTO'] },
-    en: { label: 'DOCUMENTARY', title: 'BABASSU NUT BREAKERS', client: 'THE BODY SHOP BRAZIL', specs: ['DIRECTION', 'DOCUMENTARY', 'MARANHÃO', 'SOCIAL IMPACT'] },
-    es: { label: 'DOCUMENTAL', title: 'QUEBRADORAS DE BABASÚ', client: 'THE BODY SHOP BRASIL', specs: ['DIRECCIÓN', 'DOCUMENTAL', 'MARANHÃO', 'IMPACTO SOCIAL'] }
-  },
-  {
     id: '7nPCvczbfdk', cat: 'publicidade',
     pt: { label: 'PUBLICIDADE', title: "LASAGA AD — DIRECTOR'S CUT", client: 'LASAGA', specs: ['DIREÇÃO', "DIRECTOR'S CUT", 'CAMPANHA', 'FILME'] },
     en: { label: 'ADVERTISING', title: "LASAGA AD — DIRECTOR'S CUT", client: 'LASAGA', specs: ['DIRECTION', "DIRECTOR'S CUT", 'CAMPAIGN', 'FILM'] },
     es: { label: 'PUBLICIDAD', title: "LASAGA AD — DIRECTOR'S CUT", client: 'LASAGA', specs: ['DIRECCIÓN', "DIRECTOR'S CUT", 'CAMPAÑA', 'FILM'] }
   },
   {
-    id: 'DtLi-rz_s7s', cat: 'musica',
-    pt: { label: 'MÚSICA', title: 'LA MENTIRA — MANO CHAO', client: 'VÍDEO: KIKO COSTATO', specs: ['DIREÇÃO', 'VIDEOCLIPE', 'MÚSICA', 'AUTORAL'] },
-    en: { label: 'MUSIC', title: 'LA MENTIRA — MANO CHAO', client: 'VIDEO: KIKO COSTATO', specs: ['DIRECTION', 'MUSIC VIDEO', 'MUSIC', 'AUTHORIAL'] },
-    es: { label: 'MÚSICA', title: 'LA MENTIRA — MANO CHAO', client: 'VIDEO: KIKO COSTATO', specs: ['DIRECCIÓN', 'VIDEOCLIP', 'MÚSICA', 'DE AUTOR'] }
-  },
-  {
-    id: 'lUcKHVAhNgA', cat: 'conteudo',
-    pt: { label: 'CONTEÚDO', title: 'VEMPROCENTRO', client: 'ATLETA / CENTRO SP', specs: ['DIREÇÃO', 'CONTEÚDO', 'CIDADE', 'CULTURA'] },
-    en: { label: 'CONTENT', title: 'VEMPROCENTRO', client: 'ATHLETE / DOWNTOWN SP', specs: ['DIRECTION', 'CONTENT', 'CITY', 'CULTURE'] },
-    es: { label: 'CONTENIDO', title: 'VEMPROCENTRO', client: 'ATLETA / CENTRO SP', specs: ['DIRECCIÓN', 'CONTENIDO', 'CIUDAD', 'CULTURA'] }
+    id: '7wOhthRJRkI', cat: 'documentario',
+    pt: { label: 'DOCUMENTÁRIO', title: 'QUEBRADEIRAS DO BABAÇU', client: 'THE BODY SHOP BRASIL', specs: ['DIREÇÃO', 'DOCUMENTÁRIO', 'MARANHÃO', 'IMPACTO'] },
+    en: { label: 'DOCUMENTARY', title: 'BABASSU NUT BREAKERS', client: 'THE BODY SHOP BRAZIL', specs: ['DIRECTION', 'DOCUMENTARY', 'MARANHÃO', 'SOCIAL IMPACT'] },
+    es: { label: 'DOCUMENTAL', title: 'QUEBRADORAS DE BABASÚ', client: 'THE BODY SHOP BRASIL', specs: ['DIRECCIÓN', 'DOCUMENTAL', 'MARANHÃO', 'IMPACTO SOCIAL'] }
   },
   {
     id: '7p7JCRoGMxU', cat: 'documentario',
@@ -267,118 +261,28 @@ const WORKS = [
     es: { label: 'DOCUMENTAL', title: 'GORJEIOS (GORJEOS)', client: 'DIRECCIÓN KIKO COSTATO', specs: ['DIRECCIÓN', 'DE AUTOR', 'CORTOMETRAJE', 'CINE'] }
   },
   {
-    id: 'UQ6MxIi0E-A', cat: 'publicidade',
-    pt: { label: 'PUBLICIDADE', title: 'VINHETA ASSOCIADOS RETOQUE', client: 'ASSOCIADOS RETOQUE', specs: ['MOTION', 'VINHETA', 'IDENTIDADE', 'DESIGN'] },
-    en: { label: 'ADVERTISING', title: 'ASSOCIADOS RETOQUE ID', client: 'ASSOCIADOS RETOQUE', specs: ['MOTION', 'BUMPER', 'IDENTITY', 'DESIGN'] },
-    es: { label: 'PUBLICIDAD', title: 'CORTINILLA ASSOCIADOS RETOQUE', client: 'ASSOCIADOS RETOQUE', specs: ['MOTION', 'CORTINILLA', 'IDENTIDAD', 'DISEÑO'] }
-  },
-
-  // Anjos da Estrada — Discovery Channel
-  {
-    id: 'MU-wvdVBrzg', cat: 'series',
-    pt: { label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 01 & 02', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', '47 MIN', 'DOCUMENTAL'] },
-    en: { label: 'SERIES', title: 'HIGHWAY ANGELS — EP. 01 & 02', client: 'DISCOVERY CHANNEL', specs: ['DIRECTION', 'TV SERIES', '47 MIN', 'DOCUMENTARY'] },
-    es: { label: 'SERIES', title: 'ÁNGELES DEL CAMINO — EP. 01 & 02', client: 'DISCOVERY CHANNEL', specs: ['DIRECCIÓN', 'SERIE TV', '47 MIN', 'DOCUMENTAL'] }
+    id: 'DtLi-rz_s7s', cat: 'musica',
+    pt: { label: 'MÚSICA', title: 'LA MENTIRA — MANO CHAO', client: 'VÍDEO: KIKO COSTATO', specs: ['DIREÇÃO', 'VIDEOCLIPE', 'MÚSICA', 'AUTORAL'] },
+    en: { label: 'MUSIC', title: 'LA MENTIRA — MANO CHAO', client: 'VIDEO: KIKO COSTATO', specs: ['DIRECTION', 'MUSIC VIDEO', 'MUSIC', 'AUTHORIAL'] },
+    es: { label: 'MÚSICA', title: 'LA MENTIRA — MANO CHAO', client: 'VIDEO: KIKO COSTATO', specs: ['DIRECCIÓN', 'VIDEOCLIP', 'MÚSICA', 'DE AUTOR'] }
   },
   {
-    id: 'zCQHplxeXws', cat: 'series',
-    pt: { label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 03 & 04', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', '47 MIN', 'DOCUMENTAL'] },
-    en: { label: 'SERIES', title: 'HIGHWAY ANGELS — EP. 03 & 04', client: 'DISCOVERY CHANNEL', specs: ['DIRECTION', 'TV SERIES', '47 MIN', 'DOCUMENTARY'] },
-    es: { label: 'SERIES', title: 'ÁNGELES DEL CAMINO — EP. 03 & 04', client: 'DISCOVERY CHANNEL', specs: ['DIRECCIÓN', 'SERIE TV', '47 MIN', 'DOCUMENTAL'] }
+    id: 'MU_pSA7fd24', cat: 'conteudo',
+    pt: { label: 'CONTEÚDO', title: 'MAKING OF MASTERCHEF 2024', client: 'BAND / ENDEMOL SHINE', specs: ['DIREÇÃO', 'MAKING OF', '2024', 'BASTIDORES'] },
+    en: { label: 'CONTENT', title: 'MAKING OF MASTERCHEF 2024', client: 'BAND / ENDEMOL SHINE', specs: ['DIRECTION', 'MAKING OF', '2024', 'BEHIND THE SCENES'] },
+    es: { label: 'CONTENIDO', title: 'MAKING OF MASTERCHEF 2024', client: 'BAND / ENDEMOL SHINE', specs: ['DIRECCIÓN', 'MAKING OF', '2024', 'DETRÁS DE CÁMARAS'] }
   },
   {
-    id: 'eFR70UzO2vY', cat: 'series',
-    pt: { label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 05 & 06', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', '47 MIN', 'DOCUMENTAL'] },
-    en: { label: 'SERIES', title: 'HIGHWAY ANGELS — EP. 05 & 06', client: 'DISCOVERY CHANNEL', specs: ['DIRECTION', 'TV SERIES', '47 MIN', 'DOCUMENTARY'] },
-    es: { label: 'SERIES', title: 'ÁNGELES DEL CAMINO — EP. 05 & 06', client: 'DISCOVERY CHANNEL', specs: ['DIRECCIÓN', 'SERIE TV', '47 MIN', 'DOCUMENTAL'] }
+    id: 'lUcKHVAhNgA', cat: 'conteudo',
+    pt: { label: 'CONTEÚDO', title: 'VEMPROCENTRO', client: 'ATLETA / CENTRO SP', specs: ['DIREÇÃO', 'CONTEÚDO', 'CIDADE', 'CULTURA'] },
+    en: { label: 'CONTENT', title: 'VEMPROCENTRO', client: 'ATHLETE / DOWNTOWN SP', specs: ['DIRECTION', 'CONTENT', 'CITY', 'CULTURE'] },
+    es: { label: 'CONTENIDO', title: 'VEMPROCENTRO', client: 'ATLETA / CENTRO SP', specs: ['DIRECCIÓN', 'CONTENIDO', 'CIUDAD', 'CULTURA'] }
   },
-  {
-    id: 'Wd1J-Qb63NI', cat: 'series',
-    pt: { label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 07 & 08', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', '47 MIN', 'DOCUMENTAL'] },
-    en: { label: 'SERIES', title: 'HIGHWAY ANGELS — EP. 07 & 08', client: 'DISCOVERY CHANNEL', specs: ['DIRECTION', 'TV SERIES', '47 MIN', 'DOCUMENTARY'] },
-    es: { label: 'SERIES', title: 'ÁNGELES DEL CAMINO — EP. 07 & 08', client: 'DISCOVERY CHANNEL', specs: ['DIRECCIÓN', 'SERIE TV', '47 MIN', 'DOCUMENTAL'] }
-  },
-  {
-    id: 'fDutoer3SBc', cat: 'series',
-    pt: { label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 09 & 10', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', '47 MIN', 'DOCUMENTAL'] },
-    en: { label: 'SERIES', title: 'HIGHWAY ANGELS — EP. 09 & 10', client: 'DISCOVERY CHANNEL', specs: ['DIRECTION', 'TV SERIES', '47 MIN', 'DOCUMENTARY'] },
-    es: { label: 'SERIES', title: 'ÁNGELES DEL CAMINO — EP. 09 & 10', client: 'DISCOVERY CHANNEL', specs: ['DIRECCIÓN', 'SERIE TV', '47 MIN', 'DOCUMENTAL'] }
-  },
-  {
-    id: 'Opc4eL0M1MY', cat: 'series',
-    pt: { label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 11 & 12', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', '47 MIN', 'DOCUMENTAL'] },
-    en: { label: 'SERIES', title: 'HIGHWAY ANGELS — EP. 11 & 12', client: 'DISCOVERY CHANNEL', specs: ['DIRECTION', 'TV SERIES', '47 MIN', 'DOCUMENTARY'] },
-    es: { label: 'SERIES', title: 'ÁNGELES DEL CAMINO — EP. 11 & 12', client: 'DISCOVERY CHANNEL', specs: ['DIRECCIÓN', 'SERIE TV', '47 MIN', 'DOCUMENTAL'] }
-  },
-  {
-    id: '3zkcjmGO_c4', cat: 'series',
-    pt: { label: 'SÉRIES', title: 'ANJOS DA ESTRADA — EP. 13 (FINAL)', client: 'DISCOVERY CHANNEL', specs: ['DIREÇÃO', 'SÉRIE TV', 'EP. FINAL', 'DOCUMENTAL'] },
-    en: { label: 'SERIES', title: 'HIGHWAY ANGELS — EP. 13 (FINALE)', client: 'DISCOVERY CHANNEL', specs: ['DIRECTION', 'TV SERIES', 'FINALE', 'DOCUMENTARY'] },
-    es: { label: 'SERIES', title: 'ÁNGELES DEL CAMINO — EP. 13 (FINAL)', client: 'DISCOVERY CHANNEL', specs: ['DIRECCIÓN', 'SERIE TV', 'EP. FINAL', 'DOCUMENTAL'] }
-  },
-
-  // O Laboratório da Luta (Apenas 1ª Temporada)
-  {
-    id: 'dE5iHyM_VVo', cat: 'series',
-    pt: { label: 'SÉRIES', title: 'LABORATÓRIO DA LUTA — EP. 02', client: 'MIXER FILMS / COMBATE', specs: ['DIREÇÃO', 'BETHE CORREIA', '28 MIN', '1ª TEMPORADA'] },
-    en: { label: 'SERIES', title: 'FIGHT LAB — EP. 02', client: 'MIXER FILMS / COMBATE', specs: ['DIRECTION', 'BETHE CORREIA', '28 MIN', 'SEASON 1'] },
-    es: { label: 'SERIES', title: 'LABORATORIO DE LA LUCHA — EP. 02', client: 'MIXER FILMS / COMBATE', specs: ['DIRECCIÓN', 'BETHE CORREIA', '28 MIN', 'TEMPORADA 1'] }
-  },
-  {
-    id: 'FYiRyBCUoJs', cat: 'conteudo',
-    pt: { label: 'CONTEÚDO', title: 'LABORATÓRIO DA LUTA — PROMO 1ª TEMP.', client: 'MIXER FILMS / COMBATE', specs: ['DIREÇÃO', '1ª TEMPORADA', 'PROMO', 'COMBATE'] },
-    en: { label: 'CONTENT', title: 'FIGHT LAB — SEASON 1 PROMO', client: 'MIXER FILMS / COMBATE', specs: ['DIRECTION', 'SEASON 1', 'PROMO', 'COMBATE'] },
-    es: { label: 'CONTENIDO', title: 'LABORATORIO DE LA LUCHA — PROMO 1ª TEMP.', client: 'MIXER FILMS / COMBATE', specs: ['DIRECCIÓN', 'TEMPORADA 1', 'PROMO', 'COMBATE'] }
-  },
-  {
-    id: 'mq5YQXZsitE', cat: 'documentario',
-    pt: { label: 'DOCUMENTÁRIO', title: 'CIÊNCIA NAS ARTES MARCIAIS', client: 'SENSEI SPORTV', specs: ['DIREÇÃO', 'SPORTV', 'ESPECIAL', 'MATÉRIA'] },
-    en: { label: 'DOCUMENTARY', title: 'SCIENCE IN MARTIAL ARTS', client: 'SENSEI SPORTV', specs: ['DIRECTION', 'SPORTV', 'SPECIAL', 'FEATURE'] },
-    es: { label: 'DOCUMENTAL', title: 'CIENCIA EN LAS ARTES MARCIALES', client: 'SENSEI SPORTV', specs: ['DIRECCIÓN', 'SPORTV', 'ESPECIAL', 'REPORTAJE'] }
-  },
-
-  // Turistinha Espacial
   {
     id: 'wm2gcUkSnUg', cat: 'musica',
-    pt: { label: 'MÚSICA', title: 'TURISTINHA ESPACIAL — TEMA', client: 'SÉRIE ORIGINAL • PT-BR', specs: ['CRIAÇÃO', 'MÚSICA TEMA', 'ANIMAÇÃO', 'FAMÍLIA'] },
-    en: { label: 'MUSIC', title: 'LITTLE SPACE TOURIST — THEME', client: 'ORIGINAL SERIES • PT-BR', specs: ['CREATION', 'THEME SONG', 'ANIMATION', 'FAMILY'] },
-    es: { label: 'MÚSICA', title: 'TURISTITA ESPACIAL — TEMA', client: 'SERIE ORIGINAL • PT-BR', specs: ['CREACIÓN', 'CANCIÓN TEMA', 'ANIMACIÓN', 'FAMILIA'] }
-  },
-  {
-    id: 'D7MNCJAGOeY', cat: 'series',
-    pt: { label: 'SÉRIES', title: 'TURISTINHA — NATAL DOS ANIMAIS', client: 'SÉRIE ORIGINAL', specs: ['CRIAÇÃO', 'ESPECIAL', 'ANIMAÇÃO', 'FAMÍLIA'] },
-    en: { label: 'SERIES', title: 'SPACE TOURIST — ANIMALS CHRISTMAS', client: 'ORIGINAL SERIES', specs: ['CREATION', 'SPECIAL', 'ANIMATION', 'FAMILY'] },
-    es: { label: 'SERIES', title: 'TURISTITA — NAVIDAD DE LOS ANIMALES', client: 'SERIE ORIGINAL', specs: ['CREACIÓN', 'ESPECIAL', 'ANIMACIÓN', 'FAMILIA'] }
-  },
-  {
-    id: 'jA6L6iOw7II', cat: 'series',
-    pt: { label: 'SÉRIES', title: "IT'S VACATION TIME!", client: 'LITTLE SPACE TOURIST', specs: ['CRIAÇÃO', 'ENGLISH', 'EPISÓDIO', 'ANIMAÇÃO'] },
-    en: { label: 'SERIES', title: "IT'S VACATION TIME!", client: 'LITTLE SPACE TOURIST', specs: ['CREATION', 'ENGLISH', 'EPISODE', 'ANIMATION'] },
-    es: { label: 'SERIES', title: "IT'S VACATION TIME!", client: 'LITTLE SPACE TOURIST', specs: ['CREACIÓN', 'INGLÉS', 'EPISODIO', 'ANIMACIÓN'] }
-  },
-  {
-    id: 'ZZLHNONNT08', cat: 'musica',
-    pt: { label: 'MÚSICA', title: 'NATAL DOS ANIMAIS — LYRIC', client: 'TURISTINHA ESPACIAL', specs: ['MÚSICA', 'LYRIC VIDEO', 'ANIMAÇÃO', 'INFANTIL'] },
-    en: { label: 'MUSIC', title: 'ANIMALS CHRISTMAS — LYRIC', client: 'LITTLE SPACE TOURIST', specs: ['MUSIC', 'LYRIC VIDEO', 'ANIMATION', 'KIDS'] },
-    es: { label: 'MÚSICA', title: 'NAVIDAD DE LOS ANIMALES — LYRIC', client: 'TURISTITA ESPACIAL', specs: ['MÚSICA', 'LYRIC VIDEO', 'ANIMACIÓN', 'INFANTIL'] }
-  },
-  {
-    id: 'Q_jktf2-_qs', cat: 'musica',
-    pt: { label: 'MÚSICA', title: 'CANTE COM O TURISTINHA!', client: 'TURISTINHA ESPACIAL', specs: ['MÚSICA', 'PT-BR', 'EXPLORAR', 'INFANTIL'] },
-    en: { label: 'MUSIC', title: 'SING ALONG WITH TURISTINHA!', client: 'LITTLE SPACE TOURIST', specs: ['MUSIC', 'PT-BR', 'SING ALONG', 'KIDS'] },
-    es: { label: 'MÚSICA', title: '¡CANTA CON TURISTITA!', client: 'TURISTITA ESPACIAL', specs: ['MÚSICA', 'PT-BR', 'EXPLORAR', 'INFANTIL'] }
-  },
-  {
-    id: 'NK0IVCqo0Js', cat: 'series',
-    pt: { label: 'SÉRIES', title: 'TURISTITA ESPACIAL — ESPAÑOL', client: 'SÉRIE ORIGINAL', specs: ['CRIAÇÃO', 'ESPAÑOL', 'EPISÓDIO', 'ANIMAÇÃO'] },
-    en: { label: 'SERIES', title: 'TURISTITA ESPACIAL — SPANISH', client: 'ORIGINAL SERIES', specs: ['CREATION', 'SPANISH', 'EPISODE', 'ANIMATION'] },
-    es: { label: 'SERIES', title: 'TURISTITA ESPACIAL — ESPAÑOL', client: 'SERIE ORIGINAL', specs: ['CREACIÓN', 'ESPAÑOL', 'EPISODIO', 'ANIMACIÓN'] }
-  },
-  {
-    id: 'ROpB3awHKL0', cat: 'musica',
-    pt: { label: 'MÚSICA', title: 'LITTLE SPACE TOURIST — THEME', client: 'ENGLISH VERSION', specs: ['CRIAÇÃO', 'MÚSICA TEMA', 'ENGLISH', 'ANIMAÇÃO'] },
-    en: { label: 'MUSIC', title: 'LITTLE SPACE TOURIST — THEME', client: 'ENGLISH VERSION', specs: ['CREATION', 'THEME SONG', 'ENGLISH', 'ANIMATION'] },
-    es: { label: 'MÚSICA', title: 'LITTLE SPACE TOURIST — THEME', client: 'VERSIÓN INGLÉS', specs: ['CREACIÓN', 'CANCIÓN TEMA', 'INGLÉS', 'ANIMACIÓN'] }
+    pt: { label: 'MÚSICA', title: 'TURISTINHA ESPACIAL — TEMA', client: 'SÉRIE ORIGINAL', specs: ['CRIAÇÃO', 'MÚSICA TEMA', 'ANIMAÇÃO', 'FAMÍLIA'] },
+    en: { label: 'MUSIC', title: 'LITTLE SPACE TOURIST — THEME', client: 'ORIGINAL SERIES', specs: ['CREATION', 'THEME SONG', 'ANIMATION', 'FAMILY'] },
+    es: { label: 'MÚSICA', title: 'TURISTITA ESPACIAL — TEMA', client: 'SERIE ORIGINAL', specs: ['CREACIÓN', 'CANCIÓN TEMA', 'ANIMACIÓN', 'FAMILIA'] }
   }
 ];
 
@@ -591,9 +495,11 @@ function initWork() {
   function renderThumbs() {
     stripEl.innerHTML = currentList.map((w, idx) => {
       const loc = w[currentLang] || w.pt;
+      const num = String(idx + 1).padStart(2, '0');
       return `
         <article class="thumb-card ${idx === currentIndex ? 'active' : ''}" data-idx="${idx}">
           <div class="thumb-img-wrap">
+            <span class="thumb-num">${num}</span>
             <img src="https://i.ytimg.com/vi/${w.id}/hqdefault.jpg" alt="${loc.title}" loading="lazy" />
           </div>
           <div class="thumb-client">${loc.client}</div>
@@ -684,6 +590,11 @@ async function initCatalog() {
       `;
     }).join('');
 
+    const audioSection = document.getElementById('audioseries');
+    if (audioSection) {
+      audioSection.className = `audio-section page-view ${audioSection.classList.contains('active') ? 'active' : ''} theme-${s.id}`;
+    }
+
     detailEl.innerHTML = `
       <div class="series-banner">
         <span class="badge">${st.badge} • ${s.lang}</span>
@@ -725,9 +636,54 @@ async function initCatalog() {
       if (!catalog.length) return;
       renderTabs();
       renderSeries(activeSeriesIdx);
+    },
+    selectById(id) {
+      const idx = catalog.findIndex(s => s.id === id);
+      if (idx >= 0) {
+        activeSeriesIdx = idx;
+        renderTabs();
+        renderSeries(idx);
+      }
     }
   };
 }
+
+function navigateTo(pageId, updateHash = true) {
+  let targetPage = pageId || 'home';
+  let seriesId = null;
+  if (targetPage.startsWith('serie-')) {
+    seriesId = targetPage.slice(6);
+    targetPage = 'audioseries';
+  }
+  const views = document.querySelectorAll('.page-view');
+  const valid = Array.from(views).some(v => v.dataset.page === targetPage);
+  if (!valid) targetPage = 'home';
+
+  views.forEach(v => v.classList.toggle('active', v.dataset.page === targetPage));
+  document.body.classList.toggle('is-inner', targetPage !== 'home');
+  document.querySelectorAll('[data-page-link]').forEach(a => {
+    a.classList.toggle('active-nav', a.dataset.pageLink === targetPage);
+  });
+
+  if (seriesId && catalogApi) catalogApi.selectById(seriesId);
+  if (updateHash) {
+    const newHash = seriesId ? `#serie-${seriesId}` : `#${targetPage}`;
+    if (window.location.hash !== newHash) history.pushState(null, '', newHash);
+  }
+  window.scrollTo({ top: 0, behavior: 'instant' });
+}
+
+document.querySelectorAll('[data-page-link]').forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault();
+    navigateTo(link.dataset.pageLink);
+  });
+});
+
+window.addEventListener('hashchange', () => {
+  const h = window.location.hash.replace('#', '') || 'home';
+  navigateTo(h, false);
+});
 
 function setLanguage(lang) {
   if (!I18N[lang]) return;
@@ -744,4 +700,9 @@ document.querySelectorAll('.lang-btn').forEach(btn => {
 
 applyStaticTranslations();
 workApi = initWork();
-initCatalog().then(api => { catalogApi = api; });
+initCatalog().then(api => {
+  catalogApi = api;
+  const initialHash = window.location.hash.replace('#', '') || 'home';
+  navigateTo(initialHash, false);
+});
+navigateTo(window.location.hash.replace('#', '') || 'home', false);
