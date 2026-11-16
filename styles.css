@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Oswald:wght@600;700&display=swap');
 
 :root {
-  --paper: #f2efe9;
-  --paper-2: #e8e4dc;
+  --paper: #f7f5f0;
+  --paper-2: #ffffff;
   --ink: #111315;
   --ink-muted: #5a5d62;
   --sage-light: #8cac94;
@@ -317,20 +317,16 @@ a { color: inherit; text-decoration: none; }
 .ep-list { margin: 0 0 12px; padding-left: 18px; color: var(--ink-muted); font-size: 0.82rem; }
 .ep-footer { margin-top: auto; padding-top: 10px; border-top: 1px solid var(--border-light); font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--ink-muted); }
 
-/* Sage-Green Viewfinder Sections (Produtora, Sobre, Contato) */
+/* White / Editorial Paper Sections (Produtora, Sobre, Contato) */
 .sage-section {
   position: relative;
   padding: 72px 0;
-  background:
-    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.16), transparent 55%),
-    linear-gradient(180deg, #9fb6a7 0%, #8da696 100%);
+  background: #ffffff;
   color: var(--ink);
-  border-top: 1px solid rgba(17, 19, 21, 0.14);
+  border-top: 1px solid var(--border-light);
 }
 .sage-section.alt {
-  background:
-    radial-gradient(circle at 80% 30%, rgba(255, 255, 255, 0.14), transparent 55%),
-    linear-gradient(180deg, #95ad9d 0%, #869f8f 100%);
+  background: var(--paper);
 }
 .sage-grid { display: grid; grid-template-columns: 1fr 1.15fr; gap: 42px; align-items: center; }
 .sage-title {
@@ -387,10 +383,8 @@ a { color: inherit; text-decoration: none; }
 /* Contact + Editorial Footer */
 .contact-section {
   padding: 72px 0;
-  background:
-    radial-gradient(circle at 15% 50%, rgba(255, 255, 255, 0.14), transparent 50%),
-    linear-gradient(180deg, #9ab2a3 0%, #87a091 100%);
-  border-top: 1px solid rgba(17, 19, 21, 0.14);
+  background: var(--paper);
+  border-top: 1px solid var(--border-light);
 }
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; align-items: start; }
 .contact-grid h2 { font-family: 'Oswald', sans-serif; font-size: clamp(2.4rem, 4vw, 3.2rem); margin: 0 0 12px; line-height: 0.96; text-transform: uppercase; }
