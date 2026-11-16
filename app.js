@@ -693,6 +693,10 @@ async function initCatalog() {
       </div>
       <div class="ep-grid">${epsHtml}</div>
     `;
+    const envEl = document.getElementById('series-env');
+    if (envEl && window.renderSeriesEnvironment) {
+      window.renderSeriesEnvironment(envEl, s.id, currentLang);
+    }
   }
 
   function renderTabs() {
