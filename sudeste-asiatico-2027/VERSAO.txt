@@ -1,0 +1,13 @@
+Projeto Sudeste Asiático 2027 — site da apresentação
+VERSÃO 4 — 16/11/2026, 15h23
+
+O que mudou nesta versão:
+  v4  Abertura do Vietnã corrigida: o vídeo era 2,33:1 e estava cortando o V e
+      o Ã nas laterais. Reenquadrado para 16:9, palavra inteira visível.
+  v3  Abertura da Tailândia trocada pelo arquivo novo em 16:9 (o anterior era
+      2,35:1 e cortava as letras das pontas).
+  v2  Fotos nas quatro matérias, legendas limpas, DM Serif Display nos títulos,
+      links de vídeo separados.
+  v1  Primeira montagem: 14 páginas, 4 vídeos, aberturas de país.
+
+Se você tiver mais de um zip na pasta, use o de número mais alto.
