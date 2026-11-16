@@ -1,0 +1,19 @@
+/* Visualizador: cada pagina e um quadro fixo de 1920x1080, escalado para caber na janela. */
+* { margin:0; box-sizing:content-box; }
+html { scroll-snap-type:y mandatory; background:#161616; }
+body { font:32px/1.2 'DM Sans', Arial, sans-serif; }
+.stage { height:100vh; height:100dvh; width:100vw; overflow:hidden; position:relative; scroll-snap-align:start; background:#161616; }
+.scaler { position:absolute; left:50%; top:50%; width:1920px; height:1080px; transform-origin:0 0; }
+.scaler > section { width:1920px; height:1080px; overflow:hidden; box-sizing:border-box; position:relative; isolation:isolate; }
+h1 { font-size:96px; font-weight:600; }
+h2 { font-size:64px; font-weight:600; }
+h3 { font-size:44px; font-weight:600; }
+p, h1, h2, h3 { overflow-wrap:break-word; text-wrap:pretty; }
+section > img[class$="-img"]:first-child, section > video:first-child { z-index:-1; }
+.war-shade { z-index:-1; }
+img:not([src]) { font:24px/1.3 'DM Sans', Arial, sans-serif; color:#8A8A86; display:block; }
+.vid-icon { display:block; flex:none; }
+a { text-underline-offset:4px; }
+/* as animacoes so comecam quando a pagina entra na tela */
+.stage:not(.on) section, .stage:not(.on) section * { animation-play-state:paused !important; }
+@media (prefers-reduced-motion: reduce) { .stage section, .stage section * { animation:none !important; } }
