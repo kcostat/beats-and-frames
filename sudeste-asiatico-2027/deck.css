@@ -363,7 +363,7 @@ body { --display: 'Fraunces', 'Fredoka', Georgia, serif; }
 
 /* aberturas de pais: so o video, o nome ja esta dentro dele */
 .abre-video { position:relative; padding:0; display:block; background:#161616; }
-.abre-video-bg { position:absolute; left:0; top:0; width:1920px; height:1080px; object-fit:cover; }
+.abre-video-bg { position:absolute; left:0; top:0; width:1920px; height:1080px; object-fit:contain; }
 
 /* ===== DM Serif Display nos titulos ===== */
 body { --display: 'DM Serif Display', Georgia, serif; }
