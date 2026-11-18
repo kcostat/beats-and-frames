@@ -39,8 +39,8 @@ a { color: inherit; text-decoration: none; }
   color: #fff;
   overflow: hidden;
   background:
-    linear-gradient(180deg, rgba(164, 188, 173, 0.52) 0%, rgba(120, 148, 134, 0.18) 46%, rgba(12, 16, 14, 0.82) 100%),
-    url('assets/brand/hero_rooftop.jpg') center/cover no-repeat;
+    linear-gradient(180deg, rgba(164, 188, 173, 0.52) 0%, rgba(120, 148, 134, 0.24) 46%, rgba(12, 16, 14, 0.84) 100%),
+    url('assets/brand/hero_real_set.jpg') center 30%/cover no-repeat;
 }
 
 .hero-topbar {
@@ -285,11 +285,11 @@ a { color: inherit; text-decoration: none; }
 }
 .split-pane.beats {
   background: linear-gradient(90deg, rgba(14, 24, 14, 0.58), rgba(14, 24, 14, 0.35)),
-    url('assets/brand/beats_dj.jpg') center/cover no-repeat;
+    url('assets/brand/beats_dj_real.jpg') center/cover no-repeat;
 }
 .split-pane.frames {
   background: linear-gradient(90deg, rgba(22, 14, 10, 0.60), rgba(22, 14, 10, 0.35)),
-    url('assets/brand/frames_cinema.jpg') center/cover no-repeat;
+    url('assets/brand/frames_set_real.jpg') center/cover no-repeat;
   border-left: 1px solid rgba(255,255,255,0.12);
 }
 .split-pane h3 { font-family: 'Oswald', sans-serif; font-size: 2.6rem; margin: 0 0 8px; line-height: 1; }
