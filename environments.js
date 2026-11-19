@@ -4,6 +4,7 @@
 const ENV_I18N = {
   pt: {
     badge_env: 'AMBIENTE INTERATIVO',
+    fullscreen_btn: 'TELA CHEIA ↗',
     voltagem_t1: {
       title: 'SYNTH STUDIO CONSOLE',
       sub: 'Toque o teclado ou teste os sintetizadores clássicos citados nos episódios.',
@@ -22,23 +23,16 @@ const ENV_I18N = {
       dynamic_label: 'ALCANCE DINÂMICO'
     },
     radio_br: {
-      title: 'DIAL VINTAGE AM / FM BRASIL',
-      sub: 'Sintonize as frequências históricas que moldaram o rádio musical brasileiro.',
-      tune_label: 'SINTONIA',
-      static_btn: 'VARREDURA DE DIAL ▶'
+      title: 'ESTÚDIO FM 80 — SIMULADOR DE RÁDIO BRASIL',
+      sub: 'Comande a cabine de rádio em primeira pessoa: mesa analógica SMX-80, toca-discos, cartucheiras, microfone e gravação ao vivo em WAV.'
     },
     radio_eua: {
-      title: 'TOP 40 ON-AIR BROADCAST CONSOLE',
-      sub: 'Mesa de transmissão americana: do Top 40 de Todd Storz à era dos algoritmos.',
-      on_air: 'NO AR',
-      jingle_btn: 'DISPARAR VINHETA TOP 40 ▶',
-      siren_btn: 'SINAL DE HORÁRIO ▶'
+      title: 'ESTÚDIO FM 80 — SIMULADOR TOP 40 ON-AIR',
+      sub: 'Opere a mesa de transmissão FM dos anos 80: dispare vinhetas, spots, trilhas BG e grave seu programa em WAV.'
     },
     radio_uk: {
-      title: 'OFFSHORE PIRATE SHIP & BBC RECEIVER',
-      sub: 'Receptor do Mar do Norte: navios piratas, BBC Radio 1, John Peel e Rinse FM.',
-      siren_btn: 'DUB SIREN PIRATA ▶',
-      carrier_btn: 'ONDA CURTA UK ▶'
+      title: 'ESTÚDIO FM 80 — SIMULADOR PIRATA & BBC FM',
+      sub: 'Assuma o controle da cabine analógica: vinis, cartuchos instantâneos, processamento FM 80s e exportação em WAV.'
     },
     lendas_br: {
       title: 'TAPE DECK & ARQUIVO CONFIDENCIAL',
@@ -49,6 +43,7 @@ const ENV_I18N = {
   },
   en: {
     badge_env: 'INTERACTIVE ENVIRONMENT',
+    fullscreen_btn: 'FULLSCREEN ↗',
     voltagem_t1: {
       title: 'SYNTH STUDIO CONSOLE',
       sub: 'Play the keyboard or audition iconic synthesizers featured in the episodes.',
@@ -67,23 +62,16 @@ const ENV_I18N = {
       dynamic_label: 'DYNAMIC RANGE'
     },
     radio_br: {
-      title: 'VINTAGE AM / FM BRAZIL DIAL',
-      sub: 'Tune across the landmark frequencies that shaped Brazilian music radio.',
-      tune_label: 'TUNING',
-      static_btn: 'DIAL STATIC SWEEP ▶'
+      title: 'FM 80s STUDIO — BRAZIL RADIO SIMULATOR',
+      sub: 'Command the first-person 80s broadcast booth: SMX-80 analog console, dual turntables, cartridge rack, live mic and WAV recording.'
     },
     radio_eua: {
-      title: 'TOP 40 ON-AIR BROADCAST CONSOLE',
-      sub: 'US broadcast desk: from Todd Storz’s Top 40 to modern algorithm radio.',
-      on_air: 'ON AIR',
-      jingle_btn: 'FIRE TOP 40 STINGER ▶',
-      siren_btn: 'TIME SIGNAL ▶'
+      title: 'FM 80s STUDIO — TOP 40 ON-AIR SIMULATOR',
+      sub: 'Run the 80s FM broadcast desk: fire jingles, spots and music beds with auto-ducking mic and WAV export.'
     },
     radio_uk: {
-      title: 'OFFSHORE PIRATE SHIP & BBC RECEIVER',
-      sub: 'North Sea receiver: offshore pirate ships, BBC Radio 1, John Peel & Rinse FM.',
-      siren_btn: 'PIRATE DUB SIREN ▶',
-      carrier_btn: 'UK SHORTWAVE ▶'
+      title: 'FM 80s STUDIO — PIRATE & BBC FM SIMULATOR',
+      sub: 'Take over the analog radio booth: dual vinyl decks, instant carts, 80s FM sound processor and WAV recording.'
     },
     lendas_br: {
       title: 'TAPE DECK & CLASSIFIED ARCHIVE',
@@ -94,6 +82,7 @@ const ENV_I18N = {
   },
   es: {
     badge_env: 'ENTORNO INTERACTIVO',
+    fullscreen_btn: 'PANTALLA COMPLETA ↗',
     voltagem_t1: {
       title: 'SYNTH STUDIO CONSOLE',
       sub: 'Toca el teclado o prueba los sintetizadores icónicos de los episodios.',
@@ -112,23 +101,16 @@ const ENV_I18N = {
       dynamic_label: 'RANGO DINÁMICO'
     },
     radio_br: {
-      title: 'DIAL VINTAGE AM / FM BRASIL',
-      sub: 'Sintoniza las frecuencias históricas que moldearon la radio musical brasileña.',
-      tune_label: 'SINTONÍA',
-      static_btn: 'BARRIDO DE DIAL ▶'
+      title: 'ESTUDIO FM 80 — SIMULADOR DE RADIO BRASIL',
+      sub: 'Dirige la cabina de radio en primera persona: consola analógica SMX-80, platos de vinilo, cartuchera, micrófono en vivo y grabación WAV.'
     },
     radio_eua: {
-      title: 'TOP 40 ON-AIR BROADCAST CONSOLE',
-      sub: 'Consola de radio estadounidense: del Top 40 de Todd Storz a la era del algoritmo.',
-      on_air: 'AL AIRE',
-      jingle_btn: 'DISPARAR JINGLE TOP 40 ▶',
-      siren_btn: 'SEÑAL HORARIA ▶'
+      title: 'ESTUDIO FM 80 — SIMULADOR TOP 40 AL AIRE',
+      sub: 'Opera la mesa de transmisión FM de los años 80: dispara cortinas, comerciales y bases con exportación en WAV.'
     },
     radio_uk: {
-      title: 'OFFSHORE PIRATE SHIP & BBC RECEIVER',
-      sub: 'Receptor del Mar del Norte: barcos piratas, BBC Radio 1, John Peel y Rinse FM.',
-      siren_btn: 'DUB SIREN PIRATA ▶',
-      carrier_btn: 'ONDA CORTA UK ▶'
+      title: 'ESTUDIO FM 80 — SIMULADOR PIRATA & BBC FM',
+      sub: 'Toma el control de la cabina analógica: dobles platos, cartuchos instantáneos, sonido FM 80s y grabación en WAV.'
     },
     lendas_br: {
       title: 'TAPE DECK & ARCHIVO CONFIDENCIAL',
@@ -289,6 +271,58 @@ function drawScope(canvasId) {
   frame();
 }
 
+function renderFm80StudioEnv(container, seriesId, lang, t, txt) {
+  const l = lang === 'en' || lang === 'es' ? lang : 'pt';
+  const existing = container.querySelector('.env-console[data-fm80-series]');
+  const fullscreenHref = `studio-fm-80/index.html?lang=${l}`;
+
+  if (existing && existing.getAttribute('data-fm80-series') === seriesId) {
+    const badgeEl = existing.querySelector('.env-badge');
+    const titleEl = existing.querySelector('h4');
+    const subEl = existing.querySelector('p');
+    const fsBtn = existing.querySelector('.env-action');
+    const iframe = existing.querySelector('#fm80-studio-iframe');
+
+    if (badgeEl) badgeEl.textContent = t.badge_env;
+    if (titleEl) titleEl.textContent = txt.title;
+    if (subEl) subEl.textContent = txt.sub;
+    if (fsBtn) {
+      fsBtn.textContent = t.fullscreen_btn;
+      fsBtn.setAttribute('href', fullscreenHref);
+    }
+    if (iframe) {
+      iframe.setAttribute('title', txt.title);
+      try {
+        iframe.contentWindow?.postMessage({ type: 'bf-lang', lang: l }, '*');
+      } catch (_) {}
+    }
+    return;
+  }
+
+  container.innerHTML = `
+    <div class="env-console env-console-fm80" data-fm80-series="${seriesId}">
+      <div class="env-head">
+        <div>
+          <span class="env-badge">${t.badge_env}</span>
+          <h4>${txt.title}</h4>
+          <p>${txt.sub}</p>
+        </div>
+        <a class="env-action" href="${fullscreenHref}" target="_blank" rel="noopener">${t.fullscreen_btn}</a>
+      </div>
+      <div class="env-fm80-frame-wrap">
+        <iframe
+          id="fm80-studio-iframe"
+          class="env-fm80-iframe"
+          src="studio-fm-80/index.html?lang=${l}&amp;station=${seriesId}"
+          title="${txt.title}"
+          allow="microphone; autoplay; clipboard-write"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  `;
+}
+
 window.renderSeriesEnvironment = function renderSeriesEnvironment(container, seriesId, lang) {
   stopAllEnvAudio();
   const t = ENV_I18N[lang] || ENV_I18N.pt;
@@ -425,92 +459,8 @@ window.renderSeriesEnvironment = function renderSeriesEnvironment(container, ser
     return;
   }
 
-  if (seriesId === 'radio_br') {
-    const stations = [
-      { freq: 580, name: 'RÁDIO NACIONAL • ERA DE OURO (1936)' },
-      { freq: 720, name: 'ELDORADO / JOVEM PAN AM (1960s)' },
-      { freq: 890, name: '89 FM A RÁDIO ROCK (1985)' },
-      { freq: 1001, name: 'TRANSAMÉRICA POP FM (1990s)' },
-      { freq: 1075, name: 'PODCAST & STREAMING BRASIL (HOJE)' }
-    ];
-    container.innerHTML = `
-      <div class="env-console">
-        <div class="env-head">
-          <div>
-            <span class="env-badge">${t.badge_env}</span>
-            <h4>${txt.title}</h4>
-            <p>${txt.sub}</p>
-          </div>
-          <div class="env-readout" id="br-station">${stations[0].name}</div>
-        </div>
-        <div class="env-controls-row">
-          <div class="env-sliders" style="flex:1">
-            <label>${txt.tune_label}: <span id="br-mhz">580 AM</span>
-              <input id="br-dial" type="range" min="540" max="1080" value="580" />
-            </label>
-          </div>
-          <button type="button" class="env-action" id="br-sweep">${txt.static_btn}</button>
-        </div>
-      </div>
-    `;
-    const dial = document.getElementById('br-dial');
-    dial.oninput = () => {
-      const v = Number(dial.value);
-      const unit = v < 880 ? `${v} AM` : `${(v / 10).toFixed(1)} FM`;
-      document.getElementById('br-mhz').textContent = unit;
-      const nearest = stations.reduce((a, b) => Math.abs(b.freq - v) < Math.abs(a.freq - v) ? b : a);
-      document.getElementById('br-station').textContent = nearest.name;
-    };
-    dial.onchange = () => playStaticSweep(0.28, Number(dial.value) * 2);
-    document.getElementById('br-sweep').onclick = () => playStaticSweep(0.55, 2400);
-    return;
-  }
-
-  if (seriesId === 'radio_eua') {
-    container.innerHTML = `
-      <div class="env-console">
-        <div class="env-head">
-          <div>
-            <span class="env-badge">${t.badge_env}</span>
-            <h4>${txt.title}</h4>
-            <p>${txt.sub}</p>
-          </div>
-          <div class="env-onair">● ${txt.on_air}</div>
-        </div>
-        <div class="env-controls-row">
-          <button type="button" class="env-action" id="us-jingle">${txt.jingle_btn}</button>
-          <button type="button" class="env-pill" id="us-time">${txt.siren_btn}</button>
-        </div>
-      </div>
-    `;
-    document.getElementById('us-jingle').onclick = () => {
-      [523.25, 659.25, 783.99, 1046.5].forEach((f, i) => setTimeout(() => playSynthNote(f, 'dx7', 4800, 2, 0.3), i * 110));
-    };
-    document.getElementById('us-time').onclick = () => playSynthNote(1000, 'theremin', 3000, 1, 0.1);
-    return;
-  }
-
-  if (seriesId === 'radio_uk') {
-    container.innerHTML = `
-      <div class="env-console">
-        <div class="env-head">
-          <div>
-            <span class="env-badge">${t.badge_env}</span>
-            <h4>${txt.title}</h4>
-            <p>${txt.sub}</p>
-          </div>
-          <div class="env-readout">199m MW • NORTH SEA / LONDON</div>
-        </div>
-        <div class="env-controls-row">
-          <button type="button" class="env-action" id="uk-siren">${txt.siren_btn}</button>
-          <button type="button" class="env-pill" id="uk-carrier">${txt.carrier_btn}</button>
-        </div>
-      </div>
-    `;
-    document.getElementById('uk-siren').onclick = () => {
-      [880, 660, 880, 660].forEach((f, i) => setTimeout(() => playSynthNote(f, 'acid', 2400, 9, 0.45), i * 130));
-    };
-    document.getElementById('uk-carrier').onclick = () => playStaticSweep(0.6, 1600);
+  if (seriesId === 'radio_br' || seriesId === 'radio_eua' || seriesId === 'radio_uk') {
+    renderFm80StudioEnv(container, seriesId, lang, t, txt);
     return;
   }
 
@@ -621,6 +571,7 @@ const ENV_TIMELINES = {
         <p>${list[0][l][1]}</p>
       </div>
     `;
+    box.querySelector('.env-timeline')?.remove();
     box.appendChild(wrap);
 
     wrap.querySelectorAll('.tl-node').forEach(node => {
