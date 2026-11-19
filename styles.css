@@ -17,6 +17,10 @@
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   background: var(--paper);
   color: var(--ink);
@@ -32,7 +36,8 @@ a { color: inherit; text-decoration: none; }
 /* Viewfinder Hero */
 .hero {
   position: relative;
-  min-height: 600px;
+  min-height: calc(100vh - 58px);
+  min-height: calc(100dvh - 58px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -49,12 +54,31 @@ a { color: inherit; text-decoration: none; }
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
   padding: 20px 32px;
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.74rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: #111315;
+}
+.topbar-brand {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  line-height: 0;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+.topbar-brand:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+.topbar-logo-img {
+  height: 30px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.28));
 }
 .hero-nav { display: flex; gap: 26px; flex-wrap: wrap; }
 .hero-nav a { font-weight: 700; opacity: 0.86; transition: opacity 0.15s; }
@@ -407,6 +431,7 @@ a { color: inherit; text-decoration: none; }
 .contact-form button { background: var(--pink); color: #fff; border: 0; padding: 12px 22px; font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; align-self: flex-start; }
 
 .footer-bar {
+  margin-top: auto;
   background: var(--paper);
   border-top: 1px solid var(--border-light);
   padding: 20px 32px;
@@ -590,6 +615,7 @@ a { color: inherit; text-decoration: none; }
 /* True Multi-Page Navigation (Paginado) */
 .page-view { display: none; }
 .page-view.active { display: block; animation: pageFade 0.2s ease-out; }
+.hero.page-view.active { display: flex; flex: 1 0 auto; }
 @keyframes pageFade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
 
 .inner-topbar {
@@ -662,4 +688,6 @@ body.is-inner .inner-topbar { display: flex; }
   .filmstrip-row { grid-template-columns: 1fr; }
   .env-console-fm80 { padding: 14px; }
   .env-fm80-iframe { height: 740px; min-height: 580px; }
+  .topbar-logo-img { height: 24px; }
+  .hero-topbar, .inner-topbar { padding: 14px 18px; }
 }
