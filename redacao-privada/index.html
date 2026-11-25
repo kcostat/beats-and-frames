@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Sala Editorial Privada · Beats & Frames</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500..700;1,500..700&family=DM+Sans:ital,wght@0,400..700;1,400..700&family=DM+Serif+Display:ital@0;1&display=swap">
+<link rel="stylesheet" href="redacao.css">
+</head>
+<body class="theme-paper">
+
+<!-- GATE DE ACESSO PRIVADO -->
+<div id="gate" class="gate-overlay">
+  <div class="gate-box">
+    <p class="gate-eyebrow">BEATS & FRAMES · SALA PRIVADA</p>
+    <h1 class="gate-title">Redação & Decupagem</h1>
+    <p class="gate-sub">Acesso restrito à equipe editorial, direção e apuração em campo.</p>
+    <form id="gate-form" onsubmit="event.preventDefault(); verificarPin();">
+      <input type="password" id="pin-input" placeholder="Digite o PIN de acesso" autocomplete="off" autofocus>
+      <button type="submit" id="btn-entrar">Acessar Redação</button>
+      <p id="pin-erro" class="gate-error" style="display: none;">PIN incorreto. Tente novamente.</p>
+    </form>
+    <p class="gate-footer">Ambiente protegido · Sudeste Asiático 2027 · Marie Claire</p>
+  </div>
+</div>
+
+<!-- CABEÇALHO EDITORIAL -->
+<header id="app-header" class="header" style="display: none;">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-sub">BEATS & FRAMES · SALA DE REDAÇÃO</span>
+      <h2 class="brand-title">Ambiente de Decupagem & Roteiros</h2>
+    </div>
+    <div class="header-controls">
+      <button id="theme-toggle" class="btn-secondary" onclick="alternarTema()">Modo Dark / Papel</button>
+      <button id="btn-sair" class="btn-secondary" onclick="sair()">Bloquear</button>
+    </div>
+  </div>
+  
+  <!-- BARRA DE SELEÇÃO DE PAUTAS -->
+  <nav class="pautas-bar" id="pautas-nav">
+    <div class="pautas-scroll" id="pautas-list">
+      <!-- Injetado via JS -->
+    </div>
+  </nav>
+</header>
+
+<!-- CONTEÚDO PRINCIPAL -->
+<main id="app-main" class="main-content" style="display: none;">
+  <div class="content-container">
+    
+    <!-- METADADOS DA PAUTA ATIVA -->
+    <div class="pauta-header">
+      <div class="pauta-meta">
+        <span class="badge" id="pauta-badge">PAUTA 01 · TAILÂNDIA</span>
+        <span class="pauta-data" id="pauta-data">Atualizado automaticamente</span>
+      </div>
+      <h1 class="pauta-titulo" id="pauta-titulo">Carregando...</h1>
+      <p class="pauta-sub" id="pauta-sub"></p>
+    </div>
+
+    <!-- ABAS EDITORIAIS -->
+    <div class="tabs-bar">
+      <button class="tab-btn active" onclick="mudarAba('reportagem')">📰 Reportagem Escrita</button>
+      <button class="tab-btn" onclick="mudarAba('podcast')">🎙️ Roteiro de Podcast</button>
+      <button class="tab-btn" onclick="mudarAba('video')">🎬 Roteiro de Vídeo (2 Colunas)</button>
+      <button class="tab-btn" onclick="mudarAba('aspas')">💎 Aspas de Ouro & Decupagem</button>
+      <button class="tab-btn" onclick="mudarAba('transcricao')">📝 Transcrição Integral</button>
+    </div>
+
+    <!-- PAINEL 1: REPORTAGEM ESCRITA -->
+    <section id="panel-reportagem" class="panel active">
+      <div class="editorial-paper">
+        <div class="panel-toolbar">
+          <span class="panel-tip">💡 Formato longform para texto impresso e digital</span>
+          <button class="btn-copy" onclick="copiarConteudo('texto-reportagem')">Copiar Texto</button>
+        </div>
+        <article id="texto-reportagem" class="prose"></article>
+      </div>
+    </section>
+
+    <!-- PAINEL 2: ROTEIRO DE PODCAST -->
+    <section id="panel-podcast" class="panel">
+      <div class="editorial-paper">
+        <div class="panel-toolbar">
+          <span class="panel-tip">🎙️ Formato narrativo com minutagem de sonoras e sound design</span>
+          <button class="btn-copy" onclick="copiarConteudo('texto-podcast')">Copiar Roteiro</button>
+        </div>
+        <div id="texto-podcast" class="podcast-layout"></div>
+      </div>
+    </section>
+
+    <!-- PAINEL 3: ROTEIRO DE VÍDEO -->
+    <section id="panel-video" class="panel">
+      <div class="editorial-paper wide">
+        <div class="panel-toolbar">
+          <span class="panel-tip">🎬 Tabela de decupagem audiovisual (Áudio × Vídeo)</span>
+          <button class="btn-copy" onclick="copiarConteudo('tabela-video')">Copiar Roteiro</button>
+        </div>
+        <div id="tabela-video" class="video-table-wrapper"></div>
+      </div>
+    </section>
+
+    <!-- PAINEL 4: ASPAS DE OURO -->
+    <section id="panel-aspas" class="panel">
+      <div class="editorial-paper">
+        <div class="panel-toolbar">
+          <span class="panel-tip">💎 Melhores sonoras e declarações indexadas com timecode</span>
+        </div>
+        <div id="grid-aspas" class="aspas-grid"></div>
+      </div>
+    </section>
+
+    <!-- PAINEL 5: TRANSCRIÇÃO INTEGRAL -->
+    <section id="panel-transcricao" class="panel">
+      <div class="editorial-paper">
+        <div class="panel-toolbar">
+          <span class="panel-tip">📝 Registro na íntegra palavra por palavra com timecodes</span>
+          <button class="btn-copy" onclick="copiarConteudo('texto-transcricao')">Copiar Transcrição</button>
+        </div>
+        <div id="texto-transcricao" class="transcript-view"></div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<script src="redacao.js"></script>
+</body>
+</html>
