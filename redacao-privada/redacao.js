@@ -7,8 +7,13 @@ let pautaAtivaIdx = 0;
 function verificarPin() {
   const input = document.getElementById("pin-input");
   const erro = document.getElementById("pin-erro");
-  if (input.value === PIN_CORRETO) {
+  const lembrar = document.getElementById("lembrar-dispositivo")?.checked;
+
+  if (input.value.trim() === PIN_CORRETO) {
     sessionStorage.setItem("redacao_autenticada", "true");
+    if (lembrar) {
+      localStorage.setItem("redacao_autenticada", "true");
+    }
     desbloquear();
   } else {
     erro.style.display = "block";
@@ -26,6 +31,7 @@ function desbloquear() {
 
 function sair() {
   sessionStorage.removeItem("redacao_autenticada");
+  localStorage.removeItem("redacao_autenticada");
   location.reload();
 }
 
@@ -201,7 +207,10 @@ function getDadosExemplo() {
 
 // Checa autenticação inicial
 window.addEventListener("DOMContentLoaded", () => {
-  if (sessionStorage.getItem("redacao_autenticada") === "true") {
+  if (
+    sessionStorage.getItem("redacao_autenticada") === "true" ||
+    localStorage.getItem("redacao_autenticada") === "true"
+  ) {
     desbloquear();
   }
 });

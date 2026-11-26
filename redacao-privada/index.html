@@ -20,6 +20,9 @@
     <p class="gate-sub">Acesso restrito à equipe editorial, direção e apuração em campo.</p>
     <form id="gate-form" onsubmit="event.preventDefault(); verificarPin();">
       <input type="password" id="pin-input" placeholder="Digite o PIN de acesso" autocomplete="off" autofocus>
+      <label style="display: flex; align-items: center; justify-content: center; gap: 8px; margin: 12px 0 16px; font-size: 13px; color: #8f96a3; cursor: pointer;">
+        <input type="checkbox" id="lembrar-dispositivo" checked> Lembrar meu acesso neste aparelho
+      </label>
       <button type="submit" id="btn-entrar">Acessar Redação</button>
       <p id="pin-erro" class="gate-error" style="display: none;">PIN incorreto. Tente novamente.</p>
     </form>
